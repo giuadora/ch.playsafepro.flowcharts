@@ -32,10 +32,10 @@ Decimal phases appear between their surrounding integers in numeric order.
   4. Post-inspection process includes documentation, archiving, defect processing with safety-critical split (Geraet sperren), Massnahmenkatalog, decision flow, and loop back to inspections
   5. All norm references (SN EN 1176-7 clauses, SIA 118, Art. 58 OR) are collected as numbered footnotes
 
-**Plans**: TBD
+**Plans**: 1 plan
 
 Plans:
-- [ ] TBD during planning
+- [ ] 01-01-PLAN.md — Create complete flowchart content structure with nodes, edges, footnotes, and legend
 
 ### Phase 2: Mermaid Implementation
 **Goal**: Translate structured flowchart content into valid Mermaid diagram syntax
@@ -80,6 +80,6 @@ Phases execute in numeric order: 1 → 2 → 3
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Content & Logic | 0/TBD | Not started | - |
+| 1. Content & Logic | 0/1 | Not started | - |
 | 2. Mermaid Implementation | 0/TBD | Not started | - |
 | 3. Export & Distribution | 0/TBD | Not started | - |
