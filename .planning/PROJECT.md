@@ -2,32 +2,47 @@
 
 ## What This Is
 
-A customer-facing flowchart (in German) that explains the inspection obligations for playground owners/operators according to SN EN 1176/1177. It covers both new and existing playgrounds, focusing specifically on the topic of inspections. The flowchart is designed for decision-makers (budget holders, municipal leaders, property owners) and will be handed to a visual designer for branding and embedding into a PDF.
+A customer-facing flowchart (in German) that explains the inspection obligations for playground owners/operators according to SN EN 1176/1177. It covers both new and existing playgrounds, focusing specifically on the topic of inspections. Delivered as an editable draw.io diagram, SVG vector export, and Mermaid source with German documentation — ready for visual designer handover and customer distribution.
 
 ## Core Value
 
 Give playground owners a clear, norm-based understanding of what inspections are required, when, by whom, and what to do with the results — so they can fulfill their duty of care (Werkeigentumerhaftung, Art. 58 OR).
 
+## Current State
+
+**Shipped:** v1 (2026-02-09)
+
+Delivery package at `PSP-Inspektions-Flowchart/`:
+- Inspektionsablauf.drawio (21 KB) — Editable diagram for draw.io/Visio
+- Inspektionsablauf.svg (15 KB) — Vector export for print/web
+- Inspektionsablauf.md (5.5 KB) — Mermaid source for technical users
+- README.md (7.1 KB) — German instructions for editing/import
+
 ## Requirements
 
 ### Validated
 
-(None yet — ship to validate)
+- Two entry paths on one flowchart: Neuer Spielplatz and Bestehender Spielplatz — v1
+- New playground path: Bauabnahme (SIA 118) > Inspektion nach Installation (SN EN 1176-7, 6.1 a) > Defects back to builder > Opening — v1
+- Existing playground path: 3 parallel inspection branches (visuell, operativ, Hauptinspektion) — v1
+- Post-inspection flow: Dokumentation > Archivierung > Maengelverarbeitung > Massnahmenkatalog > Entscheidung > Dokumentation bestehender Maengel — v1
+- Safety-critical defects trigger immediate device lockout (Geraet sperren, SN EN 1176-7, 6.2.1) — v1
+- Cycle loops back from defect documentation to next inspection round — v1
+- New playground path transitions into existing playground inspection cycle after opening — v1
+- Norm clause references as footnotes (not inline) — v1
+- Language: German, using correct norm terminology — v1
+- Output format: Mermaid diagram that renders correctly, suitable for handover to visual designer — v1
+- Neutral/educational tone — no PSP branding or service references — v1
+- Valid Mermaid syntax that renders without errors — v1
+- Clear enough for a visual designer to recreate without domain expertise — v1
+- No emojis, no special characters that break Mermaid rendering — v1
+- SVG export for print/web use — v1
+- draw.io export for customer editing — v1
+- Editable source importable into Visio — v1
 
 ### Active
 
-- [ ] Two entry paths on one flowchart: Neuer Spielplatz and Bestehender Spielplatz
-- [ ] New playground path: Planung > Bau > Bauabnahme (SIA 118) > Inspektion nach Installation (SN EN 1176-7, 6.1 a) > Defects back to builder > Opening
-- [ ] Existing playground path: 3 parallel inspection branches (visuell, operativ, Hauptinspektion)
-- [ ] Post-inspection flow: Dokumentation > Archivierung > Maengelverarbeitung > Massnahmenkatalog > Entscheidung (Budget, intern/extern) > Dokumentation bestehender Maengel
-- [ ] Safety-critical defects trigger immediate device lockout (Geraet sperren, SN EN 1176-7, 6.2.1)
-- [ ] Cycle loops back from defect documentation to next inspection round
-- [ ] New playground path transitions into existing playground inspection cycle after opening
-- [ ] Norm clause references as footnotes (not inline)
-- [ ] Language: German, using correct norm terminology
-- [ ] Output format: Mermaid diagram that renders correctly, suitable for handover to visual designer
-- [ ] Decision-tree level of detail for each inspection type
-- [ ] Neutral/educational tone — no PSP branding or service references
+(None — start next milestone to define new requirements)
 
 ### Out of Scope
 
@@ -55,6 +70,8 @@ Give playground owners a clear, norm-based understanding of what inspections are
 
 - **Beiblatt 1** — Kein genereller Bestandsschutz for playground equipment. Older devices may need to be assessed against current norms.
 
+- **CEN/TR 17207** — Four-level defect severity classification (Konform/Empfohlen/Wichtig/Dringend) used in post-inspection defect handling.
+
 ### Target Audience
 
 Decision-makers: municipal leaders, property managers, facility owners who approve budgets and contracts. Not the Hauswart doing daily checks — this is about understanding the system, not performing inspections.
@@ -74,12 +91,18 @@ PlaySafePro (playsafepro.ch) provides playground inspection, safety management, 
 
 | Decision | Rationale | Outcome |
 |----------|-----------|---------|
-| One flowchart with two entry paths (new + existing) | Customer may have both situations; shows the full picture | -- Pending |
-| 3 inspection types as parallel branches (not sequential) | They run independently at different frequencies, not as a sequence | -- Pending |
-| Simple split for defect handling (critical vs. non-critical) | Detailed repair/replacement decisions belong on a separate flowchart | -- Pending |
-| Norm references as footnotes, not inline | Keeps flowchart clean for decision-makers; traceability preserved separately | -- Pending |
-| Bauabnahme (SIA 118) explicitly shown as separate from Inspektion nach Installation | Key misunderstanding among customers; high educational value | -- Pending |
-| Defects at installation go back to builder, not into regular Maengel process | Different contractual/legal situation before opening vs. during operation | -- Pending |
+| One flowchart with two entry paths (new + existing) | Customer may have both situations; shows the full picture | Good |
+| 3 inspection types as parallel branches (not sequential) | They run independently at different frequencies, not as a sequence | Good |
+| Simple split for defect handling (critical vs. non-critical) | Detailed repair/replacement decisions belong on a separate flowchart | Good |
+| Norm references as footnotes, not inline | Keeps flowchart clean for decision-makers; traceability preserved separately | Good |
+| Bauabnahme (SIA 118) explicitly shown as separate from Inspektion nach Installation | Key misunderstanding among customers; high educational value | Good |
+| Defects at installation go back to builder, not into regular Maengel process | Different contractual/legal situation before opening vs. during operation | Good |
+| Fork-join pattern for parallel inspection branches | Clear entry/exit points for 3 inspection types | Good |
+| Renamed inspection terms (Sichtkontrolle, Funktionskontrolle, Jahreshauptinspektion) with original norm terms in footnotes | More accessible for decision-makers while preserving norm traceability | Good |
+| CEN/TR 17207 four-level severity classification | Industry-standard defect classification (Konform/Empfohlen/Wichtig/Dringend) | Good |
+| draw.io as primary editable format | Native XML, Visio-importable, free tool, widely used | Good |
+| SVG with polygon-based parallelograms | True skewed rectangles for document nodes | Good |
+| German README for delivery package | Matches diagram language for Swiss/German customers | Good |
 
 ---
-*Last updated: 2026-02-09 after initialization*
+*Last updated: 2026-02-09 after v1 milestone*

@@ -1,3 +1,13 @@
+# Requirements Archive: v1 PSP Inspektions-Flowchart
+
+**Archived:** 2026-02-09
+**Status:** SHIPPED
+
+This is the archived requirements specification for v1.
+For current requirements, see `.planning/REQUIREMENTS.md` (created for next milestone).
+
+---
+
 # Requirements: PSP Inspektions-Flowchart
 
 **Defined:** 2026-02-09
@@ -54,7 +64,7 @@
 - [x] **EXP-03**: Export flowchart as draw.io (.drawio) for customer editing
 - [x] **EXP-04**: Provide editable source that customers can import into their preferred tool (e.g. Visio)
 
-## v2 Requirements
+## v2 Requirements (Deferred)
 
 ### Additional Flowcharts
 
@@ -119,10 +129,18 @@
 | EXP-04 | Phase 3 | Complete |
 
 **Coverage:**
-- v1 requirements: 31 total
+- v1 requirements: 31 total (29 shipped + 2 removed by locked decision)
 - Mapped to phases: 31
 - Unmapped: 0
 
 ---
-*Requirements defined: 2026-02-09*
-*Last updated: 2026-02-09 after Phase 3 completion*
+
+## Milestone Summary
+
+**Shipped:** 29 of 31 v1 requirements (2 removed by design decision)
+**Adjusted:**
+- NEW-01 (Planung node) and NEW-02 (Bau node) were removed via locked decision — path starts at installation, not earlier planning steps
+**Dropped:** None
+
+---
+*Archived: 2026-02-09 as part of v1 milestone completion*

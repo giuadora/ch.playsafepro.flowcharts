@@ -1,24 +1,17 @@
-# Roadmap: PSP Inspektions-Flowchart
+# Milestone v1: PSP Inspektions-Flowchart
+
+**Status:** SHIPPED 2026-02-09
+**Phases:** 1-3
+**Total Plans:** 4
 
 ## Overview
 
-This roadmap delivers a single German-language flowchart showing playground inspection obligations per SN EN 1176-7. Phase 1 defines the flowchart content and structure as structured text. Phase 2 translates that content into valid, rendering Mermaid syntax. Phase 3 researches export options and produces editable formats for customer handover.
+This roadmap delivered a single German-language flowchart showing playground inspection obligations per SN EN 1176-7. Phase 1 defined the flowchart content and structure as structured text. Phase 2 translated that content into valid, rendering Mermaid syntax. Phase 3 researched export options and produced editable formats for customer handover.
 
 ## Phases
 
-**Phase Numbering:**
-- Integer phases (1, 2): Planned milestone work
-- Decimal phases (1.1, 1.2): Urgent insertions (marked with INSERTED)
-
-Decimal phases appear between their surrounding integers in numeric order.
-
-- [x] **Phase 1: Content & Logic** - Define flowchart nodes, edges, decision points, and footnotes
-- [x] **Phase 2: Mermaid Implementation** - Translate content into valid Mermaid syntax
-- [x] **Phase 3: Export & Distribution** - Research export formats and produce editable customer deliverables
-
-## Phase Details
-
 ### Phase 1: Content & Logic
+
 **Goal**: Define the complete flowchart content and logic structure as structured text
 
 **Depends on**: Nothing (first phase)
@@ -37,7 +30,10 @@ Decimal phases appear between their surrounding integers in numeric order.
 Plans:
 - [x] 01-01-PLAN.md — Create complete flowchart content structure with nodes, edges, footnotes, and legend
 
+**Completed:** 2026-02-09
+
 ### Phase 2: Mermaid Implementation
+
 **Goal**: Translate structured flowchart content into valid Mermaid diagram syntax
 
 **Depends on**: Phase 1
@@ -55,7 +51,10 @@ Plans:
 Plans:
 - [x] 02-01-PLAN.md — Create complete Mermaid flowchart with nodes, edges, styling, footnotes, and legend
 
+**Completed:** 2026-02-09
+
 ### Phase 3: Export & Distribution
+
 **Goal**: Research export formats and produce editable deliverables customers can import into their preferred tools (Visio, draw.io, etc.)
 
 **Depends on**: Phase 2
@@ -74,13 +73,41 @@ Plans:
 - [x] 03-01-PLAN.md — Build native draw.io XML file with all nodes, edges, styling, branding, and style library
 - [x] 03-02-PLAN.md — Generate SVG, copy Mermaid source, write German README, assemble delivery folder
 
-## Progress
+**Completed:** 2026-02-09
 
-**Execution Order:**
-Phases execute in numeric order: 1 → 2 → 3
+## Progress
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Content & Logic | 1/1 | Complete | 2026-02-09 |
 | 2. Mermaid Implementation | 1/1 | Complete | 2026-02-09 |
 | 3. Export & Distribution | 2/2 | Complete | 2026-02-09 |
+
+## Milestone Summary
+
+**Key Decisions:**
+- Fork-join pattern for parallel inspection branches (clear entry/exit points)
+- Parallelogram shape for document nodes (visual distinction)
+- Color coding: blue=new, green=inspection, yellow=post, red=critical
+- Dotted arrows for loop-back edges (visual distinction for cycles)
+- Footnotes/legend as orphan Mermaid nodes (self-contained exportable diagram)
+- Improved color palette for draw.io (better print/screen quality)
+- Individual text elements for footnotes/legend (enable customer editing)
+- SVG parallelogram polygons with 4 points (true skewed rectangles)
+
+**Issues Resolved:**
+- SVG parallelogram shapes rendered as hexagons instead of true parallelograms (fixed with 4-point polygons)
+- SVG arrow connections not targeting correct node centers after shape fix (corrected)
+
+**Issues Deferred:**
+- None
+
+**Technical Debt Incurred:**
+- preview-flowchart.html dev artifact in project root (can be removed)
+- existing-playground-flowchart.md orphaned pre-project reference file
+- README.md contact placeholders not filled (E-Mail, Telefon, Website)
+
+---
+
+_For current project status, see .planning/PROJECT.md_
+_Archived: 2026-02-09_
