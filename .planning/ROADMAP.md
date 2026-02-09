@@ -83,4 +83,4 @@ Phases execute in numeric order: 1 → 2 → 3
 |-------|----------------|--------|-----------|
 | 1. Content & Logic | 1/1 | Complete | 2026-02-09 |
 | 2. Mermaid Implementation | 1/1 | Complete | 2026-02-09 |
-| 3. Export & Distribution | 0/TBD | Not started | - |
+| 3. Export & Distribution | 0/2 | Not started | - |
