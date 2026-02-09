@@ -2,7 +2,7 @@
 
 ## Overview
 
-This roadmap delivers a single German-language flowchart showing playground inspection obligations per SN EN 1176-7. Phase 1 defines the flowchart content and structure as structured text. Phase 2 translates that content into valid, rendering Mermaid syntax ready for handover to a visual designer.
+This roadmap delivers a single German-language flowchart showing playground inspection obligations per SN EN 1176-7. Phase 1 defines the flowchart content and structure as structured text. Phase 2 translates that content into valid, rendering Mermaid syntax. Phase 3 researches export options and produces editable formats for customer handover.
 
 ## Phases
 
@@ -14,6 +14,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 - [ ] **Phase 1: Content & Logic** - Define flowchart nodes, edges, decision points, and footnotes
 - [ ] **Phase 2: Mermaid Implementation** - Translate content into valid Mermaid syntax
+- [ ] **Phase 3: Export & Distribution** - Research export formats and produce editable customer deliverables
 
 ## Phase Details
 
@@ -54,12 +55,31 @@ Plans:
 Plans:
 - [ ] TBD during planning
 
+### Phase 3: Export & Distribution
+**Goal**: Research export formats and produce editable deliverables customers can import into their preferred tools (Visio, draw.io, etc.)
+
+**Depends on**: Phase 2
+
+**Requirements**: EXP-01, EXP-02, EXP-03, EXP-04
+
+**Success Criteria** (what must be TRUE):
+  1. Export format options are researched and documented with pros/cons for each
+  2. SVG export is generated for print/web use
+  3. draw.io (.drawio) export is generated as an editable format
+  4. At least one format is confirmed importable into Visio for customer use
+
+**Plans**: TBD
+
+Plans:
+- [ ] TBD during planning
+
 ## Progress
 
 **Execution Order:**
-Phases execute in numeric order: 1 → 2
+Phases execute in numeric order: 1 → 2 → 3
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Content & Logic | 0/TBD | Not started | - |
 | 2. Mermaid Implementation | 0/TBD | Not started | - |
+| 3. Export & Distribution | 0/TBD | Not started | - |

@@ -47,6 +47,13 @@
 - [ ] **FMT-03**: Clear enough for a visual designer to recreate without domain expertise
 - [ ] **FMT-04**: No emojis, no special characters that break Mermaid rendering
 
+### Export and Distribution
+
+- [ ] **EXP-01**: Research available export formats (draw.io, SVG, Visio, PDF, etc.) and document pros/cons
+- [ ] **EXP-02**: Export flowchart as SVG for print/web use
+- [ ] **EXP-03**: Export flowchart as draw.io (.drawio) for customer editing
+- [ ] **EXP-04**: Provide editable source that customers can import into their preferred tool (e.g. Visio)
+
 ## v2 Requirements
 
 ### Additional Flowcharts
@@ -106,10 +113,14 @@
 | FMT-02 | Phase 2 | Pending |
 | FMT-03 | Phase 2 | Pending |
 | FMT-04 | Phase 2 | Pending |
+| EXP-01 | Phase 3 | Pending |
+| EXP-02 | Phase 3 | Pending |
+| EXP-03 | Phase 3 | Pending |
+| EXP-04 | Phase 3 | Pending |
 
 **Coverage:**
-- v1 requirements: 27 total
-- Mapped to phases: 27
+- v1 requirements: 31 total
+- Mapped to phases: 31
 - Unmapped: 0
 
 ---
