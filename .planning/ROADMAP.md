@@ -13,7 +13,7 @@ This roadmap delivers a single German-language flowchart showing playground insp
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Content & Logic** - Define flowchart nodes, edges, decision points, and footnotes
-- [ ] **Phase 2: Mermaid Implementation** - Translate content into valid Mermaid syntax
+- [x] **Phase 2: Mermaid Implementation** - Translate content into valid Mermaid syntax
 - [ ] **Phase 3: Export & Distribution** - Research export formats and produce editable customer deliverables
 
 ## Phase Details
@@ -53,7 +53,7 @@ Plans:
 **Plans**: 1 plan
 
 Plans:
-- [ ] 02-01-PLAN.md — Create complete Mermaid flowchart with nodes, edges, styling, footnotes, and legend
+- [x] 02-01-PLAN.md — Create complete Mermaid flowchart with nodes, edges, styling, footnotes, and legend
 
 ### Phase 3: Export & Distribution
 **Goal**: Research export formats and produce editable deliverables customers can import into their preferred tools (Visio, draw.io, etc.)
@@ -81,5 +81,5 @@ Phases execute in numeric order: 1 → 2 → 3
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Content & Logic | 1/1 | Complete | 2026-02-09 |
-| 2. Mermaid Implementation | 0/TBD | Not started | - |
+| 2. Mermaid Implementation | 1/1 | Complete | 2026-02-09 |
 | 3. Export & Distribution | 0/TBD | Not started | - |

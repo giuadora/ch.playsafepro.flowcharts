@@ -42,10 +42,10 @@
 
 ### Format and Quality
 
-- [ ] **FMT-01**: Valid Mermaid syntax that renders without errors
-- [ ] **FMT-02**: German language with correct SN EN 1176 terminology
-- [ ] **FMT-03**: Clear enough for a visual designer to recreate without domain expertise
-- [ ] **FMT-04**: No emojis, no special characters that break Mermaid rendering
+- [x] **FMT-01**: Valid Mermaid syntax that renders without errors
+- [x] **FMT-02**: German language with correct SN EN 1176 terminology
+- [x] **FMT-03**: Clear enough for a visual designer to recreate without domain expertise
+- [x] **FMT-04**: No emojis, no special characters that break Mermaid rendering
 
 ### Export and Distribution
 
@@ -109,10 +109,10 @@
 | POST-06 | Phase 1 | Complete |
 | POST-07 | Phase 1 | Complete |
 | POST-08 | Phase 1 | Complete |
-| FMT-01 | Phase 2 | Pending |
-| FMT-02 | Phase 2 | Pending |
-| FMT-03 | Phase 2 | Pending |
-| FMT-04 | Phase 2 | Pending |
+| FMT-01 | Phase 2 | Complete |
+| FMT-02 | Phase 2 | Complete |
+| FMT-03 | Phase 2 | Complete |
+| FMT-04 | Phase 2 | Complete |
 | EXP-01 | Phase 3 | Pending |
 | EXP-02 | Phase 3 | Pending |
 | EXP-03 | Phase 3 | Pending |
@@ -125,4 +125,4 @@
 
 ---
 *Requirements defined: 2026-02-09*
-*Last updated: 2026-02-09 after Phase 1 completion*
+*Last updated: 2026-02-09 after Phase 2 completion*
