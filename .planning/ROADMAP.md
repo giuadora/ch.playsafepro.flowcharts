@@ -68,10 +68,11 @@ Plans:
   3. draw.io (.drawio) export is generated as an editable format
   4. At least one format is confirmed importable into Visio for customer use
 
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] TBD during planning
+- [ ] 03-01-PLAN.md — Build native draw.io XML file with all nodes, edges, styling, branding, and style library
+- [ ] 03-02-PLAN.md — Generate SVG, copy Mermaid source, write German README, assemble delivery folder
 
 ## Progress
 
