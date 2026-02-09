@@ -50,10 +50,10 @@ Plans:
   3. Diagram structure is clear enough for a visual designer to recreate without playground safety expertise
   4. No emojis or special characters that break Mermaid rendering
 
-**Plans**: TBD
+**Plans**: 1 plan
 
 Plans:
-- [ ] TBD during planning
+- [ ] 02-01-PLAN.md — Create complete Mermaid flowchart with nodes, edges, styling, footnotes, and legend
 
 ### Phase 3: Export & Distribution
 **Goal**: Research export formats and produce editable deliverables customers can import into their preferred tools (Visio, draw.io, etc.)
