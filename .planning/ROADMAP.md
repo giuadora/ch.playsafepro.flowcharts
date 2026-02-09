@@ -14,7 +14,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Content & Logic** - Define flowchart nodes, edges, decision points, and footnotes
 - [x] **Phase 2: Mermaid Implementation** - Translate content into valid Mermaid syntax
-- [ ] **Phase 3: Export & Distribution** - Research export formats and produce editable customer deliverables
+- [x] **Phase 3: Export & Distribution** - Research export formats and produce editable customer deliverables
 
 ## Phase Details
 
@@ -71,8 +71,8 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 03-01-PLAN.md — Build native draw.io XML file with all nodes, edges, styling, branding, and style library
-- [ ] 03-02-PLAN.md — Generate SVG, copy Mermaid source, write German README, assemble delivery folder
+- [x] 03-01-PLAN.md — Build native draw.io XML file with all nodes, edges, styling, branding, and style library
+- [x] 03-02-PLAN.md — Generate SVG, copy Mermaid source, write German README, assemble delivery folder
 
 ## Progress
 
@@ -83,4 +83,4 @@ Phases execute in numeric order: 1 → 2 → 3
 |-------|----------------|--------|-----------|
 | 1. Content & Logic | 1/1 | Complete | 2026-02-09 |
 | 2. Mermaid Implementation | 1/1 | Complete | 2026-02-09 |
-| 3. Export & Distribution | 0/2 | Not started | - |
+| 3. Export & Distribution | 2/2 | Complete | 2026-02-09 |

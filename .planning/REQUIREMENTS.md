@@ -49,10 +49,10 @@
 
 ### Export and Distribution
 
-- [ ] **EXP-01**: Research available export formats (draw.io, SVG, Visio, PDF, etc.) and document pros/cons
-- [ ] **EXP-02**: Export flowchart as SVG for print/web use
-- [ ] **EXP-03**: Export flowchart as draw.io (.drawio) for customer editing
-- [ ] **EXP-04**: Provide editable source that customers can import into their preferred tool (e.g. Visio)
+- [x] **EXP-01**: Research available export formats (draw.io, SVG, Visio, PDF, etc.) and document pros/cons
+- [x] **EXP-02**: Export flowchart as SVG for print/web use
+- [x] **EXP-03**: Export flowchart as draw.io (.drawio) for customer editing
+- [x] **EXP-04**: Provide editable source that customers can import into their preferred tool (e.g. Visio)
 
 ## v2 Requirements
 
@@ -113,10 +113,10 @@
 | FMT-02 | Phase 2 | Complete |
 | FMT-03 | Phase 2 | Complete |
 | FMT-04 | Phase 2 | Complete |
-| EXP-01 | Phase 3 | Pending |
-| EXP-02 | Phase 3 | Pending |
-| EXP-03 | Phase 3 | Pending |
-| EXP-04 | Phase 3 | Pending |
+| EXP-01 | Phase 3 | Complete |
+| EXP-02 | Phase 3 | Complete |
+| EXP-03 | Phase 3 | Complete |
+| EXP-04 | Phase 3 | Complete |
 
 **Coverage:**
 - v1 requirements: 31 total
@@ -125,4 +125,4 @@
 
 ---
 *Requirements defined: 2026-02-09*
-*Last updated: 2026-02-09 after Phase 2 completion*
+*Last updated: 2026-02-09 after Phase 3 completion*
