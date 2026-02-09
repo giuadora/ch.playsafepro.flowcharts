@@ -7,38 +7,38 @@
 
 ### Flowchart Structure
 
-- [ ] **FLOW-01**: Single flowchart with entry point that splits into "Neuer Spielplatz" and "Bestehender Spielplatz"
-- [ ] **FLOW-02**: New playground path ends by transitioning into existing playground inspection cycle
-- [ ] **FLOW-03**: Existing playground path loops back to inspections after defect handling
-- [ ] **FLOW-04**: All norm references collected as numbered footnotes, not inline
+- [x] **FLOW-01**: Single flowchart with entry point that splits into "Neuer Spielplatz" and "Bestehender Spielplatz"
+- [x] **FLOW-02**: New playground path ends by transitioning into existing playground inspection cycle
+- [x] **FLOW-03**: Existing playground path loops back to inspections after defect handling
+- [x] **FLOW-04**: All norm references collected as numbered footnotes, not inline
 
 ### Neuer Spielplatz Path
 
-- [ ] **NEW-01**: Planung node -- inspection concept included in planning phase
-- [ ] **NEW-02**: Bau node -- construction phase
-- [ ] **NEW-03**: Bauabnahme nach SIA 118 -- contractual construction acceptance by architect/Bauleiter
-- [ ] **NEW-04**: Inspektion nach Installation (SN EN 1176-7, 6.1 a) -- safety inspection by certified specialist
-- [ ] **NEW-05**: Defect decision: findings go back to builder/manufacturer for correction before opening
-- [ ] **NEW-06**: No defects or defects resolved -- Spielplatz eroeffnen -- transition to existing path
+- [x] ~~**NEW-01**: Planung node~~ — Removed: locked decision says path starts at installation, not earlier planning steps
+- [x] ~~**NEW-02**: Bau node~~ — Removed: locked decision says path starts at installation, not earlier planning steps
+- [x] **NEW-03**: Bauabnahme nach SIA 118 -- contractual construction acceptance by architect/Bauleiter
+- [x] **NEW-04**: Inspektion nach Installation (SN EN 1176-7, 6.1 a) -- safety inspection by certified specialist
+- [x] **NEW-05**: Defect decision: findings go back to builder/manufacturer for correction before opening
+- [x] **NEW-06**: No defects or defects resolved -- Spielplatz eroeffnen -- transition to existing path
 
 ### Inspektionsarten
 
-- [ ] **INSP-01**: Three parallel branches for the 3 inspection types
-- [ ] **INSP-02**: Visuelle Routineinspektion -- frequency set by operator (daily/weekly), SN EN 1176-7, 6.1 b
-- [ ] **INSP-03**: Operative Inspektion -- every 1-3 months, SN EN 1176-7, 6.1 c
-- [ ] **INSP-04**: Jaehrliche Hauptinspektion -- by certified independent person, SN EN 1176-7, 6.1 d
-- [ ] **INSP-05**: All three branches merge into documentation flow
+- [x] **INSP-01**: Three parallel branches for the 3 inspection types
+- [x] **INSP-02**: Visuelle Routineinspektion -- frequency set by operator (daily/weekly), SN EN 1176-7, 6.1 b
+- [x] **INSP-03**: Operative Inspektion -- every 1-3 months, SN EN 1176-7, 6.1 c
+- [x] **INSP-04**: Jaehrliche Hauptinspektion -- by certified independent person, SN EN 1176-7, 6.1 d
+- [x] **INSP-05**: All three branches merge into documentation flow
 
 ### Post-Inspection Process
 
-- [ ] **POST-01**: Dokumentation -- inspection report created
-- [ ] **POST-02**: Bericht archivieren
-- [ ] **POST-03**: Festgestellte Maengel verarbeiten with severity split
-- [ ] **POST-04**: Safety-critical defects -- immediate device lockout (Geraet sperren)
-- [ ] **POST-05**: Massnahmenkatalog erstellen
-- [ ] **POST-06**: Entscheidung -- budget, intern vs. extern, prioritization
-- [ ] **POST-07**: Dokumentation bestehender Maengel (tracking/follow-up)
-- [ ] **POST-08**: Loop back to inspection cycle
+- [x] **POST-01**: Dokumentation -- inspection report created
+- [x] **POST-02**: Bericht archivieren
+- [x] **POST-03**: Festgestellte Maengel verarbeiten with severity split
+- [x] **POST-04**: Safety-critical defects -- immediate device lockout (Geraet sperren)
+- [x] **POST-05**: Massnahmenkatalog erstellen
+- [x] **POST-06**: Entscheidung -- budget, intern vs. extern, prioritization
+- [x] **POST-07**: Dokumentation bestehender Maengel (tracking/follow-up)
+- [x] **POST-08**: Loop back to inspection cycle
 
 ### Format and Quality
 
@@ -86,29 +86,29 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| FLOW-01 | Phase 1 | Pending |
-| FLOW-02 | Phase 1 | Pending |
-| FLOW-03 | Phase 1 | Pending |
-| FLOW-04 | Phase 1 | Pending |
-| NEW-01 | Phase 1 | Pending |
-| NEW-02 | Phase 1 | Pending |
-| NEW-03 | Phase 1 | Pending |
-| NEW-04 | Phase 1 | Pending |
-| NEW-05 | Phase 1 | Pending |
-| NEW-06 | Phase 1 | Pending |
-| INSP-01 | Phase 1 | Pending |
-| INSP-02 | Phase 1 | Pending |
-| INSP-03 | Phase 1 | Pending |
-| INSP-04 | Phase 1 | Pending |
-| INSP-05 | Phase 1 | Pending |
-| POST-01 | Phase 1 | Pending |
-| POST-02 | Phase 1 | Pending |
-| POST-03 | Phase 1 | Pending |
-| POST-04 | Phase 1 | Pending |
-| POST-05 | Phase 1 | Pending |
-| POST-06 | Phase 1 | Pending |
-| POST-07 | Phase 1 | Pending |
-| POST-08 | Phase 1 | Pending |
+| FLOW-01 | Phase 1 | Complete |
+| FLOW-02 | Phase 1 | Complete |
+| FLOW-03 | Phase 1 | Complete |
+| FLOW-04 | Phase 1 | Complete |
+| NEW-01 | Phase 1 | Removed (locked decision) |
+| NEW-02 | Phase 1 | Removed (locked decision) |
+| NEW-03 | Phase 1 | Complete |
+| NEW-04 | Phase 1 | Complete |
+| NEW-05 | Phase 1 | Complete |
+| NEW-06 | Phase 1 | Complete |
+| INSP-01 | Phase 1 | Complete |
+| INSP-02 | Phase 1 | Complete |
+| INSP-03 | Phase 1 | Complete |
+| INSP-04 | Phase 1 | Complete |
+| INSP-05 | Phase 1 | Complete |
+| POST-01 | Phase 1 | Complete |
+| POST-02 | Phase 1 | Complete |
+| POST-03 | Phase 1 | Complete |
+| POST-04 | Phase 1 | Complete |
+| POST-05 | Phase 1 | Complete |
+| POST-06 | Phase 1 | Complete |
+| POST-07 | Phase 1 | Complete |
+| POST-08 | Phase 1 | Complete |
 | FMT-01 | Phase 2 | Pending |
 | FMT-02 | Phase 2 | Pending |
 | FMT-03 | Phase 2 | Pending |
@@ -125,4 +125,4 @@
 
 ---
 *Requirements defined: 2026-02-09*
-*Last updated: 2026-02-09 after initial definition*
+*Last updated: 2026-02-09 after Phase 1 completion*

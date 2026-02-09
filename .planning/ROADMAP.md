@@ -12,7 +12,7 @@ This roadmap delivers a single German-language flowchart showing playground insp
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Content & Logic** - Define flowchart nodes, edges, decision points, and footnotes
+- [x] **Phase 1: Content & Logic** - Define flowchart nodes, edges, decision points, and footnotes
 - [ ] **Phase 2: Mermaid Implementation** - Translate content into valid Mermaid syntax
 - [ ] **Phase 3: Export & Distribution** - Research export formats and produce editable customer deliverables
 
@@ -23,11 +23,11 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 **Depends on**: Nothing (first phase)
 
-**Requirements**: FLOW-01, FLOW-02, FLOW-03, FLOW-04, NEW-01, NEW-02, NEW-03, NEW-04, NEW-05, NEW-06, INSP-01, INSP-02, INSP-03, INSP-04, INSP-05, POST-01, POST-02, POST-03, POST-04, POST-05, POST-06, POST-07, POST-08
+**Requirements**: FLOW-01, FLOW-02, FLOW-03, FLOW-04, NEW-03, NEW-04, NEW-05, NEW-06, INSP-01, INSP-02, INSP-03, INSP-04, INSP-05, POST-01, POST-02, POST-03, POST-04, POST-05, POST-06, POST-07, POST-08
 
 **Success Criteria** (what must be TRUE):
   1. Two entry paths (Neuer Spielplatz and Bestehender Spielplatz) are defined with all required nodes
-  2. New playground path includes Planung through Bauabnahme (SIA 118) and Inspektion nach Installation, with defects routing back to builder before opening
+  2. New playground path starts at Bauabnahme (SIA 118) and Inspektion nach Installation (begins at installation, not earlier planning steps), with defects routing back to builder before opening
   3. Existing playground path shows three parallel inspection branches (visuell, operativ, Hauptinspektion) that merge into documentation flow
   4. Post-inspection process includes documentation, archiving, defect processing with safety-critical split (Geraet sperren), Massnahmenkatalog, decision flow, and loop back to inspections
   5. All norm references (SN EN 1176-7 clauses, SIA 118, Art. 58 OR) are collected as numbered footnotes
@@ -35,7 +35,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: 1 plan
 
 Plans:
-- [ ] 01-01-PLAN.md — Create complete flowchart content structure with nodes, edges, footnotes, and legend
+- [x] 01-01-PLAN.md — Create complete flowchart content structure with nodes, edges, footnotes, and legend
 
 ### Phase 2: Mermaid Implementation
 **Goal**: Translate structured flowchart content into valid Mermaid diagram syntax
@@ -80,6 +80,6 @@ Phases execute in numeric order: 1 → 2 → 3
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Content & Logic | 0/1 | Not started | - |
+| 1. Content & Logic | 1/1 | Complete | 2026-02-09 |
 | 2. Mermaid Implementation | 0/TBD | Not started | - |
 | 3. Export & Distribution | 0/TBD | Not started | - |
