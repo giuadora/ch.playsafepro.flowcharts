@@ -48,52 +48,52 @@
     </text>
 
     <!-- D01 (diamond) -->
-    <polygon points="397,120 462,152.5 397,185 332,152.5" class="gray-node" />
-    <text x="397" y="147" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-gray" text-anchor="middle">
+    <polygon points="397,131 462,163.5 397,196 332,163.5" class="gray-node" />
+    <text x="397" y="158" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-gray" text-anchor="middle">
       <tspan x="397" dy="0">Neuer oder bestehender</tspan>
       <tspan x="397" dy="11">Spielplatz?</tspan>
     </text>
 
     <!-- N01 -->
-    <rect x="45" y="125" width="120" height="55" class="blue-node" />
-    <text x="105" y="142" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-blue" text-anchor="middle">
+    <rect x="45" y="136" width="120" height="55" class="blue-node" />
+    <text x="105" y="153" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-blue" text-anchor="middle">
       <tspan x="105" dy="0">Bauabnahme nach SIA 118¹</tspan>
       <tspan x="105" dy="11">Vertragliche Abnahme</tspan>
       <tspan x="105" dy="11">durch Architekt/Bauleiter</tspan>
     </text>
 
     <!-- N02 -->
-    <rect x="45" y="205" width="120" height="55" class="blue-node" />
-    <text x="105" y="222" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-blue" text-anchor="middle">
+    <rect x="45" y="216" width="120" height="55" class="blue-node" />
+    <text x="105" y="233" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-blue" text-anchor="middle">
       <tspan x="105" dy="0">Inspektion nach Installation²</tspan>
       <tspan x="105" dy="11">Sicherheitsprüfung durch</tspan>
       <tspan x="105" dy="11">zertifizierte Fachperson</tspan>
     </text>
 
     <!-- D02 (diamond) -->
-    <polygon points="245,212 295,237 245,262 195,237" class="blue-node" />
-    <text x="245" y="233" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-blue" text-anchor="middle">
+    <polygon points="245,223 295,248 245,273 195,248" class="blue-node" />
+    <text x="245" y="244" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-blue" text-anchor="middle">
       <tspan x="245" dy="0">Mängel</tspan>
       <tspan x="245" dy="11">festgestellt?</tspan>
     </text>
 
     <!-- N03 -->
-    <rect x="195" y="300" width="100" height="45" class="blue-node" />
-    <text x="245" y="315" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-blue" text-anchor="middle">
+    <rect x="195" y="311" width="100" height="45" class="blue-node" />
+    <text x="245" y="326" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-blue" text-anchor="middle">
       <tspan x="245" dy="0">Mängel an Ersteller/</tspan>
       <tspan x="245" dy="11">Hersteller zurück</tspan>
       <tspan x="245" dy="11">zur Behebung</tspan>
     </text>
 
     <!-- N04 -->
-    <rect x="340" y="220" width="120" height="35" rx="17.5" ry="17.5" class="blue-node" />
-    <text x="400" y="242" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-blue" text-anchor="middle">
+    <rect x="340" y="231" width="120" height="35" rx="17.5" ry="17.5" class="blue-node" />
+    <text x="400" y="253" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-blue" text-anchor="middle">
       Spielplatz eröffnen
     </text>
 
     <!-- IPLAN -->
-    <rect x="340" y="300" width="120" height="35" class="blue-node" />
-    <text x="400" y="322" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-blue" text-anchor="middle">
+    <rect x="340" y="311" width="120" height="35" class="blue-node" />
+    <text x="400" y="333" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-blue" text-anchor="middle">
       Inspektionsplan erstellen
     </text>
 
@@ -223,52 +223,52 @@
   <!-- Edges -->
   <g id="edges" fill="none" stroke-width="1.5">
     <!-- e1: START -> D01 -->
-    <path d="M 397,110 L 397,120" class="edge-gray" marker-end="url(#arrowhead)" />
+    <path d="M 397,110 L 397,131" class="edge-gray" marker-end="url(#arrowhead)" />
 
     <!-- e2: D01 -> N01 (label: Neuer Spielplatz) -->
-    <path d="M 332,152.5 L 165,152.5" class="edge-blue" marker-end="url(#arrowhead)" />
-    <text x="235" y="148" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="middle">
+    <path d="M 332,163.5 L 165,163.5" class="edge-blue" marker-end="url(#arrowhead)" />
+    <text x="235" y="159" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="middle">
       Neuer Spielplatz
     </text>
 
     <!-- e3: D01 -> E00 (label: Bestehender Spielplatz) via waypoints -->
-    <path d="M 462,152.5 L 691,152.5 L 691,350 L 400,350 L 400,400" class="edge-green" marker-end="url(#arrowhead)" />
-    <text x="545" y="148" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="middle">
+    <path d="M 462,163.5 L 691,163.5 L 691,370 L 400,370 L 400,400" class="edge-green" marker-end="url(#arrowhead)" />
+    <text x="545" y="159" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="middle">
       Bestehender Spielplatz
     </text>
 
     <!-- e4: N01 -> N02 -->
-    <path d="M 105,180 L 105,205" class="edge-blue" marker-end="url(#arrowhead)" />
+    <path d="M 105,191 L 105,216" class="edge-blue" marker-end="url(#arrowhead)" />
 
     <!-- e5: N02 -> D02 -->
-    <path d="M 165,232.5 L 195,237" class="edge-blue" marker-end="url(#arrowhead)" />
+    <path d="M 165,243.5 L 195,248" class="edge-blue" marker-end="url(#arrowhead)" />
 
     <!-- e6: D02 -> N03 (label: Ja) -->
-    <path d="M 245,262 L 245,300" class="edge-blue" marker-end="url(#arrowhead)" />
-    <text x="250" y="285" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="start">
+    <path d="M 245,273 L 245,311" class="edge-blue" marker-end="url(#arrowhead)" />
+    <text x="250" y="296" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="start">
       Ja
     </text>
 
     <!-- e7: D02 -> N04 (label: Nein) -->
-    <path d="M 295,237 L 340,237.5" class="edge-blue" marker-end="url(#arrowhead)" />
-    <text x="310" y="233" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="middle">
+    <path d="M 295,248 L 340,248.5" class="edge-blue" marker-end="url(#arrowhead)" />
+    <text x="310" y="244" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="middle">
       Nein
     </text>
 
     <!-- e8: N03 -> N02 (label: Nachbesserung, dashed) via waypoints -->
-    <path d="M 195,322.5 L 105,322.5 L 105,260" class="edge-blue" stroke-dasharray="5,5" marker-end="url(#arrowhead)" />
-    <text x="145" y="318" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="middle">
+    <path d="M 195,333.5 L 105,333.5 L 105,271" class="edge-blue" stroke-dasharray="5,5" marker-end="url(#arrowhead)" />
+    <text x="145" y="329" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="middle">
       Nachbesserung
     </text>
 
     <!-- e9: N04 -> IPLAN (label: Spielplatz in Betrieb) -->
-    <path d="M 400,255 L 400,300" class="edge-blue" marker-end="url(#arrowhead)" />
-    <text x="330" y="280" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="end">
+    <path d="M 400,266 L 400,311" class="edge-blue" marker-end="url(#arrowhead)" />
+    <text x="330" y="291" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="end">
       Spielplatz in Betrieb
     </text>
 
     <!-- e9b: IPLAN -> E00 -->
-    <path d="M 400,335 L 400,400" class="edge-blue" marker-end="url(#arrowhead)" />
+    <path d="M 400,346 L 400,400" class="edge-blue" marker-end="url(#arrowhead)" />
 
     <!-- e10: E00 -> E01 (label: wöchentlich) -->
     <path d="M 370,435 L 142,435 L 142,509" class="edge-green" marker-end="url(#arrowhead)" />

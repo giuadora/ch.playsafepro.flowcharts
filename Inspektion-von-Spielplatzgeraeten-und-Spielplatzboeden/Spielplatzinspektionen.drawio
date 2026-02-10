@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.8">
   <diagram name="PSP Inspektions-Flowchart" id="psp-inspektionen">
-    <mxGraphModel dx="879" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="794" pageHeight="1123" math="0" shadow="0">
+    <mxGraphModel dx="1538" dy="1066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="794" pageHeight="1123" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,25 +23,25 @@
           <mxGeometry height="35" width="120" x="337" y="75" as="geometry" />
         </mxCell>
         <mxCell id="D01" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#E9ECEF;strokeColor=#6C757D;fontColor=#343A40;fontSize=9;fontFamily=Helvetica;" value="Neuer oder bestehender&lt;br&gt;Spielplatz?" vertex="1">
-          <mxGeometry height="65" width="130" x="332" y="120" as="geometry" />
+          <mxGeometry height="65" width="130" x="332" y="131" as="geometry" />
         </mxCell>
         <mxCell id="N01" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D6E4F0;strokeColor=#2B579A;fontColor=#1F3864;fontSize=9;fontFamily=Helvetica;align=center;" value="Bauabnahme nach SIA 118¹&lt;br&gt;Vertragliche Abnahme&lt;br&gt;durch Architekt/Bauleiter" vertex="1">
-          <mxGeometry height="55" width="120" x="45" y="125" as="geometry" />
+          <mxGeometry height="55" width="120" x="45" y="136" as="geometry" />
         </mxCell>
         <mxCell id="N02" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D6E4F0;strokeColor=#2B579A;fontColor=#1F3864;fontSize=9;fontFamily=Helvetica;align=center;" value="Inspektion nach Installation²&lt;br&gt;Sicherheitsprüfung durch&lt;br&gt;zertifizierte Fachperson" vertex="1">
-          <mxGeometry height="55" width="120" x="45" y="205" as="geometry" />
+          <mxGeometry height="55" width="120" x="45" y="216" as="geometry" />
         </mxCell>
         <mxCell id="D02" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#D6E4F0;strokeColor=#2B579A;fontColor=#1F3864;fontSize=9;fontFamily=Helvetica;" value="Mängel&lt;br&gt;festgestellt?" vertex="1">
-          <mxGeometry height="50" width="100" x="195" y="212" as="geometry" />
+          <mxGeometry height="50" width="100" x="195" y="223" as="geometry" />
         </mxCell>
         <mxCell id="N03" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D6E4F0;strokeColor=#2B579A;fontColor=#1F3864;fontSize=9;fontFamily=Helvetica;align=center;" value="Mängel an Ersteller/&lt;br&gt;Hersteller zurück&lt;br&gt;zur Behebung" vertex="1">
-          <mxGeometry height="45" width="100" x="195" y="300" as="geometry" />
+          <mxGeometry height="45" width="100" x="195" y="311" as="geometry" />
         </mxCell>
         <mxCell id="N04" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D6E4F0;strokeColor=#2B579A;fontColor=#1F3864;fontSize=9;fontFamily=Helvetica;arcSize=50;" value="Spielplatz eröffnen" vertex="1">
-          <mxGeometry height="35" width="120" x="340" y="220" as="geometry" />
+          <mxGeometry height="35" width="120" x="340" y="231" as="geometry" />
         </mxCell>
         <mxCell id="IPLAN" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D6E4F0;strokeColor=#2B579A;fontColor=#1F3864;fontSize=9;fontFamily=Helvetica;align=center;" value="Inspektionsplan erstellen" vertex="1">
-          <mxGeometry height="35" width="120" x="340" y="300" as="geometry" />
+          <mxGeometry height="35" width="120" x="340" y="311" as="geometry" />
         </mxCell>
         <mxCell id="E00" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DFF0D8;strokeColor=#3C763D;fontColor=#2D572C;fontSize=9;fontFamily=Helvetica;arcSize=50;" value="Inspektionszyklus&lt;br&gt;beginnen" vertex="1">
           <mxGeometry height="35" width="120" x="340" y="400" as="geometry" />
@@ -79,12 +79,12 @@
         <mxCell id="e2" edge="1" parent="1" source="D01" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2B579A;strokeWidth=1.5;fontSize=8;fontFamily=Helvetica;fontColor=#495057;" target="N01" value="Neuer Spielplatz">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e3" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3C763D;strokeWidth=1.5;fontSize=8;fontFamily=Helvetica;fontColor=#495057;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="E00" value="Bestehender Spielplatz">
+        <mxCell id="e3" edge="1" parent="1" source="D01" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3C763D;strokeWidth=1.5;fontSize=8;fontFamily=Helvetica;fontColor=#495057;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="E00" value="Bestehender Spielplatz">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="691" y="152" />
-              <mxPoint x="691" y="350" />
-              <mxPoint x="400" y="350" />
+              <mxPoint x="691" y="164" />
+              <mxPoint x="691" y="370" />
+              <mxPoint x="400" y="370" />
             </Array>
             <mxPoint x="463" y="152.47" as="sourcePoint" />
             <mxPoint x="401" y="379.97" as="targetPoint" />
@@ -105,7 +105,7 @@
         <mxCell id="e8" edge="1" parent="1" source="N03" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2B579A;strokeWidth=1.5;fontSize=8;fontFamily=Helvetica;fontColor=#495057;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="N02" value="Nachbesserung">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="105" y="323" />
+              <mxPoint x="105" y="334" />
             </Array>
           </mxGeometry>
         </mxCell>
