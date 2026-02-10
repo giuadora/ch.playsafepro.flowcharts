@@ -40,6 +40,12 @@ Add PSP corporate identity to diagram and documentation.
 
 **Requirements:** LOGO-01, LOGO-02, FOOT-01, FOOT-02, FOOT-03, FOOT-04, EXPORT-01, EXPORT-02
 
+**Plans:** 2 plans
+
+Plans:
+- [ ] 06-01-PLAN.md — Embed PSP logo and 3-column footer in draw.io, add logo to README
+- [ ] 06-02-PLAN.md — Regenerate SVG export, generate PDF, visual verification
+
 **Success Criteria:**
 1. PSP logo (SVG from CDN) appears in top-right area of draw.io diagram
 2. 3-column corporate footer at bottom of draw.io with company info, contact details, and legal notice
@@ -61,6 +67,6 @@ Add PSP corporate identity to diagram and documentation.
 
 ---
 
-**v1.2 Coverage:** 8/8 requirements mapped ✓
+**v1.2 Coverage:** 8/8 requirements mapped across 2 plans
 
-**Ready for planning:** `/gsd:plan-phase 6`
+**Ready for execution:** `/gsd:execute-phase 6`
