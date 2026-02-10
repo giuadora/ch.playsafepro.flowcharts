@@ -2,20 +2,20 @@
 
 ## Project Reference
 
-See: .planning/PROJECT.md (updated 2026-02-09)
+See: .planning/PROJECT.md (updated 2026-02-10)
 
 **Core value:** Give playground owners a clear, norm-based understanding of inspection obligations per SN EN 1176-7, so they can fulfill their duty of care (Werkeigentumerhaftung, Art. 58 OR)
 
-**Current focus:** v1 milestone complete. Planning next milestone.
+**Current focus:** v1.1 Print-Ready A4 — Optimize flowchart for DIN A4 portrait printout with professional typography
 
 ## Current Position
 
-Phase: v1 complete (3 phases, 4 plans shipped)
-Plan: Not started
-Status: Ready for next milestone
-Last activity: 2026-02-09 — v1 milestone complete
+Phase: Not started (defining requirements)
+Plan: —
+Status: Defining requirements
+Last activity: 2026-02-10 — Milestone v1.1 started
 
-Progress: [##########] 100% (v1)
+Progress: [░░░░░░░░░░] 0% (v1.1)
 
 ## Performance Metrics
 
@@ -50,6 +50,6 @@ None.
 
 ## Session Continuity
 
-Last session: 2026-02-09
-Stopped at: v1 milestone complete
+Last session: 2026-02-10
+Stopped at: Defining v1.1 requirements
 Resume file: None

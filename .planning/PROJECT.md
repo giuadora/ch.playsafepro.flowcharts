@@ -8,6 +8,16 @@ A customer-facing flowchart (in German) that explains the inspection obligations
 
 Give playground owners a clear, norm-based understanding of what inspections are required, when, by whom, and what to do with the results — so they can fulfill their duty of care (Werkeigentumerhaftung, Art. 58 OR).
 
+## Current Milestone: v1.1 Print-Ready A4
+
+**Goal:** Optimize the existing flowchart for professional DIN A4 portrait printout with polished typography.
+
+**Target improvements:**
+- Reformat draw.io layout to fit single A4 portrait page
+- Professional font choices, size hierarchy, and spacing
+- Print-optimized colors and contrast
+- Regenerate SVG export
+
 ## Current State
 
 **Shipped:** v1 (2026-02-09)
@@ -42,7 +52,11 @@ Delivery package at `PSP-Inspektions-Flowchart/`:
 
 ### Active
 
-(None — start next milestone to define new requirements)
+- [ ] draw.io diagram fits on single DIN A4 portrait page (210 × 297 mm)
+- [ ] Professional typography — proper font choices, size hierarchy, consistent spacing
+- [ ] Print-optimized layout — compact nodes, efficient use of page area
+- [ ] Updated SVG export matching new A4 layout
+- [ ] Updated README reflecting new print-ready format
 
 ### Out of Scope
 
@@ -104,5 +118,7 @@ PlaySafePro (playsafepro.ch) provides playground inspection, safety management, 
 | SVG with polygon-based parallelograms | True skewed rectangles for document nodes | Good |
 | German README for delivery package | Matches diagram language for Swiss/German customers | Good |
 
+| A4 portrait orientation for single-page print | Flowchart flows top-to-bottom naturally; portrait maximizes vertical space | — Pending |
+
 ---
-*Last updated: 2026-02-09 after v1 milestone*
+*Last updated: 2026-02-10 after v1.1 milestone start*
