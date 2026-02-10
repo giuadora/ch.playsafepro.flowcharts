@@ -8,25 +8,16 @@ A customer-facing flowchart (in German) that explains the inspection obligations
 
 Give playground owners a clear, norm-based understanding of what inspections are required, when, by whom, and what to do with the results — so they can fulfill their duty of care (Werkeigentumerhaftung, Art. 58 OR).
 
-## Current Milestone: v1.2 Branding
-
-**Goal:** Add PSP corporate identity — real logo and professional 3-column footer matching the Offerte template.
-
-**Target improvements:**
-- Replace logo placeholder with actual PSP logo (SVG from CDN)
-- Add 3-column corporate footer (company, contact, legal)
-- Add logo to README
-- Regenerate SVG export
-
 ## Current State
 
-**Shipped:** v1.1 Print-Ready A4 (2026-02-10)
+**Shipped:** v1.2 Branding (2026-02-10)
 
 Delivery package at `Inspektion-von-Spielplatzgeraeten-und-Spielplatzboeden/`:
-- Spielplatzinspektionen.drawio (21 KB) — A4 portrait editable diagram for draw.io/Visio
-- Spielplatzinspektionen.svg (15 KB) — A4 vector export for print/web
+- Spielplatzinspektionen.drawio — A4 portrait editable diagram with PSP branding
+- Spielplatzinspektionen.svg — A4 vector export with logo and footer
+- Spielplatzinspektionen.pdf (134 KB) — Print-ready A4 PDF
 - Spielplatzinspektionen.md (5.5 KB) — Mermaid source (16 nodes, 20 edges, 8 footnotes)
-- README.md (7.1 KB) — German instructions, CC BY-NC 4.0 license
+- README.md — German instructions with PSP logo, CC BY-NC 4.0 license
 
 **Key facts:**
 - 16 flow nodes, simplified post-inspection path (3 steps)
@@ -34,6 +25,9 @@ Delivery package at `Inspektion-von-Spielplatzgeraeten-und-Spielplatzboeden/`:
 - 5 color sections (gray/blue/green/yellow + info)
 - CEN/TR 17207 severity classification as annotation
 - 8 norm footnotes (SN EN 1176-7, SIA 118, CEN/TR 17207, Art. 58 OR)
+- PSP logo (CDN-sourced SVG) in diagram and READMEs
+- 3-column corporate footer matching Offerte template
+- Automated tooling: generate-pdf.sh, verify-a4.py
 
 ## Requirements
 
@@ -61,13 +55,17 @@ Delivery package at `Inspektion-von-Spielplatzgeraeten-und-Spielplatzboeden/`:
 - ✓ Print-optimized layout — compact nodes, efficient use of page area — v1.1
 - ✓ Updated SVG export matching A4 layout — v1.1
 - ✓ Updated README reflecting print-ready format, CC BY-NC 4.0 — v1.1
+- ✓ PSP logo replaces placeholder in draw.io diagram — v1.2
+- ✓ 3-column corporate footer in draw.io matching Offerte style — v1.2
+- ✓ PSP logo added to README — v1.2
+- ✓ SVG export regenerated with logo and footer — v1.2
+- ✓ PDF export of flowchart included in delivery package — v1.2
+- ✓ Root README created as GitHub landing page — v1.2
+- ✓ Automated A4 bounds verification tooling — v1.2
 
 ### Active
 
-- [ ] PSP logo replaces placeholder in draw.io diagram
-- [ ] 3-column corporate footer in draw.io matching Offerte style
-- [ ] PSP logo added to README
-- [ ] SVG export regenerated with logo and footer
+(None — all milestones shipped)
 
 ### Out of Scope
 
@@ -136,6 +134,10 @@ PlaySafePro (playsafepro.ch) provides playground inspection, safety management, 
 | Manual repositioning over proportional scaling | Optimal readability at A4 scale | ✓ Good |
 | Simplified post-inspection flow (10 nodes → 3) | User found complex section unreadable; linear path clearer | ✓ Good |
 | Footnote renumbering after P04 removal | Clean sequential numbering (8 footnotes) | ✓ Good |
+| CDN-sourced logo (not base64 embed) | Keeps file size small, allows central logo updates | ✓ Good |
+| 3 separate footer cells with alignment styles | Independently editable, proper alignment, matches Offerte | ✓ Good |
+| Chrome headless for PDF generation | No extra dependencies, precise A4 control via HTML wrapper | ✓ Good |
+| Automated Python bounds verification | Catches layout regressions, integrated as pre-flight check | ✓ Good |
 
 ---
-*Last updated: 2026-02-10 after v1.2 milestone start*
+*Last updated: 2026-02-10 after v1.2 milestone*

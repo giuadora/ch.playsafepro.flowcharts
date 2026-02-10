@@ -30,43 +30,23 @@ See .planning/MILESTONES.md for v1.1 details.
 <details>
 <summary>✅ v1.2 Branding (Phase 6) — SHIPPED 2026-02-10</summary>
 
-Add PSP corporate identity to diagram and documentation.
+See .planning/MILESTONES.md for v1.2 details.
 
-### Phase 6: Corporate Branding
-
-**Goal:** Users see professional PSP branding (logo + footer) integrated into diagram and README, maintaining A4 print-ready format.
-
-**Dependencies:** None — builds on complete v1.1 delivery package.
-
-**Requirements:** LOGO-01, LOGO-02, FOOT-01, FOOT-02, FOOT-03, FOOT-04, DOC-01, EXPORT-01, EXPORT-02
-
-**Plans:** 2 plans
-
-Plans:
-- [x] 06-01-PLAN.md — Embed PSP logo and 3-column footer in draw.io, add logo to READMEs, create root README
-- [x] 06-02-PLAN.md — Regenerate SVG export, generate PDF, visual verification
-
-**Success Criteria:**
-1. PSP logo (SVG from CDN) appears in top-right area of draw.io diagram
-2. 3-column corporate footer at bottom of draw.io with company info, contact details, and legal notice
-3. PSP logo added to README.md (linked or embedded)
-4. SVG export regenerated and includes logo + footer with original A4 dimensions preserved
-5. PDF export of flowchart included in delivery package
-6. Branding styling matches Offerte template and is professional/readable at print size
+- [x] Phase 6: Corporate Branding (2/2 plans) — completed 2026-02-10
 
 </details>
 
 ## Progress
 
-| Phase | Milestone | Status | Completed |
-|-------|-----------|--------|-----------|
-| 1-3 | v1.0 | Complete | 2026-02-09 |
-| 4. A4 Layout and Typography | v1.1 | Complete | 2026-02-10 |
-| 5. Export and Documentation | v1.1 | Complete | 2026-02-10 |
-| 6. Corporate Branding | v1.2 | Complete | 2026-02-10 |
+| Phase | Milestone | Plans | Status | Completed |
+|-------|-----------|-------|--------|-----------|
+| 1. Content Structure | v1.0 | 1/1 | Complete | 2026-02-09 |
+| 2. Mermaid Diagram | v1.0 | 1/1 | Complete | 2026-02-09 |
+| 3. Draw.io & Delivery | v1.0 | 2/2 | Complete | 2026-02-09 |
+| 4. A4 Layout & Typography | v1.1 | 2/2 | Complete | 2026-02-10 |
+| 5. Export & Documentation | v1.1 | 2/2 | Complete | 2026-02-10 |
+| 6. Corporate Branding | v1.2 | 2/2 | Complete | 2026-02-10 |
 
 ---
 
-**v1.2 Coverage:** 9/9 requirements mapped across 2 plans
-
-**Status:** All plans complete, verified 2026-02-10
+**All milestones shipped.** 6 phases, 10 plans across v1.0-v1.2.

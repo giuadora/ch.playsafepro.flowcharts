@@ -54,3 +54,31 @@
 
 ---
 
+
+## v1.2 Branding (Shipped: 2026-02-10)
+
+**Delivered:** Professional PSP corporate branding (logo, 3-column footer) integrated into draw.io diagram, SVG, and PDF exports with automated A4 bounds verification tooling.
+
+**Phases completed:** 6 (1 phase, 2 plans)
+
+**Key accomplishments:**
+
+- Embedded PSP logo (CDN-sourced SVG) in draw.io diagram and both READMEs
+- Added 3-column corporate footer matching Offerte template (company, contact, legal)
+- Regenerated A4 SVG export (794x1123) with full branding
+- Generated print-ready PDF via Chrome headless with zero-margin A4 output (134KB)
+- Created automated tooling: generate-pdf.sh and verify-a4.py for bounds verification
+- Created root README as GitHub landing page
+
+**Stats:**
+
+- 12 files changed (1,323 insertions, 186 deletions)
+- 1 phase, 2 plans
+- 2 days from start to ship
+
+**Git range:** `1209454` -> `c7c7129`
+
+**What's next:** Future milestones could add Wartung flowchart, Fallschutzpruefung flowchart, or interactive web version.
+
+---
+
