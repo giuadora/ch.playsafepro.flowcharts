@@ -29,43 +29,46 @@
           <mxGeometry height="55" width="120" x="45" y="136" as="geometry" />
         </mxCell>
         <mxCell id="N02" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D6E4F0;strokeColor=#2B579A;fontColor=#1F3864;fontSize=9;fontFamily=Helvetica;align=center;" value="Inspektion nach Installation²&lt;br&gt;Sicherheitsprüfung durch&lt;br&gt;zertifizierte Fachperson" vertex="1">
-          <mxGeometry height="55" width="120" x="45" y="216" as="geometry" />
+          <mxGeometry height="55" width="120" x="45" y="221" as="geometry" />
         </mxCell>
         <mxCell id="D02" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#D6E4F0;strokeColor=#2B579A;fontColor=#1F3864;fontSize=9;fontFamily=Helvetica;" value="Mängel&lt;br&gt;festgestellt?" vertex="1">
-          <mxGeometry height="50" width="100" x="195" y="223" as="geometry" />
+          <mxGeometry height="50" width="100" x="195" y="223.5" as="geometry" />
         </mxCell>
         <mxCell id="N03" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D6E4F0;strokeColor=#2B579A;fontColor=#1F3864;fontSize=9;fontFamily=Helvetica;align=center;" value="Mängel an Ersteller/&lt;br&gt;Hersteller zurück&lt;br&gt;zur Behebung" vertex="1">
-          <mxGeometry height="45" width="100" x="195" y="311" as="geometry" />
+          <mxGeometry height="45" width="100" x="195" y="306" as="geometry" />
         </mxCell>
         <mxCell id="N04" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D6E4F0;strokeColor=#2B579A;fontColor=#1F3864;fontSize=9;fontFamily=Helvetica;arcSize=50;" value="Spielplatz eröffnen" vertex="1">
-          <mxGeometry height="35" width="120" x="340" y="231" as="geometry" />
+          <mxGeometry height="35" width="120" x="337" y="231" as="geometry" />
         </mxCell>
         <mxCell id="IPLAN" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D6E4F0;strokeColor=#2B579A;fontColor=#1F3864;fontSize=9;fontFamily=Helvetica;align=center;" value="Inspektionsplan erstellen" vertex="1">
-          <mxGeometry height="35" width="120" x="340" y="311" as="geometry" />
+          <mxGeometry height="35" width="120" x="337" y="311" as="geometry" />
         </mxCell>
         <mxCell id="E00" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DFF0D8;strokeColor=#3C763D;fontColor=#2D572C;fontSize=9;fontFamily=Helvetica;arcSize=50;" value="Inspektionszyklus&lt;br&gt;beginnen" vertex="1">
-          <mxGeometry height="35" width="120" x="340" y="400" as="geometry" />
+          <mxGeometry height="35" width="120" x="337" y="400" as="geometry" />
         </mxCell>
         <mxCell id="E01" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DFF0D8;strokeColor=#3C763D;fontColor=#2D572C;fontSize=9;fontFamily=Helvetica;align=center;" value="Sichtkontrolle³&lt;br&gt;- Sichtprüfung auf&lt;br&gt;offensichtliche Gefahren" vertex="1">
           <mxGeometry height="55" width="130" x="77" y="509" as="geometry" />
         </mxCell>
         <mxCell id="E02" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DFF0D8;strokeColor=#3C763D;fontColor=#2D572C;fontSize=9;fontFamily=Helvetica;align=center;" value="Funktionskontrolle⁴&lt;br&gt;- Funktionsprüfung,&lt;br&gt;Verschleiss, Stabilität" vertex="1">
-          <mxGeometry height="55" width="130" x="334" y="509" as="geometry" />
+          <mxGeometry height="55" width="130" x="332" y="509" as="geometry" />
         </mxCell>
         <mxCell id="E03" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DFF0D8;strokeColor=#3C763D;fontColor=#2D572C;fontSize=9;fontFamily=Helvetica;align=center;" value="Jahreshauptinspektion⁵&lt;br&gt;- Umfassende Prüfung durch&lt;br&gt;zertifizierte Fachperson" vertex="1">
           <mxGeometry height="55" width="130" x="587" y="509" as="geometry" />
         </mxCell>
         <mxCell id="E04" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fillColor=#DFF0D8;strokeColor=#3C763D;fontColor=#2D572C;fontSize=9;fontFamily=Helvetica;align=center;" value="Inspektionsbericht&lt;br&gt;erstellen" vertex="1">
-          <mxGeometry height="40" width="120" x="339" y="620" as="geometry" />
+          <mxGeometry height="40" width="120" x="337" y="620" as="geometry" />
         </mxCell>
         <mxCell id="NOTE" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=8;fontFamily=Helvetica;fontColor=#495057;fontStyle=2;" value="Festgestellte Mängel sind im Bericht&lt;br&gt;nach CEN/TR 17207⁷ zu klassifizieren" vertex="1">
           <mxGeometry height="30" width="240" x="477" y="625" as="geometry" />
         </mxCell>
-        <mxCell id="P01" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF3CD;strokeColor=#856404;fontColor=#533F03;fontSize=9;fontFamily=Helvetica;align=center;" value="Bericht archivieren⁶" vertex="1">
-          <mxGeometry height="35" width="100" x="349" y="680" as="geometry" />
+        <mxCell id="P01" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E9ECEF;strokeColor=#6C757D;fontColor=#343A40;fontSize=9;fontFamily=Helvetica;arcSize=50;" value="Bericht archivieren⁶" vertex="1">
+          <mxGeometry height="35" width="140" x="119" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="IHM" parent="1" style="shape=process;whiteSpace=wrap;html=1;fillColor=#DFF0D8;strokeColor=#3C763D;fontColor=#2D572C;fontSize=9;fontFamily=Helvetica;align=center;" value="Instandhaltungs-Management" vertex="1">
+          <mxGeometry height="35" width="160" x="317" y="700" as="geometry" />
         </mxCell>
         <mxCell id="END" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E9ECEF;strokeColor=#6C757D;fontColor=#343A40;fontSize=9;fontFamily=Helvetica;arcSize=50;" value="Nächster Inspektionszyklus&lt;br&gt;gemäss Zeitplan⁸" vertex="1">
-          <mxGeometry height="35" width="120" x="339" y="740" as="geometry" />
+          <mxGeometry height="35" width="120" x="337" y="780" as="geometry" />
         </mxCell>
         <mxCell id="FOOTNOTES" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F9FA;strokeColor=#DEE2E6;fontColor=#495057;fontSize=8;fontFamily=Helvetica;align=left;verticalAlign=top;" value="&lt;b&gt;Fussnoten&lt;/b&gt;&lt;br&gt;¹ SIA 118 — Vertragliche Bauabnahme, ersetzt nicht die Sicherheitsinspektion&lt;br&gt;² SN EN 1176-7, 6.1a — Inspektion nach Installation&lt;br&gt;³ SN EN 1176-7, 6.1b — Visuelle Routineinspektion&lt;br&gt;⁴ SN EN 1176-7, 6.1c — Operative Inspektion&lt;br&gt;⁵ SN EN 1176-7, 6.1d — Jährliche Hauptinspektion&lt;br&gt;⁶ SN EN 1176-7, 8.2.2 — Dokumentationspflicht&lt;br&gt;⁷ CEN/TR 17207 — Mängelklassifizierung&lt;br&gt;⁸ SN EN 1176-7, 6.2.4 — Inspektionsplan" vertex="1">
           <mxGeometry height="115" width="350" x="38" y="925" as="geometry" />
@@ -155,10 +158,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e16" edge="1" parent="1" source="E04" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#856404;strokeWidth=1.5;" target="P01">
+        <mxCell id="e16" edge="1" parent="1" source="E04" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6C757D;strokeWidth=1.5;exitX=0.1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="P01">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="352" y="680" />
+              <mxPoint x="189" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e17" edge="1" parent="1" source="E04" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3C763D;strokeWidth=1.5;" target="IHM">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e20" edge="1" parent="1" source="P01" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6C757D;strokeWidth=1.5;" target="END">
+        <mxCell id="e20" edge="1" parent="1" source="IHM" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6C757D;strokeWidth=1.5;" target="END">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eNOTE" edge="1" parent="1" source="E04" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#DEE2E6;strokeWidth=1;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="NOTE">
