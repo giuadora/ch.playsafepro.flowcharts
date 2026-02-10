@@ -37,7 +37,7 @@ Phases 1-3 completed: Content structure, Mermaid diagram, draw.io/SVG exports wi
 **Plans**: 2 plans
 
 Plans:
-- [ ] 04-01-PLAN.md -- A4 page setup and spatial reorganization of all nodes
+- [x] 04-01-PLAN.md -- A4 page setup and spatial reorganization of all nodes (completed 2026-02-10)
 - [ ] 04-02-PLAN.md -- Typography, print-optimized colors, and visual verification
 
 ### Phase 5: Export and Documentation
@@ -60,5 +60,5 @@ Plans:
 | Phase | Milestone | Plans Complete | Status | Completed |
 |-------|-----------|----------------|--------|-----------|
 | 1-3 | v1.0 | 4/4 | Complete | 2026-02-09 |
-| 4. A4 Layout and Typography | v1.1 | 0/2 | Not started | - |
+| 4. A4 Layout and Typography | v1.1 | 1/2 | In progress | - |
 | 5. Export and Documentation | v1.1 | 0/TBD | Not started | - |

@@ -11,18 +11,18 @@ See: .planning/PROJECT.md (updated 2026-02-10)
 ## Current Position
 
 Phase: 4 of 5 (A4 Layout and Typography)
-Plan: Not started
-Status: Ready to plan
-Last activity: 2026-02-10 -- Roadmap created for v1.1
+Plan: 1 of 2 complete
+Status: In progress
+Last activity: 2026-02-10 -- Completed 04-01-PLAN.md (A4 page setup and spatial reorganization)
 
-Progress: [##########░░░░░░░░░░] 0% (v1.1: 0/2 phases)
+Progress: [##########░░░░░░░░░░] 10% (v1.1: 1/10 plans, Phase 4: 1/2 plans)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 4
-- Average duration: 5 min
-- Total execution time: 0.4 hours
+- Total plans completed: 5
+- Average duration: 6 min
+- Total execution time: 0.5 hours
 
 **By Phase:**
 
@@ -31,6 +31,7 @@ Progress: [##########░░░░░░░░░░] 0% (v1.1: 0/2 phases)
 | 1 | 1 | 4 min | 4 min |
 | 2 | 1 | 3 min | 3 min |
 | 3 | 2 | 14 min | 7 min |
+| 4 | 1 | 6 min | 6 min |
 
 *Updated after each plan completion*
 
@@ -40,7 +41,10 @@ Progress: [##########░░░░░░░░░░] 0% (v1.1: 0/2 phases)
 
 See PROJECT.md Key Decisions table for full log.
 
-Recent: A4 portrait orientation chosen for single-page print (flowchart flows top-to-bottom naturally).
+Recent decisions:
+- DEC-04-01-001: A4 portrait page dimensions (794x1123px at 96 DPI)
+- DEC-04-01-002: Manual repositioning chosen over proportional scaling for optimal readability
+- DEC-04-01-003: Node sizing (100-120px wide) optimized for 8-10pt text readability when printed
 
 ### Pending Todos
 
@@ -52,6 +56,6 @@ None.
 
 ## Session Continuity
 
-Last session: 2026-02-10
-Stopped at: Roadmap created for v1.1, ready to plan Phase 4
+Last session: 2026-02-10 08:55 UTC
+Stopped at: Completed 04-01-PLAN.md (A4 page setup and spatial reorganization)
 Resume file: None
