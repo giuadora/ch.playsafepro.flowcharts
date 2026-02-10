@@ -118,13 +118,23 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="e10" edge="1" parent="1" source="E00" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3C763D;strokeWidth=1.5;fontSize=8;fontFamily=Helvetica;fontColor=#495057;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="E01" value="wöchentlich">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="472" />
+              <mxPoint x="142" y="472" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="e11" edge="1" parent="1" source="E00" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3C763D;strokeWidth=1.5;fontSize=8;fontFamily=Helvetica;fontColor=#495057;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="E02" value="quartalsweise">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e12" edge="1" parent="1" source="E00" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3C763D;strokeWidth=1.5;fontSize=8;fontFamily=Helvetica;fontColor=#495057;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="E03" value="jährlich">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="472" />
+              <mxPoint x="652" y="472" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="e13" edge="1" parent="1" source="E01" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3C763D;strokeWidth=1.5;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="E04">
           <mxGeometry relative="1" as="geometry">

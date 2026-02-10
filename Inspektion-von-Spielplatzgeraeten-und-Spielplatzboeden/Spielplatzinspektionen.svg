@@ -271,8 +271,8 @@
     <path d="M 400,346 L 400,400" class="edge-blue" marker-end="url(#arrowhead)" />
 
     <!-- e10: E00 -> E01 (label: wöchentlich) -->
-    <path d="M 370,435 L 142,435 L 142,509" class="edge-green" marker-end="url(#arrowhead)" />
-    <text x="220" y="455" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="middle">
+    <path d="M 370,435 L 370,472 L 142,472 L 142,509" class="edge-green" marker-end="url(#arrowhead)" />
+    <text x="256" y="466" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="middle">
       wöchentlich
     </text>
 
@@ -283,8 +283,8 @@
     </text>
 
     <!-- e12: E00 -> E03 (label: jährlich) -->
-    <path d="M 430,435 L 652,435 L 652,509" class="edge-green" marker-end="url(#arrowhead)" />
-    <text x="560" y="455" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="middle">
+    <path d="M 430,435 L 430,472 L 652,472 L 652,509" class="edge-green" marker-end="url(#arrowhead)" />
+    <text x="541" y="466" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="middle">
       jährlich
     </text>
 
