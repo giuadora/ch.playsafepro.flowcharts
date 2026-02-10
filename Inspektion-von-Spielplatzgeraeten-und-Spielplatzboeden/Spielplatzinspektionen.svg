@@ -91,6 +91,12 @@
       Spielplatz eröffnen
     </text>
 
+    <!-- IPLAN -->
+    <rect x="340" y="280" width="120" height="35" class="blue-node" />
+    <text x="400" y="302" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-blue" text-anchor="middle">
+      Inspektionsplan erstellen
+    </text>
+
     <!-- E00 -->
     <rect x="337" y="340" width="120" height="35" rx="17.5" ry="17.5" class="green-node" />
     <text x="397" y="355" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-green" text-anchor="middle">
@@ -174,8 +180,8 @@
   <!-- Info boxes -->
   <g id="info-boxes">
     <!-- FOOTNOTES -->
-    <rect x="38" y="950" width="350" height="90" class="info-box" />
-    <text x="46" y="963" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="start">
+    <rect x="38" y="925" width="350" height="115" class="info-box" />
+    <text x="46" y="937" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="start">
       <tspan x="46" dy="0" font-weight="bold">Fussnoten</tspan>
       <tspan x="46" dy="11">¹ SIA 118 — Vertragliche Bauabnahme, ersetzt nicht die Sicherheitsinspektion</tspan>
       <tspan x="46" dy="10">² SN EN 1176-7, 6.1a — Inspektion nach Installation</tspan>
@@ -188,8 +194,8 @@
     </text>
 
     <!-- LEGEND -->
-    <rect x="410" y="930" width="340" height="100" class="info-box" />
-    <text x="418" y="943" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="start">
+    <rect x="410" y="925" width="340" height="115" class="info-box" />
+    <text x="418" y="937" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="start">
       <tspan x="418" dy="0" font-weight="bold">Legende</tspan>
       <tspan x="418" dy="11">▭ Rechteck = Prozessschritt / Aktion</tspan>
       <tspan x="418" dy="10">◇ Raute = Entscheidungspunkt</tspan>
@@ -214,22 +220,22 @@
       </text>
     </g>
 
-    <!-- Column 2: Contact info (center-aligned) -->
+    <!-- Column 2: Contact info (left-aligned) -->
     <g id="footer-col2">
-      <text x="397" y="1053" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#6C757D" text-anchor="middle">
-        <tspan x="397" dy="0">+41 (0) 71 508 24 75</tspan>
-        <tspan x="397" dy="10">www.playsafepro.ch</tspan>
-        <tspan x="397" dy="10">vertrieb@psp.live</tspan>
+      <text x="277" y="1053" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#6C757D" text-anchor="start">
+        <tspan x="277" dy="0">+41 (0) 71 508 24 75</tspan>
+        <tspan x="277" dy="10">www.playsafepro.ch</tspan>
+        <tspan x="277" dy="10">vertrieb@psp.live</tspan>
       </text>
     </g>
 
-    <!-- Column 3: Legal info (right-aligned) -->
+    <!-- Column 3: Legal info (left-aligned) -->
     <g id="footer-col3">
-      <text x="756" y="1053" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#6C757D" text-anchor="end">
-        <tspan x="756" dy="0">PlaySafePro und PlaySafeGo sind</tspan>
-        <tspan x="756" dy="10">eingetragene Marken</tspan>
-        <tspan x="756" dy="10">Sitz der Gesellschaft: Kreuzlingen</tspan>
-        <tspan x="756" dy="10">UID-Nr.: CHE-222.704.530</tspan>
+      <text x="516" y="1053" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#6C757D" text-anchor="start">
+        <tspan x="516" dy="0">PlaySafePro und PlaySafeGo sind</tspan>
+        <tspan x="516" dy="10">eingetragene Marken</tspan>
+        <tspan x="516" dy="10">Sitz der Gesellschaft: Kreuzlingen</tspan>
+        <tspan x="516" dy="10">UID-Nr.: CHE-222.704.530</tspan>
       </text>
     </g>
   </g>
@@ -275,11 +281,14 @@
       Nachbesserung
     </text>
 
-    <!-- e9: N04 -> E00 (label: Spielplatz in Betrieb) -->
-    <path d="M 400,255 L 397,340" class="edge-blue" marker-end="url(#arrowhead)" />
-    <text x="330" y="300" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="end">
+    <!-- e9: N04 -> IPLAN (label: Spielplatz in Betrieb) -->
+    <path d="M 400,255 L 400,280" class="edge-blue" marker-end="url(#arrowhead)" />
+    <text x="330" y="270" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="end">
       Spielplatz in Betrieb
     </text>
+
+    <!-- e9b: IPLAN -> E00 -->
+    <path d="M 400,315 L 397,340" class="edge-blue" marker-end="url(#arrowhead)" />
 
     <!-- e10: E00 -> E01 (label: wöchentlich) -->
     <path d="M 367,375 L 140,375 L 140,419" class="edge-green" marker-end="url(#arrowhead)" />

@@ -24,24 +24,6 @@ Das vollständige Paket finden Sie im Ordner:
 | `Spielplatzinspektionen.md` | Mermaid | Diagramm-Quellcode für technische Nutzer |
 | `README.md` | Markdown | Ausführliche Anleitung zur Bearbeitung und Verwendung |
 
-## Normgrundlage
-
-Das Flowchart basiert auf:
-
-- **SN EN 1176-7:2020** — Spielplatzgeräte und Spielplatzböden, Teil 7: Anleitung für Installation, Inspektion, Wartung und Betrieb
-- **SIA 118** — Allgemeine Bedingungen für Bauarbeiten (Bauabnahme)
-- **CEN/TR 17207** — Technischer Report zur Klassifizierung von Mängeln
-- **Art. 58 OR** — Werkeigentümerhaftung (Schweizer Obligationenrecht)
-
-### Inspektionsfrequenzen (SN EN 1176-7)
-
-| Inspektionstyp | Frequenz | Durchführung |
-|----------------|----------|--------------|
-| Sichtkontrolle | Wöchentlich | Betreiber |
-| Funktionskontrolle | Quartalsweise | Betreiber |
-| Jahreshauptinspektion | Jährlich | Zertifizierte Fachperson |
-| Inspektion nach Installation | Bei neuen Spielplätzen | Zertifizierte Fachperson |
-
 ## Kontakt
 
 **PSP — PlaySafePro**
