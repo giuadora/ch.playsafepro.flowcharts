@@ -63,45 +63,45 @@
     </text>
 
     <!-- N02 -->
-    <rect x="45" y="216" width="120" height="55" class="blue-node" />
-    <text x="105" y="233" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-blue" text-anchor="middle">
+    <rect x="45" y="221" width="120" height="55" class="blue-node" />
+    <text x="105" y="238" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-blue" text-anchor="middle">
       <tspan x="105" dy="0">Inspektion nach Installation²</tspan>
       <tspan x="105" dy="11">Sicherheitsprüfung durch</tspan>
       <tspan x="105" dy="11">zertifizierte Fachperson</tspan>
     </text>
 
     <!-- D02 (diamond) -->
-    <polygon points="245,223 295,248 245,273 195,248" class="blue-node" />
-    <text x="245" y="244" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-blue" text-anchor="middle">
+    <polygon points="245,223.5 295,248.5 245,273.5 195,248.5" class="blue-node" />
+    <text x="245" y="243" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-blue" text-anchor="middle">
       <tspan x="245" dy="0">Mängel</tspan>
       <tspan x="245" dy="11">festgestellt?</tspan>
     </text>
 
     <!-- N03 -->
-    <rect x="195" y="311" width="100" height="45" class="blue-node" />
-    <text x="245" y="326" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-blue" text-anchor="middle">
+    <rect x="195" y="306" width="100" height="45" class="blue-node" />
+    <text x="245" y="321" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-blue" text-anchor="middle">
       <tspan x="245" dy="0">Mängel an Ersteller/</tspan>
       <tspan x="245" dy="11">Hersteller zurück</tspan>
       <tspan x="245" dy="11">zur Behebung</tspan>
     </text>
 
     <!-- N04 -->
-    <rect x="340" y="231" width="120" height="35" rx="17.5" ry="17.5" class="blue-node" />
-    <text x="400" y="253" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-blue" text-anchor="middle">
+    <rect x="337" y="231" width="120" height="35" rx="17.5" ry="17.5" class="blue-node" />
+    <text x="397" y="253" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-blue" text-anchor="middle">
       Spielplatz eröffnen
     </text>
 
     <!-- IPLAN -->
-    <rect x="340" y="311" width="120" height="35" class="blue-node" />
-    <text x="400" y="333" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-blue" text-anchor="middle">
+    <rect x="337" y="311" width="120" height="35" class="blue-node" />
+    <text x="397" y="333" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-blue" text-anchor="middle">
       Inspektionsplan erstellen
     </text>
 
     <!-- E00 -->
-    <rect x="340" y="400" width="120" height="35" rx="17.5" ry="17.5" class="green-node" />
-    <text x="400" y="415" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-green" text-anchor="middle">
-      <tspan x="400" dy="0">Inspektionszyklus</tspan>
-      <tspan x="400" dy="11">beginnen</tspan>
+    <rect x="337" y="400" width="120" height="35" rx="17.5" ry="17.5" class="green-node" />
+    <text x="397" y="415" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-green" text-anchor="middle">
+      <tspan x="397" dy="0">Inspektionszyklus</tspan>
+      <tspan x="397" dy="11">beginnen</tspan>
     </text>
 
     <!-- E01 -->
@@ -113,11 +113,11 @@
     </text>
 
     <!-- E02 -->
-    <rect x="334" y="509" width="130" height="55" class="green-node" />
-    <text x="399" y="526" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-green" text-anchor="middle">
-      <tspan x="399" dy="0">Funktionskontrolle⁴</tspan>
-      <tspan x="399" dy="11">- Funktionsprüfung,</tspan>
-      <tspan x="399" dy="11">Verschleiss, Stabilität</tspan>
+    <rect x="332" y="509" width="130" height="55" class="green-node" />
+    <text x="397" y="526" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-green" text-anchor="middle">
+      <tspan x="397" dy="0">Funktionskontrolle⁴</tspan>
+      <tspan x="397" dy="11">- Funktionsprüfung,</tspan>
+      <tspan x="397" dy="11">Verschleiss, Stabilität</tspan>
     </text>
 
     <!-- E03 -->
@@ -129,10 +129,10 @@
     </text>
 
     <!-- E04 (parallelogram) -->
-    <polygon points="339,620 449,620 459,660 349,660" class="green-node" />
-    <text x="399" y="637" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-green" text-anchor="middle">
-      <tspan x="399" dy="0">Inspektionsbericht</tspan>
-      <tspan x="399" dy="11">erstellen</tspan>
+    <polygon points="337,620 447,620 457,660 347,660" class="green-node" />
+    <text x="397" y="637" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-green" text-anchor="middle">
+      <tspan x="397" dy="0">Inspektionsbericht</tspan>
+      <tspan x="397" dy="11">erstellen</tspan>
     </text>
 
     <!-- P01 (end state) -->
@@ -240,81 +240,81 @@
     </text>
 
     <!-- e3: D01 -> E00 (label: Bestehender Spielplatz) via waypoints -->
-    <path d="M 462,163.5 L 691,163.5 L 691,370 L 400,370 L 400,400" class="edge-green" marker-end="url(#arrowhead)" />
+    <path d="M 462,163.5 L 691,163.5 L 691,370 L 397,370 L 397,400" class="edge-green" marker-end="url(#arrowhead)" />
     <text x="545" y="159" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="middle">
       Bestehender Spielplatz
     </text>
 
     <!-- e4: N01 -> N02 -->
-    <path d="M 105,191 L 105,216" class="edge-blue" marker-end="url(#arrowhead)" />
+    <path d="M 105,191 L 105,221" class="edge-blue" marker-end="url(#arrowhead)" />
 
     <!-- e5: N02 -> D02 -->
-    <path d="M 165,243.5 L 195,248" class="edge-blue" marker-end="url(#arrowhead)" />
+    <path d="M 165,248.5 L 195,248.5" class="edge-blue" marker-end="url(#arrowhead)" />
 
     <!-- e6: D02 -> N03 (label: Ja) -->
-    <path d="M 245,273 L 245,311" class="edge-blue" marker-end="url(#arrowhead)" />
-    <text x="250" y="296" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="start">
+    <path d="M 245,273.5 L 245,306" class="edge-blue" marker-end="url(#arrowhead)" />
+    <text x="250" y="293" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="start">
       Ja
     </text>
 
     <!-- e7: D02 -> N04 (label: Nein) -->
-    <path d="M 295,248 L 340,248.5" class="edge-blue" marker-end="url(#arrowhead)" />
-    <text x="310" y="244" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="middle">
+    <path d="M 295,248.5 L 337,248.5" class="edge-blue" marker-end="url(#arrowhead)" />
+    <text x="316" y="244" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="middle">
       Nein
     </text>
 
     <!-- e8: N03 -> N02 (label: Nachbesserung, dashed) via waypoints -->
-    <path d="M 195,333.5 L 105,333.5 L 105,271" class="edge-blue" stroke-dasharray="5,5" marker-end="url(#arrowhead)" />
-    <text x="145" y="329" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="middle">
+    <path d="M 195,328.5 L 105,328.5 L 105,276" class="edge-blue" stroke-dasharray="5,5" marker-end="url(#arrowhead)" />
+    <text x="150" y="323" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="middle">
       Nachbesserung
     </text>
 
     <!-- e9: N04 -> IPLAN (label: Spielplatz in Betrieb) -->
-    <path d="M 400,266 L 400,311" class="edge-blue" marker-end="url(#arrowhead)" />
-    <text x="330" y="291" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="end">
+    <path d="M 397,266 L 397,311" class="edge-blue" marker-end="url(#arrowhead)" />
+    <text x="330" y="289" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="end">
       Spielplatz in Betrieb
     </text>
 
     <!-- e9b: IPLAN -> E00 -->
-    <path d="M 400,346 L 400,400" class="edge-blue" marker-end="url(#arrowhead)" />
+    <path d="M 397,346 L 397,400" class="edge-blue" marker-end="url(#arrowhead)" />
 
     <!-- e10: E00 -> E01 (label: wöchentlich) -->
-    <path d="M 370,435 L 370,472 L 142,472 L 142,509" class="edge-green" marker-end="url(#arrowhead)" />
-    <text x="256" y="466" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="middle">
+    <path d="M 367,435 L 367,472 L 142,472 L 142,509" class="edge-green" marker-end="url(#arrowhead)" />
+    <text x="255" y="466" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="middle">
       wöchentlich
     </text>
 
     <!-- e11: E00 -> E02 (label: quartalsweise) -->
-    <path d="M 400,435 L 399,509" class="edge-green" marker-end="url(#arrowhead)" />
-    <text x="410" y="470" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="start">
+    <path d="M 397,435 L 397,509" class="edge-green" marker-end="url(#arrowhead)" />
+    <text x="407" y="470" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="start">
       quartalsweise
     </text>
 
     <!-- e12: E00 -> E03 (label: jährlich) -->
-    <path d="M 430,435 L 430,472 L 652,472 L 652,509" class="edge-green" marker-end="url(#arrowhead)" />
-    <text x="541" y="466" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="middle">
+    <path d="M 427,435 L 427,472 L 652,472 L 652,509" class="edge-green" marker-end="url(#arrowhead)" />
+    <text x="540" y="466" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="middle">
       jährlich
     </text>
 
     <!-- e13: E01 -> E04 via waypoints -->
-    <path d="M 142,564 L 142,590 L 369,590 L 369,620" class="edge-green" marker-end="url(#arrowhead)" />
+    <path d="M 142,564 L 142,590 L 367,590 L 367,620" class="edge-green" marker-end="url(#arrowhead)" />
 
     <!-- e14: E02 -> E04 -->
-    <path d="M 399,564 L 399,620" class="edge-green" marker-end="url(#arrowhead)" />
+    <path d="M 397,564 L 397,620" class="edge-green" marker-end="url(#arrowhead)" />
 
     <!-- e15: E03 -> E04 via waypoints -->
-    <path d="M 652,564 L 652,590 L 429,590 L 429,620" class="edge-green" marker-end="url(#arrowhead)" />
+    <path d="M 652,564 L 652,590 L 427,590 L 427,620" class="edge-green" marker-end="url(#arrowhead)" />
 
     <!-- e16: E04 -> P01 (left branch, end state) -->
-    <path d="M 352,660 L 352,680 L 189,680 L 189,700" class="edge-gray" marker-end="url(#arrowhead)" />
+    <path d="M 349,660 L 349,680 L 189,680 L 189,700" class="edge-gray" marker-end="url(#arrowhead)" />
 
     <!-- e17: E04 -> IHM (center, subprocess) -->
-    <path d="M 399,660 L 397,700" class="edge-green" marker-end="url(#arrowhead)" />
+    <path d="M 397,660 L 397,700" class="edge-green" marker-end="url(#arrowhead)" />
 
     <!-- e20: IHM -> END -->
     <path d="M 397,735 L 397,780" class="edge-gray" marker-end="url(#arrowhead)" />
 
     <!-- eNOTE: E04 -> NOTE (dashed annotation) -->
-    <path d="M 459,640 L 477,640" class="edge-annotation" stroke-width="1" stroke-dasharray="3,3" marker-end="url(#arrowhead)" />
+    <path d="M 457,640 L 477,640" class="edge-annotation" stroke-width="1" stroke-dasharray="3,3" marker-end="url(#arrowhead)" />
   </g>
 </svg>
