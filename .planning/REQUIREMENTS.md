@@ -22,6 +22,7 @@ Requirements for corporate branding. Each maps to roadmap phases.
 ### Export
 
 - [ ] **EXPORT-01**: SVG export regenerated with logo and footer
+- [ ] **EXPORT-02**: PDF export of flowchart added to delivery package
 
 ## Future Requirements
 
@@ -56,19 +57,21 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| LOGO-01 | — | Pending |
-| LOGO-02 | — | Pending |
-| FOOT-01 | — | Pending |
-| FOOT-02 | — | Pending |
-| FOOT-03 | — | Pending |
-| FOOT-04 | — | Pending |
-| EXPORT-01 | — | Pending |
+| LOGO-01 | 6 | Pending |
+| LOGO-02 | 6 | Pending |
+| FOOT-01 | 6 | Pending |
+| FOOT-02 | 6 | Pending |
+| FOOT-03 | 6 | Pending |
+| FOOT-04 | 6 | Pending |
+| EXPORT-01 | 6 | Pending |
+| EXPORT-02 | 6 | Pending |
 
 **Coverage:**
-- v1.2 requirements: 7 total
-- Mapped to phases: 0
-- Unmapped: 7
+- v1.2 requirements: 8 total
+- Mapped to phases: 8
+- Unmapped: 0 ✓
 
 ---
+
 *Requirements defined: 2026-02-10*
-*Last updated: 2026-02-10 after initial definition*
+*Traceability updated: 2026-02-10*
