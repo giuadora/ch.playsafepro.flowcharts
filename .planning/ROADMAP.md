@@ -34,10 +34,11 @@ Phases 1-3 completed: Content structure, Mermaid diagram, draw.io/SVG exports wi
   2. All flowchart nodes, edges, and footnotes are visible within the page area -- nothing is clipped or overflows
   3. All text uses a consistent professional sans-serif font (Helvetica or Arial family)
   4. Flowchart is readable when printed at 100% scale on A4 paper -- no text too small, no overlapping elements
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 04-01: TBD
+- [ ] 04-01-PLAN.md -- A4 page setup and spatial reorganization of all nodes
+- [ ] 04-02-PLAN.md -- Typography, print-optimized colors, and visual verification
 
 ### Phase 5: Export and Documentation
 **Goal**: All deliverables (SVG, Mermaid, README) are updated to match the new A4 layout
@@ -59,5 +60,5 @@ Plans:
 | Phase | Milestone | Plans Complete | Status | Completed |
 |-------|-----------|----------------|--------|-----------|
 | 1-3 | v1.0 | 4/4 | Complete | 2026-02-09 |
-| 4. A4 Layout and Typography | v1.1 | 0/TBD | Not started | - |
+| 4. A4 Layout and Typography | v1.1 | 0/2 | Not started | - |
 | 5. Export and Documentation | v1.1 | 0/TBD | Not started | - |
