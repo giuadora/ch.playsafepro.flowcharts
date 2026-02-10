@@ -25,3 +25,32 @@
 **What's next:** v2 could add Wartung flowchart, Fallschutzpruefung flowchart, PSP service touchpoints, or interactive web version.
 
 ---
+
+## v1.1 Print-Ready A4 (Shipped: 2026-02-10)
+
+**Delivered:** Print-ready DIN A4 portrait layout with professional Helvetica typography, simplified post-inspection flow, renamed project structure for GitHub publishing, and complete delivery package with SVG export.
+
+**Phases completed:** 4-5 (4 plans total)
+
+**Key accomplishments:**
+
+- Reformatted flowchart from 1400x2800px to DIN A4 portrait (794x1123px) with manual node repositioning for optimal readability
+- Applied Helvetica typography, print-optimized B&W-contrast color palette across all elements
+- Simplified post-inspection flow from 10 nodes to 3 per user feedback, with CEN/TR 17207 as annotation
+- Renamed project structure (ch.playsafepro.flowcharts) and delivery folder for GitHub publishing
+- Rewrote Mermaid source to match simplified 16-node structure with 8 renumbered footnotes
+- Generated A4 SVG export and verified complete 4-file delivery package
+
+**Stats:**
+
+- 24 files changed (3,342 insertions, 712 deletions)
+- 806 lines in delivery files (drawio, svg, md, README)
+- 2 phases, 4 plans
+- 4 hours from start to ship
+
+**Git range:** `ad88486` -> `2be3fe7`
+
+**What's next:** v2 could add Wartung flowchart, Fallschutzpruefung flowchart, PSP branding, or interactive web version.
+
+---
+
