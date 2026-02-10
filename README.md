@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://www.playsafepro.ch">
+  <a href="https://www.playsafepro.ch?mtm_campaign=GitHub&mtm_source=ch-playsafepro-flowcharts&mtm_medium=CTAContactUs">
     <img src="https://cdn.prod.website-files.com/67f92758c1ae09d703725f00/67ff5ea44756d842fa02e3ce_playsafepro_logo-rgb_xs-3.svg" alt="PlaySafePro" width="200">
   </a>
 </p>
@@ -29,7 +29,7 @@ Das vollständige Paket finden Sie im Ordner:
 **PSP — PlaySafePro**
 
 - E-Mail: vertrieb@psp.live
-- Website: https://www.playsafepro.ch
+- Website: [www.playsafepro.ch](https://www.playsafepro.ch?mtm_campaign=GitHub&mtm_source=ch-playsafepro-flowcharts&mtm_medium=CTAContactUs)
 
 ## Lizenz
 
