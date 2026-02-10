@@ -92,68 +92,68 @@
     </text>
 
     <!-- IPLAN -->
-    <rect x="340" y="280" width="120" height="35" class="blue-node" />
-    <text x="400" y="302" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-blue" text-anchor="middle">
+    <rect x="340" y="300" width="120" height="35" class="blue-node" />
+    <text x="400" y="322" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-blue" text-anchor="middle">
       Inspektionsplan erstellen
     </text>
 
     <!-- E00 -->
-    <rect x="337" y="340" width="120" height="35" rx="17.5" ry="17.5" class="green-node" />
-    <text x="397" y="355" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-green" text-anchor="middle">
-      <tspan x="397" dy="0">Inspektionszyklus</tspan>
-      <tspan x="397" dy="11">beginnen</tspan>
+    <rect x="340" y="400" width="120" height="35" rx="17.5" ry="17.5" class="green-node" />
+    <text x="400" y="415" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-green" text-anchor="middle">
+      <tspan x="400" dy="0">Inspektionszyklus</tspan>
+      <tspan x="400" dy="11">beginnen</tspan>
     </text>
 
     <!-- E01 -->
-    <rect x="75" y="419" width="130" height="55" class="green-node" />
-    <text x="140" y="436" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-green" text-anchor="middle">
-      <tspan x="140" dy="0">Sichtkontrolle³</tspan>
-      <tspan x="140" dy="11">- Sichtprüfung auf</tspan>
-      <tspan x="140" dy="11">offensichtliche Gefahren</tspan>
+    <rect x="77" y="509" width="130" height="55" class="green-node" />
+    <text x="142" y="526" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-green" text-anchor="middle">
+      <tspan x="142" dy="0">Sichtkontrolle³</tspan>
+      <tspan x="142" dy="11">- Sichtprüfung auf</tspan>
+      <tspan x="142" dy="11">offensichtliche Gefahren</tspan>
     </text>
 
     <!-- E02 -->
-    <rect x="332" y="419" width="130" height="55" class="green-node" />
-    <text x="397" y="436" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-green" text-anchor="middle">
-      <tspan x="397" dy="0">Funktionskontrolle⁴</tspan>
-      <tspan x="397" dy="11">- Funktionsprüfung,</tspan>
-      <tspan x="397" dy="11">Verschleiss, Stabilität</tspan>
+    <rect x="334" y="509" width="130" height="55" class="green-node" />
+    <text x="399" y="526" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-green" text-anchor="middle">
+      <tspan x="399" dy="0">Funktionskontrolle⁴</tspan>
+      <tspan x="399" dy="11">- Funktionsprüfung,</tspan>
+      <tspan x="399" dy="11">Verschleiss, Stabilität</tspan>
     </text>
 
     <!-- E03 -->
-    <rect x="585" y="419" width="130" height="55" class="green-node" />
-    <text x="650" y="436" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-green" text-anchor="middle">
-      <tspan x="650" dy="0">Jahreshauptinspektion⁵</tspan>
-      <tspan x="650" dy="11">- Umfassende Prüfung durch</tspan>
-      <tspan x="650" dy="11">zertifizierte Fachperson</tspan>
+    <rect x="587" y="509" width="130" height="55" class="green-node" />
+    <text x="652" y="526" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-green" text-anchor="middle">
+      <tspan x="652" dy="0">Jahreshauptinspektion⁵</tspan>
+      <tspan x="652" dy="11">- Umfassende Prüfung durch</tspan>
+      <tspan x="652" dy="11">zertifizierte Fachperson</tspan>
     </text>
 
     <!-- E04 (parallelogram) -->
-    <polygon points="337,530 447,530 457,570 347,570" class="green-node" />
-    <text x="397" y="547" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-green" text-anchor="middle">
-      <tspan x="397" dy="0">Inspektionsbericht</tspan>
-      <tspan x="397" dy="11">erstellen</tspan>
+    <polygon points="339,620 449,620 459,660 349,660" class="green-node" />
+    <text x="399" y="637" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-green" text-anchor="middle">
+      <tspan x="399" dy="0">Inspektionsbericht</tspan>
+      <tspan x="399" dy="11">erstellen</tspan>
     </text>
 
     <!-- P01 -->
-    <rect x="347" y="590" width="100" height="35" class="yellow-node" />
-    <text x="397" y="612" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-yellow" text-anchor="middle">
+    <rect x="349" y="680" width="100" height="35" class="yellow-node" />
+    <text x="399" y="702" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-yellow" text-anchor="middle">
       Bericht archivieren⁶
     </text>
 
     <!-- END -->
-    <rect x="337" y="650" width="120" height="35" rx="17.5" ry="17.5" class="gray-node" />
-    <text x="397" y="665" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-gray" text-anchor="middle">
-      <tspan x="397" dy="0">Nächster Inspektionszyklus</tspan>
-      <tspan x="397" dy="11">gemäss Zeitplan⁸</tspan>
+    <rect x="339" y="740" width="120" height="35" rx="17.5" ry="17.5" class="gray-node" />
+    <text x="399" y="755" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-gray" text-anchor="middle">
+      <tspan x="399" dy="0">Nächster Inspektionszyklus</tspan>
+      <tspan x="399" dy="11">gemäss Zeitplan⁸</tspan>
     </text>
   </g>
 
   <!-- Annotation -->
   <g id="annotation">
-    <text x="475" y="543" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" font-style="italic" text-anchor="start">
-      <tspan x="475" dy="0">Festgestellte Mängel sind im Bericht</tspan>
-      <tspan x="475" dy="10">nach CEN/TR 17207⁷ zu klassifizieren</tspan>
+    <text x="477" y="633" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" font-style="italic" text-anchor="start">
+      <tspan x="477" dy="0">Festgestellte Mängel sind im Bericht</tspan>
+      <tspan x="477" dy="10">nach CEN/TR 17207⁷ zu klassifizieren</tspan>
     </text>
   </g>
 
@@ -232,7 +232,7 @@
     </text>
 
     <!-- e3: D01 -> E00 (label: Bestehender Spielplatz) via waypoints -->
-    <path d="M 462,152.5 L 690,152.5 L 690,323 L 397,323 L 397,340" class="edge-green" marker-end="url(#arrowhead)" />
+    <path d="M 462,152.5 L 691,152.5 L 691,350 L 400,350 L 400,400" class="edge-green" marker-end="url(#arrowhead)" />
     <text x="545" y="148" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="middle">
       Bestehender Spielplatz
     </text>
@@ -262,48 +262,48 @@
     </text>
 
     <!-- e9: N04 -> IPLAN (label: Spielplatz in Betrieb) -->
-    <path d="M 400,255 L 400,280" class="edge-blue" marker-end="url(#arrowhead)" />
-    <text x="330" y="270" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="end">
+    <path d="M 400,255 L 400,300" class="edge-blue" marker-end="url(#arrowhead)" />
+    <text x="330" y="280" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="end">
       Spielplatz in Betrieb
     </text>
 
     <!-- e9b: IPLAN -> E00 -->
-    <path d="M 400,315 L 397,340" class="edge-blue" marker-end="url(#arrowhead)" />
+    <path d="M 400,335 L 400,400" class="edge-blue" marker-end="url(#arrowhead)" />
 
     <!-- e10: E00 -> E01 (label: wöchentlich) -->
-    <path d="M 367,375 L 140,375 L 140,419" class="edge-green" marker-end="url(#arrowhead)" />
-    <text x="220" y="390" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="middle">
+    <path d="M 370,435 L 142,435 L 142,509" class="edge-green" marker-end="url(#arrowhead)" />
+    <text x="220" y="455" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="middle">
       wöchentlich
     </text>
 
     <!-- e11: E00 -> E02 (label: quartalsweise) -->
-    <path d="M 397,375 L 397,419" class="edge-green" marker-end="url(#arrowhead)" />
-    <text x="407" y="400" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="start">
+    <path d="M 400,435 L 399,509" class="edge-green" marker-end="url(#arrowhead)" />
+    <text x="410" y="470" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="start">
       quartalsweise
     </text>
 
     <!-- e12: E00 -> E03 (label: jährlich) -->
-    <path d="M 427,375 L 650,375 L 650,419" class="edge-green" marker-end="url(#arrowhead)" />
-    <text x="560" y="390" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="middle">
+    <path d="M 430,435 L 652,435 L 652,509" class="edge-green" marker-end="url(#arrowhead)" />
+    <text x="560" y="455" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="middle">
       jährlich
     </text>
 
     <!-- e13: E01 -> E04 via waypoints -->
-    <path d="M 140,474 L 140,490 L 367,490 L 367,530" class="edge-green" marker-end="url(#arrowhead)" />
+    <path d="M 142,564 L 142,590 L 369,590 L 369,620" class="edge-green" marker-end="url(#arrowhead)" />
 
     <!-- e14: E02 -> E04 -->
-    <path d="M 397,474 L 397,530" class="edge-green" marker-end="url(#arrowhead)" />
+    <path d="M 399,564 L 399,620" class="edge-green" marker-end="url(#arrowhead)" />
 
     <!-- e15: E03 -> E04 via waypoints -->
-    <path d="M 650,474 L 650,490 L 427,490 L 427,530" class="edge-green" marker-end="url(#arrowhead)" />
+    <path d="M 652,564 L 652,590 L 429,590 L 429,620" class="edge-green" marker-end="url(#arrowhead)" />
 
     <!-- e16: E04 -> P01 -->
-    <path d="M 397,570 L 397,590" class="edge-yellow" marker-end="url(#arrowhead)" />
+    <path d="M 399,660 L 399,680" class="edge-yellow" marker-end="url(#arrowhead)" />
 
     <!-- e20: P01 -> END -->
-    <path d="M 397,625 L 397,650" class="edge-gray" marker-end="url(#arrowhead)" />
+    <path d="M 399,715 L 399,740" class="edge-gray" marker-end="url(#arrowhead)" />
 
     <!-- eNOTE: E04 -> NOTE (dashed annotation) -->
-    <path d="M 457,550 L 472,550" class="edge-annotation" stroke-width="1" stroke-dasharray="3,3" marker-end="url(#arrowhead)" />
+    <path d="M 459,640 L 477,640" class="edge-annotation" stroke-width="1" stroke-dasharray="3,3" marker-end="url(#arrowhead)" />
   </g>
 </svg>
