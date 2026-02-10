@@ -4,7 +4,7 @@
 
 - ✅ **v1.0 Inspektions-Flowchart** — Phases 1-3 (shipped 2026-02-09)
 - ✅ **v1.1 Print-Ready A4** — Phases 4-5 (shipped 2026-02-10)
-- 🔄 **v1.2 Branding** — Phase 6 (in progress)
+- ✅ **v1.2 Branding** — Phase 6 (shipped 2026-02-10)
 
 ## Phases
 
@@ -27,8 +27,8 @@ See .planning/MILESTONES.md for v1.1 details.
 
 </details>
 
-<details open>
-<summary>🔄 v1.2 Branding (Phase 6) — IN PROGRESS</summary>
+<details>
+<summary>✅ v1.2 Branding (Phase 6) — SHIPPED 2026-02-10</summary>
 
 Add PSP corporate identity to diagram and documentation.
 
@@ -43,8 +43,8 @@ Add PSP corporate identity to diagram and documentation.
 **Plans:** 2 plans
 
 Plans:
-- [ ] 06-01-PLAN.md — Embed PSP logo and 3-column footer in draw.io, add logo to READMEs, create root README
-- [ ] 06-02-PLAN.md — Regenerate SVG export, generate PDF, visual verification
+- [x] 06-01-PLAN.md — Embed PSP logo and 3-column footer in draw.io, add logo to READMEs, create root README
+- [x] 06-02-PLAN.md — Regenerate SVG export, generate PDF, visual verification
 
 **Success Criteria:**
 1. PSP logo (SVG from CDN) appears in top-right area of draw.io diagram
@@ -63,10 +63,10 @@ Plans:
 | 1-3 | v1.0 | Complete | 2026-02-09 |
 | 4. A4 Layout and Typography | v1.1 | Complete | 2026-02-10 |
 | 5. Export and Documentation | v1.1 | Complete | 2026-02-10 |
-| 6. Corporate Branding | v1.2 | In Progress | — |
+| 6. Corporate Branding | v1.2 | Complete | 2026-02-10 |
 
 ---
 
 **v1.2 Coverage:** 9/9 requirements mapped across 2 plans
 
-**Ready for execution:** `/gsd:execute-phase 6`
+**Status:** All plans complete, verified 2026-02-10
