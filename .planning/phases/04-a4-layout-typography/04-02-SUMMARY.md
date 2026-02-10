@@ -12,7 +12,7 @@ tech-stack:
 key-files:
   created: []
   modified:
-    - PSP-Inspektions-Flowchart/Inspektionsablauf.drawio
+    - Inspektion-von-Spielplatzgeraeten-und-Spielplatzboeden/Spielplatzinspektionen.drawio
 decisions:
   - id: DEC-04-02-001
     what: Simplify post-inspection flow
@@ -57,9 +57,9 @@ metrics:
 
 | Task | Commit | Description | Files Modified |
 |------|--------|-------------|----------------|
-| 1 | aaa0d2c | Apply Helvetica typography and print-optimized colors | Inspektionsablauf.drawio |
-| 1b | a88d5fb | Simplify flowchart per user feedback | Inspektionsablauf.drawio |
-| 2 | e190b99 | User fine-tuned layout spacing and edge routing | Inspektionsablauf.drawio |
+| 1 | aaa0d2c | Apply Helvetica typography and print-optimized colors | Spielplatzinspektionen.drawio |
+| 1b | a88d5fb | Simplify flowchart per user feedback | Spielplatzinspektionen.drawio |
+| 2 | e190b99 | User fine-tuned layout spacing and edge routing | Spielplatzinspektionen.drawio |
 | cleanup | 3e0e13d | Remove obsolete v1.0 working files | 3 files deleted |
 
 ## Deviations from Plan
@@ -87,7 +87,7 @@ metrics:
 ## Self-Check: PASSED
 
 **Files modified:**
-- PSP-Inspektions-Flowchart/Inspektionsablauf.drawio exists
+- Inspektion-von-Spielplatzgeraeten-und-Spielplatzboeden/Spielplatzinspektionen.drawio exists
 
 **Commits:**
 - aaa0d2c exists

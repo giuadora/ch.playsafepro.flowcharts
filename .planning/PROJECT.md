@@ -22,10 +22,10 @@ Give playground owners a clear, norm-based understanding of what inspections are
 
 **Shipped:** v1 (2026-02-09)
 
-Delivery package at `PSP-Inspektions-Flowchart/`:
-- Inspektionsablauf.drawio (21 KB) — Editable diagram for draw.io/Visio
-- Inspektionsablauf.svg (15 KB) — Vector export for print/web
-- Inspektionsablauf.md (5.5 KB) — Mermaid source for technical users
+Delivery package at `Inspektion-von-Spielplatzgeraeten-und-Spielplatzboeden/`:
+- Spielplatzinspektionen.drawio (21 KB) — Editable diagram for draw.io/Visio
+- Spielplatzinspektionen.svg (15 KB) — Vector export for print/web
+- Spielplatzinspektionen.md (5.5 KB) — Mermaid source for technical users
 - README.md (7.1 KB) — German instructions for editing/import
 
 ## Requirements
