@@ -19,6 +19,10 @@ Requirements for corporate branding. Each maps to roadmap phases.
 - [ ] **FOOT-03**: Column 2 — +41 (0) 71 508 24 75, https://www.playsafepro.ch, vertrieb@psp.live
 - [ ] **FOOT-04**: Column 3 — PlaySafePro und PlaySafeGo sind eingetragene Marken, Sitz der Gesellschaft: Kreuzlingen, UID-Nr.: CHE-222.704.530
 
+### Documentation
+
+- [ ] **DOC-01**: Root README.md for the GitHub repository (project overview, links to delivery folder)
+
 ### Export
 
 - [ ] **EXPORT-01**: SVG export regenerated with logo and footer
@@ -63,12 +67,13 @@ Which phases cover which requirements. Updated during roadmap creation.
 | FOOT-02 | 6 | Pending |
 | FOOT-03 | 6 | Pending |
 | FOOT-04 | 6 | Pending |
+| DOC-01 | 6 | Pending |
 | EXPORT-01 | 6 | Pending |
 | EXPORT-02 | 6 | Pending |
 
 **Coverage:**
-- v1.2 requirements: 8 total
-- Mapped to phases: 8
+- v1.2 requirements: 9 total
+- Mapped to phases: 9
 - Unmapped: 0 ✓
 
 ---
