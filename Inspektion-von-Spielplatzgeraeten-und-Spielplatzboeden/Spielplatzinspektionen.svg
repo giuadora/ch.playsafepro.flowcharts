@@ -141,29 +141,9 @@
       Bericht archivieren⁶
     </text>
 
-    <!-- MASS_KAT -->
-    <rect x="297" y="642" width="200" height="40" class="yellow-node" />
-    <text x="397" y="657" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-yellow" text-anchor="middle">
-      <tspan x="397" dy="0">Massnahmenkatalog für</tspan>
-      <tspan x="397" dy="11">festgestellte Mängel erstellen</tspan>
-    </text>
-
-    <!-- MASS_UMS -->
-    <rect x="297" y="700" width="200" height="40" class="yellow-node" />
-    <text x="397" y="715" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-yellow" text-anchor="middle">
-      <tspan x="397" dy="0">Massnahmen umsetzen</tspan>
-      <tspan x="397" dy="11">und Mängel beheben</tspan>
-    </text>
-
-    <!-- DOK (parallelogram) -->
-    <polygon points="340,760 444,760 454,795 350,795" class="yellow-node" />
-    <text x="397" y="782" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-yellow" text-anchor="middle">
-      Dokumentation
-    </text>
-
     <!-- END -->
-    <rect x="337" y="815" width="120" height="35" rx="17.5" ry="17.5" class="gray-node" />
-    <text x="397" y="830" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-gray" text-anchor="middle">
+    <rect x="337" y="650" width="120" height="35" rx="17.5" ry="17.5" class="gray-node" />
+    <text x="397" y="665" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-gray" text-anchor="middle">
       <tspan x="397" dy="0">Nächster Inspektionszyklus</tspan>
       <tspan x="397" dy="11">gemäss Zeitplan⁸</tspan>
     </text>
@@ -220,22 +200,22 @@
       </text>
     </g>
 
-    <!-- Column 2: Contact info (left-aligned) -->
+    <!-- Column 2: Contact info (centered) -->
     <g id="footer-col2">
-      <text x="277" y="1053" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#6C757D" text-anchor="start">
-        <tspan x="277" dy="0">+41 (0) 71 508 24 75</tspan>
-        <tspan x="277" dy="10">www.playsafepro.ch</tspan>
-        <tspan x="277" dy="10">vertrieb@psp.live</tspan>
+      <text x="394" y="1053" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#6C757D" text-anchor="middle">
+        <tspan x="394" dy="0">+41 (0) 71 508 24 75</tspan>
+        <tspan x="394" dy="10">www.playsafepro.ch</tspan>
+        <tspan x="394" dy="10">vertrieb@psp.live</tspan>
       </text>
     </g>
 
-    <!-- Column 3: Legal info (left-aligned) -->
+    <!-- Column 3: Legal info (right-aligned, aligned with logo) -->
     <g id="footer-col3">
-      <text x="516" y="1053" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#6C757D" text-anchor="start">
-        <tspan x="516" dy="0">PlaySafePro und PlaySafeGo sind</tspan>
-        <tspan x="516" dy="10">eingetragene Marken</tspan>
-        <tspan x="516" dy="10">Sitz der Gesellschaft: Kreuzlingen</tspan>
-        <tspan x="516" dy="10">UID-Nr.: CHE-222.704.530</tspan>
+      <text x="749" y="1053" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#6C757D" text-anchor="end">
+        <tspan x="749" dy="0">PlaySafePro und PlaySafeGo sind</tspan>
+        <tspan x="749" dy="10">eingetragene Marken</tspan>
+        <tspan x="749" dy="10">Sitz der Gesellschaft: Kreuzlingen</tspan>
+        <tspan x="749" dy="10">UID-Nr.: CHE-222.704.530</tspan>
       </text>
     </g>
   </g>
@@ -320,17 +300,8 @@
     <!-- e16: E04 -> P01 -->
     <path d="M 397,570 L 397,590" class="edge-yellow" marker-end="url(#arrowhead)" />
 
-    <!-- e17: P01 -> MASS_KAT -->
-    <path d="M 397,625 L 397,642" class="edge-yellow" marker-end="url(#arrowhead)" />
-
-    <!-- e18: MASS_KAT -> MASS_UMS -->
-    <path d="M 397,682 L 397,700" class="edge-yellow" marker-end="url(#arrowhead)" />
-
-    <!-- e19: MASS_UMS -> DOK -->
-    <path d="M 397,740 L 397,760" class="edge-yellow" marker-end="url(#arrowhead)" />
-
-    <!-- e20: DOK -> END -->
-    <path d="M 397,795 L 397,815" class="edge-gray" marker-end="url(#arrowhead)" />
+    <!-- e20: P01 -> END -->
+    <path d="M 397,625 L 397,650" class="edge-gray" marker-end="url(#arrowhead)" />
 
     <!-- eNOTE: E04 -> NOTE (dashed annotation) -->
     <path d="M 457,550 L 472,550" class="edge-annotation" stroke-width="1" stroke-dasharray="3,3" marker-end="url(#arrowhead)" />
