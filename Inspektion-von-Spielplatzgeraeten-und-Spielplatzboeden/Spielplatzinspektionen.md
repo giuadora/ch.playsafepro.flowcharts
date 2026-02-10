@@ -20,6 +20,7 @@ flowchart TD
     D02{"Mängel festgestellt?"}
     N03["Mängel an Ersteller/<br/>Hersteller zurück<br/>zur Behebung"]
     N04(["Spielplatz eröffnen"])
+    IPLAN["Inspektionsplan erstellen"]
 
     D01 -->|"Neuer Spielplatz"| N01
     N01 --> N02
@@ -27,7 +28,8 @@ flowchart TD
     D02 -->|"Ja"| N03
     D02 -->|"Nein"| N04
     N03 -.->|"Nachbesserung"| N02
-    N04 -->|"Spielplatz in Betrieb"| E00
+    N04 -->|"Spielplatz in Betrieb"| IPLAN
+    IPLAN --> E00
 
     %% === INSPECTION CYCLE (GREEN) ===
     E00(["Inspektionszyklus<br/>beginnen"])
@@ -44,21 +46,17 @@ flowchart TD
     E02 --> E04
     E03 --> E04
 
-    %% === POST-INSPECTION PROCESS (YELLOW) ===
-    P01["Bericht archivieren⁶"]
-    MASS_KAT["Massnahmenkatalog für<br/>festgestellte Mängel erstellen"]
-    MASS_UMS["Massnahmen umsetzen<br/>und Mängel beheben"]
-    DOK[/"Dokumentation"/]
+    %% === POST-INSPECTION PROCESS ===
+    P01(["Bericht archivieren⁶"])
+    IHM["Instandhaltungs-Management"]
 
     E04 --> P01
-    P01 --> MASS_KAT
-    MASS_KAT --> MASS_UMS
-    MASS_UMS --> DOK
+    E04 --> IHM
 
     %% === END (GRAY) ===
     END(["Nächster Inspektionszyklus<br/>gemäss Zeitplan⁸"])
 
-    DOK --> END
+    IHM --> END
 
     %% NOTE: CEN/TR 17207 annotation (not rendered as node, for documentation only)
     %% "Festgestellte Mängel sind im Bericht nach CEN/TR 17207⁷ zu klassifizieren"
@@ -80,10 +78,10 @@ flowchart TD
     classDef action fill:#FFF3CD,stroke:#856404,color:#856404
     classDef footnote fill:#F8F9FA,stroke:#DEE2E6,color:#495057
 
-    class START,END startend
-    class N01,N02,N03,N04 newpath
+    class START,END,P01 startend
+    class N01,N02,N03,N04,IPLAN newpath
     class E00,E01,E02,E03,E04 inspection
-    class P01,MASS_KAT,MASS_UMS,DOK action
+    class IHM action
     class FOOTNOTES,LEGEND footnote
 ```
 
@@ -91,26 +89,26 @@ flowchart TD
 
 ## Node Count Verification
 
-**Flow nodes:** 16
+**Flow nodes:** 15
 - Starting fork: START, D01 (2)
-- Neuer Spielplatz path: N01, N02, D02, N03, N04 (5)
+- Neuer Spielplatz path: N01, N02, D02, N03, N04, IPLAN (6)
 - Inspection cycle: E00, E01, E02, E03, E04 (5)
-- Post-inspection: P01, MASS_KAT, MASS_UMS, DOK, END (5)
+- Post-inspection: P01, IHM, END (3)
 
 **Note:** CEN/TR 17207 annotation is not counted as a flow node (annotation only in draw.io)
 
 **Documentation nodes:** 2 (FOOTNOTES, LEGEND)
 
-**Total nodes:** 18
+**Total nodes:** 17
 
 ## Edge Count Verification
 
-**Total edges:** 20 flow edges
+**Total edges:** 19 flow edges
 - Starting fork: 1 edge (START→D01)
 - Neuer Spielplatz branch: 2 edges (D01→N01, D01→E00)
-- Neuer Spielplatz path: 6 edges (N01→N02, N02→D02, D02→N03, D02→N04, N03→N02 dashed, N04→E00)
+- Neuer Spielplatz path: 7 edges (N01→N02, N02→D02, D02→N03, D02→N04, N03→N02 dashed, N04→IPLAN, IPLAN→E00)
 - Inspection branches: 6 edges (E00→E01, E00→E02, E00→E03, E01→E04, E02→E04, E03→E04)
-- Post-inspection: 5 edges (E04→P01, P01→MASS_KAT, MASS_KAT→MASS_UMS, MASS_UMS→DOK, DOK→END)
+- Post-inspection: 3 edges (E04→P01, E04→IHM, IHM→END)
 
 ## Footnote Count Verification
 

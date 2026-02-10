@@ -20,6 +20,7 @@ Dieses Paket enthält ein vollständiges Ablaufdiagramm für die normkonforme In
 |-------|--------|--------------|
 | Spielplatzinspektionen.drawio | draw.io | Editierbares Diagramm — öffnen Sie es in draw.io (online oder Desktop), um Knoten zu verschieben, Farben anzupassen oder Text zu bearbeiten |
 | Spielplatzinspektionen.svg | SVG | Vektorgrafik für Druck und Web-Einbettung — skaliert verlustfrei, aber nicht direkt editierbar |
+| Spielplatzinspektionen.pdf | PDF | Druckfertige Version im Format DIN A4 hochkant |
 | Spielplatzinspektionen.md | Mermaid | Quellcode des Diagramms im Mermaid-Format — für technische Nutzer und Einbettung in Dokumentationen |
 | README.md | Markdown | Diese Anleitung |
 
