@@ -9,13 +9,13 @@ Requirements for print-ready A4 optimization. Each maps to roadmap phases.
 
 ### Layout
 
-- [ ] **LAYOUT-01**: draw.io page set to exact DIN A4 portrait dimensions (210 x 297 mm)
-- [ ] **LAYOUT-02**: All nodes reorganized and resized to fit within A4 with proper print margins
-- [ ] **LAYOUT-03**: Flowchart content fully visible without clipping on A4 printout
+- [x] **LAYOUT-01**: draw.io page set to exact DIN A4 portrait dimensions (210 x 297 mm)
+- [x] **LAYOUT-02**: All nodes reorganized and resized to fit within A4 with proper print margins
+- [x] **LAYOUT-03**: Flowchart content fully visible without clipping on A4 printout
 
 ### Typography
 
-- [ ] **TYPO-01**: All nodes use a professional sans-serif font (Helvetica/Arial family) consistently
+- [x] **TYPO-01**: All nodes use a professional sans-serif font (Helvetica/Arial family) consistently
 
 ### Export
 
@@ -65,10 +65,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| LAYOUT-01 | Phase 4 | Pending |
-| LAYOUT-02 | Phase 4 | Pending |
-| LAYOUT-03 | Phase 4 | Pending |
-| TYPO-01 | Phase 4 | Pending |
+| LAYOUT-01 | Phase 4 | Complete |
+| LAYOUT-02 | Phase 4 | Complete |
+| LAYOUT-03 | Phase 4 | Complete |
+| TYPO-01 | Phase 4 | Complete |
 | EXPORT-01 | Phase 5 | Pending |
 | EXPORT-02 | Phase 5 | Pending |
 | DOC-01 | Phase 5 | Pending |

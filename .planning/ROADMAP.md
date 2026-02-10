@@ -20,7 +20,7 @@ Phases 1-3 completed: Content structure, Mermaid diagram, draw.io/SVG exports wi
 
 **Milestone Goal:** Optimize the existing flowchart for professional DIN A4 portrait printout -- same content, polished layout and typography, regenerated exports.
 
-- [ ] **Phase 4: A4 Layout and Typography** - Reformat draw.io diagram to fit single A4 portrait page with professional fonts
+- [x] **Phase 4: A4 Layout and Typography** - Reformat draw.io diagram to fit single A4 portrait page with professional fonts
 - [ ] **Phase 5: Export and Documentation** - Regenerate SVG, update Mermaid source, update README
 
 ## Phase Details
@@ -38,7 +38,7 @@ Phases 1-3 completed: Content structure, Mermaid diagram, draw.io/SVG exports wi
 
 Plans:
 - [x] 04-01-PLAN.md -- A4 page setup and spatial reorganization of all nodes (completed 2026-02-10)
-- [ ] 04-02-PLAN.md -- Typography, print-optimized colors, and visual verification
+- [x] 04-02-PLAN.md -- Typography, print-optimized colors, and visual verification (completed 2026-02-10)
 
 ### Phase 5: Export and Documentation
 **Goal**: All deliverables (SVG, Mermaid, README) are updated to match the new A4 layout
@@ -60,5 +60,5 @@ Plans:
 | Phase | Milestone | Plans Complete | Status | Completed |
 |-------|-----------|----------------|--------|-----------|
 | 1-3 | v1.0 | 4/4 | Complete | 2026-02-09 |
-| 4. A4 Layout and Typography | v1.1 | 1/2 | In progress | - |
+| 4. A4 Layout and Typography | v1.1 | 2/2 | Complete | 2026-02-10 |
 | 5. Export and Documentation | v1.1 | 0/TBD | Not started | - |
