@@ -33,16 +33,10 @@
       Inspektion von Spielplatzgeräten und Spielplatzböden nach SN EN 1176/1177
     </text>
 
-    <!-- Brand placeholder -->
-    <rect x="656" y="38" width="100" height="40" class="info-box" stroke-dasharray="3,3" />
-    <text x="706" y="62" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="middle">
-      PSP Logo
-    </text>
-
-    <!-- Footer -->
-    <text x="756" y="1080" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="end">
-      v1.1 -- 2026
-    </text>
+    <!-- PSP Logo (CDN-sourced) -->
+    <image x="656" y="38" width="93" height="40"
+      href="https://cdn.prod.website-files.com/67f92758c1ae09d703725f00/67ff5ea44756d842fa02e3ce_playsafepro_logo-rgb_xs-3.svg"
+      xlink:href="https://cdn.prod.website-files.com/67f92758c1ae09d703725f00/67ff5ea44756d842fa02e3ce_playsafepro_logo-rgb_xs-3.svg" />
   </g>
 
   <!-- Flow nodes -->
@@ -207,6 +201,37 @@
       <tspan x="418" dy="10">(Gelb) = Mängel / Massnahmen</tspan>
       <tspan x="418" dy="10">(Grau) = Start / Ende</tspan>
     </text>
+  </g>
+
+  <!-- 3-Column Corporate Footer -->
+  <g id="footer">
+    <!-- Column 1: Company address (left-aligned) -->
+    <g id="footer-col1">
+      <text x="38" y="1068" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#6C757D" text-anchor="start">
+        <tspan x="38" dy="0">giuadora AG</tspan>
+        <tspan x="38" dy="10">Sonnenstrasse 4</tspan>
+        <tspan x="38" dy="10">8280 Kreuzlingen</tspan>
+      </text>
+    </g>
+
+    <!-- Column 2: Contact info (center-aligned) -->
+    <g id="footer-col2">
+      <text x="397" y="1068" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#6C757D" text-anchor="middle">
+        <tspan x="397" dy="0">+41 (0) 71 508 24 75</tspan>
+        <tspan x="397" dy="10">www.playsafepro.ch</tspan>
+        <tspan x="397" dy="10">vertrieb@psp.live</tspan>
+      </text>
+    </g>
+
+    <!-- Column 3: Legal info (right-aligned) -->
+    <g id="footer-col3">
+      <text x="756" y="1068" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#6C757D" text-anchor="end">
+        <tspan x="756" dy="0">PlaySafePro und PlaySafeGo sind</tspan>
+        <tspan x="756" dy="10">eingetragene Marken</tspan>
+        <tspan x="756" dy="10">Sitz der Gesellschaft: Kreuzlingen</tspan>
+        <tspan x="756" dy="10">UID-Nr.: CHE-222.704.530</tspan>
+      </text>
+    </g>
   </g>
 
   <!-- Edges -->
