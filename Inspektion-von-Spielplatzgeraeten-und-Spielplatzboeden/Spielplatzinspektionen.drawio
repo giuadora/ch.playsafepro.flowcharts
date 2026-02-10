@@ -11,13 +11,13 @@
           <mxGeometry height="40" width="93" x="656" y="38" as="geometry" />
         </mxCell>
         <mxCell id="footer-col1" parent="1" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=7;fontFamily=Helvetica;fontColor=#6C757D;" value="giuadora AG&lt;br&gt;Sonnenstrasse 4&lt;br&gt;8280 Kreuzlingen" vertex="1">
-          <mxGeometry height="40" width="239" x="38" y="1060" as="geometry" />
+          <mxGeometry height="35" width="239" x="38" y="1045" as="geometry" />
         </mxCell>
         <mxCell id="footer-col2" parent="1" style="text;html=1;align=center;verticalAlign=top;whiteSpace=wrap;fontSize=7;fontFamily=Helvetica;fontColor=#6C757D;" value="+41 (0) 71 508 24 75&lt;br&gt;www.playsafepro.ch&lt;br&gt;vertrieb@psp.live" vertex="1">
-          <mxGeometry height="40" width="239" x="277" y="1060" as="geometry" />
+          <mxGeometry height="35" width="239" x="277" y="1045" as="geometry" />
         </mxCell>
         <mxCell id="footer-col3" parent="1" style="text;html=1;align=right;verticalAlign=top;whiteSpace=wrap;fontSize=7;fontFamily=Helvetica;fontColor=#6C757D;" value="PlaySafePro und PlaySafeGo sind&lt;br&gt;eingetragene Marken&lt;br&gt;Sitz der Gesellschaft: Kreuzlingen&lt;br&gt;UID-Nr.: CHE-222.704.530" vertex="1">
-          <mxGeometry height="40" width="239" x="516" y="1060" as="geometry" />
+          <mxGeometry height="35" width="239" x="516" y="1045" as="geometry" />
         </mxCell>
         <mxCell id="START" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E9ECEF;strokeColor=#6C757D;fontColor=#343A40;fontSize=9;fontFamily=Helvetica;arcSize=50;" value="Spielplatz-Inspektionen" vertex="1">
           <mxGeometry height="35" width="120" x="337" y="75" as="geometry" />
