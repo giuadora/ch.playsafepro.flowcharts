@@ -1,239 +1,304 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="1400" height="2800" xmlns="http://www.w3.org/2000/svg" version="1.1">
-  <title>PSP Inspektions-Flowchart</title>
-  <desc>Spielplatz-Inspektionen gemäss SN EN 1176-7:2020</desc>
-
-  <!-- Definitions for reusable styles -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="794" height="1123" viewBox="0 0 794 1123" version="1.1">
   <defs>
-    <style type="text/css">
-      .start-end { fill: #F5F5F5; stroke: #9E9E9E; stroke-width: 2; }
-      .new-path { fill: #BBDEFB; stroke: #1565C0; stroke-width: 2; }
-      .inspection { fill: #C8E6C9; stroke: #2E7D32; stroke-width: 2; }
-      .action { fill: #FFF9C4; stroke: #F9A825; stroke-width: 2; }
-      .urgent { fill: #FFCDD2; stroke: #C62828; stroke-width: 2; }
-      .info-box { fill: #FAFAFA; stroke: #E0E0E0; stroke-width: 1; }
-      .text-dark { font-family: Arial, sans-serif; font-size: 11px; fill: #616161; text-anchor: middle; }
-      .text-blue { font-family: Arial, sans-serif; font-size: 10px; fill: #0D47A1; text-anchor: middle; }
-      .text-green { font-family: Arial, sans-serif; font-size: 10px; fill: #1B5E20; text-anchor: middle; }
-      .text-yellow { font-family: Arial, sans-serif; font-size: 10px; fill: #E65100; text-anchor: middle; }
-      .text-red { font-family: Arial, sans-serif; font-size: 10px; fill: #B71C1C; text-anchor: middle; font-weight: bold; }
-      .text-small { font-size: 9px; }
-      .edge-label { font-family: Arial, sans-serif; font-size: 10px; fill: #666666; text-anchor: middle; }
-      .arrow { fill: none; stroke-width: 1.5; marker-end: url(#arrowhead); }
-      .arrow-blue { stroke: #1565C0; }
-      .arrow-green { stroke: #2E7D32; }
-      .arrow-yellow { stroke: #F9A825; }
-      .arrow-red { stroke: #C62828; }
-      .arrow-gray { stroke: #666666; }
-      .dashed { stroke-dasharray: 5,5; }
-    </style>
-    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
-      <polygon points="0 0, 10 3, 0 6" fill="#666666"/>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#495057" />
     </marker>
+    <style type="text/css">
+      .gray-node { fill: #E9ECEF; stroke: #6C757D; }
+      .blue-node { fill: #D6E4F0; stroke: #2B579A; }
+      .green-node { fill: #DFF0D8; stroke: #3C763D; }
+      .yellow-node { fill: #FFF3CD; stroke: #856404; }
+      .info-box { fill: #F8F9FA; stroke: #DEE2E6; }
+      .text-gray { fill: #343A40; }
+      .text-blue { fill: #1F3864; }
+      .text-green { fill: #2D572C; }
+      .text-yellow { fill: #533F03; }
+      .text-info { fill: #495057; }
+      .edge-gray { stroke: #6C757D; }
+      .edge-blue { stroke: #2B579A; }
+      .edge-green { stroke: #3C763D; }
+      .edge-yellow { stroke: #856404; }
+      .edge-annotation { stroke: #DEE2E6; }
+    </style>
   </defs>
 
-  <!-- Background -->
-  <rect width="1400" height="2800" fill="#FFFFFF"/>
+  <!-- White background -->
+  <rect width="794" height="1123" fill="#FFFFFF" />
 
-  <!-- BRANDING AREA -->
-  <rect x="1150" y="20" width="200" height="80" class="info-box" stroke-dasharray="5,5"/>
-  <text x="1250" y="65" class="text-dark" style="fill: #757575; font-size: 14px;">PSP Logo</text>
+  <!-- Metadata section -->
+  <g id="metadata">
+    <!-- Title -->
+    <text x="397" y="55" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#333333" text-anchor="middle">
+      Inspektion von Spielplatzgeräten und Spielplatzböden nach SN EN 1176/1177
+    </text>
 
-  <!-- START NODE -->
-  <rect x="520" y="40" width="180" height="60" rx="30" class="start-end"/>
-  <text x="610" y="75" class="text-dark" style="font-weight: bold;">Spielplatz-Inspektionen</text>
+    <!-- Brand placeholder -->
+    <rect x="656" y="38" width="100" height="40" class="info-box" stroke-dasharray="3,3" />
+    <text x="706" y="62" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="middle">
+      PSP Logo
+    </text>
 
-  <!-- D01 DECISION -->
-  <path d="M 610 140 L 700 190 L 610 240 L 520 190 Z" class="start-end"/>
-  <text x="610" y="185" class="text-dark">Neuer oder bestehender</text>
-  <text x="610" y="200" class="text-dark">Spielplatz?</text>
+    <!-- Footer -->
+    <text x="756" y="1080" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="end">
+      v1.1 -- 2026
+    </text>
+  </g>
 
-  <!-- NEW PLAYGROUND PATH (BLUE) -->
-  <rect x="240" y="280" width="180" height="80" class="new-path"/>
-  <text x="330" y="305" class="text-blue">Bauabnahme nach SIA 118¹</text>
-  <text x="330" y="320" class="text-blue">Vertragliche Abnahme</text>
-  <text x="330" y="335" class="text-blue">durch Architekt/Bauleiter</text>
+  <!-- Flow nodes -->
+  <g id="flow-nodes">
+    <!-- START -->
+    <rect x="337" y="75" width="120" height="35" rx="17.5" ry="17.5" class="gray-node" />
+    <text x="397" y="97" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-gray" text-anchor="middle">
+      Spielplatz-Inspektionen
+    </text>
 
-  <rect x="240" y="400" width="180" height="80" class="new-path"/>
-  <text x="330" y="425" class="text-blue">Inspektion nach Installation²</text>
-  <text x="330" y="440" class="text-blue">Sicherheitsprüfung durch</text>
-  <text x="330" y="455" class="text-blue">zertifizierte Fachperson</text>
+    <!-- D01 (diamond) -->
+    <polygon points="397,120 462,152.5 397,185 332,152.5" class="gray-node" />
+    <text x="397" y="147" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-gray" text-anchor="middle">
+      <tspan x="397" dy="0">Neuer oder bestehender</tspan>
+      <tspan x="397" dy="11">Spielplatz?</tspan>
+    </text>
 
-  <path d="M 330 520 L 420 570 L 330 620 L 240 570 Z" class="new-path"/>
-  <text x="330" y="575" class="text-blue">Mängel festgestellt?</text>
+    <!-- N01 -->
+    <rect x="45" y="125" width="120" height="55" class="blue-node" />
+    <text x="105" y="142" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-blue" text-anchor="middle">
+      <tspan x="105" dy="0">Bauabnahme nach SIA 118¹</tspan>
+      <tspan x="105" dy="11">Vertragliche Abnahme</tspan>
+      <tspan x="105" dy="11">durch Architekt/Bauleiter</tspan>
+    </text>
 
-  <rect x="80" y="540" width="120" height="60" class="new-path"/>
-  <text x="140" y="560" class="text-blue">Mängel an Ersteller/</text>
-  <text x="140" y="575" class="text-blue">Hersteller zurück</text>
-  <text x="140" y="590" class="text-blue">zur Behebung</text>
+    <!-- N02 -->
+    <rect x="45" y="205" width="120" height="55" class="blue-node" />
+    <text x="105" y="222" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-blue" text-anchor="middle">
+      <tspan x="105" dy="0">Inspektion nach Installation²</tspan>
+      <tspan x="105" dy="11">Sicherheitsprüfung durch</tspan>
+      <tspan x="105" dy="11">zertifizierte Fachperson</tspan>
+    </text>
 
-  <rect x="240" y="660" width="180" height="60" rx="30" class="new-path"/>
-  <text x="330" y="695" class="text-blue" style="font-weight: bold;">Spielplatz eröffnen</text>
+    <!-- D02 (diamond) -->
+    <polygon points="245,212 295,237 245,262 195,237" class="blue-node" />
+    <text x="245" y="233" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-blue" text-anchor="middle">
+      <tspan x="245" dy="0">Mängel</tspan>
+      <tspan x="245" dy="11">festgestellt?</tspan>
+    </text>
 
-  <!-- EXISTING PLAYGROUND PATH (GREEN) -->
-  <rect x="520" y="780" width="180" height="60" rx="30" class="inspection"/>
-  <text x="610" y="805" class="text-green" style="font-weight: bold;">Inspektionszyklus</text>
-  <text x="610" y="820" class="text-green" style="font-weight: bold;">beginnen</text>
+    <!-- N03 -->
+    <rect x="195" y="300" width="100" height="45" class="blue-node" />
+    <text x="245" y="315" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-blue" text-anchor="middle">
+      <tspan x="245" dy="0">Mängel an Ersteller/</tspan>
+      <tspan x="245" dy="11">Hersteller zurück</tspan>
+      <tspan x="245" dy="11">zur Behebung</tspan>
+    </text>
 
-  <rect x="240" y="900" width="160" height="80" class="inspection"/>
-  <text x="320" y="925" class="text-green">Sichtkontrolle³</text>
-  <text x="320" y="940" class="text-green">Sichtprüfung auf</text>
-  <text x="320" y="955" class="text-green">offensichtliche Gefahren</text>
+    <!-- N04 -->
+    <rect x="340" y="220" width="120" height="35" rx="17.5" ry="17.5" class="blue-node" />
+    <text x="400" y="242" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-blue" text-anchor="middle">
+      Spielplatz eröffnen
+    </text>
 
-  <rect x="520" y="900" width="180" height="80" class="inspection"/>
-  <text x="610" y="925" class="text-green">Funktionskontrolle⁴</text>
-  <text x="610" y="940" class="text-green">Funktionsprüfung,</text>
-  <text x="610" y="955" class="text-green">Verschleiss, Stabilität</text>
+    <!-- E00 -->
+    <rect x="337" y="340" width="120" height="35" rx="17.5" ry="17.5" class="green-node" />
+    <text x="397" y="355" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-green" text-anchor="middle">
+      <tspan x="397" dy="0">Inspektionszyklus</tspan>
+      <tspan x="397" dy="11">beginnen</tspan>
+    </text>
 
-  <rect x="820" y="900" width="180" height="80" class="inspection"/>
-  <text x="910" y="925" class="text-green">Jahreshauptinspektion⁵</text>
-  <text x="910" y="940" class="text-green">Umfassende Prüfung durch</text>
-  <text x="910" y="955" class="text-green">zertifizierte Fachperson</text>
+    <!-- E01 -->
+    <rect x="75" y="419" width="130" height="55" class="green-node" />
+    <text x="140" y="436" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-green" text-anchor="middle">
+      <tspan x="140" dy="0">Sichtkontrolle³</tspan>
+      <tspan x="140" dy="11">- Sichtprüfung auf</tspan>
+      <tspan x="140" dy="11">offensichtliche Gefahren</tspan>
+    </text>
 
-  <polygon points="520,1040 700,1040 720,1100 540,1100" class="inspection"/>
-  <text x="620" y="1065" class="text-green">Inspektionsbericht</text>
-  <text x="620" y="1080" class="text-green">erstellen</text>
+    <!-- E02 -->
+    <rect x="332" y="419" width="130" height="55" class="green-node" />
+    <text x="397" y="436" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-green" text-anchor="middle">
+      <tspan x="397" dy="0">Funktionskontrolle⁴</tspan>
+      <tspan x="397" dy="11">- Funktionsprüfung,</tspan>
+      <tspan x="397" dy="11">Verschleiss, Stabilität</tspan>
+    </text>
 
-  <!-- POST-INSPECTION PROCESS (YELLOW) -->
-  <rect x="520" y="1160" width="180" height="60" class="action"/>
-  <text x="610" y="1195" class="text-yellow">Bericht archivieren⁶</text>
+    <!-- E03 -->
+    <rect x="585" y="419" width="130" height="55" class="green-node" />
+    <text x="650" y="436" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-green" text-anchor="middle">
+      <tspan x="650" dy="0">Jahreshauptinspektion⁵</tspan>
+      <tspan x="650" dy="11">- Umfassende Prüfung durch</tspan>
+      <tspan x="650" dy="11">zertifizierte Fachperson</tspan>
+    </text>
 
-  <path d="M 610 1260 L 700 1310 L 610 1360 L 520 1310 Z" class="action"/>
-  <text x="610" y="1315" class="text-yellow">Mängel festgestellt?</text>
+    <!-- E04 (parallelogram) -->
+    <polygon points="337,530 447,530 457,570 347,570" class="green-node" />
+    <text x="397" y="547" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-green" text-anchor="middle">
+      <tspan x="397" dy="0">Inspektionsbericht</tspan>
+      <tspan x="397" dy="11">erstellen</tspan>
+    </text>
 
-  <rect x="520" y="1420" width="180" height="70" class="action"/>
-  <text x="610" y="1440" class="text-yellow">Mängel nach</text>
-  <text x="610" y="1455" class="text-yellow">CEN/TR 17207⁷</text>
-  <text x="610" y="1470" class="text-yellow">klassifizieren</text>
+    <!-- P01 -->
+    <rect x="347" y="590" width="100" height="35" class="yellow-node" />
+    <text x="397" y="612" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-yellow" text-anchor="middle">
+      Bericht archivieren⁶
+    </text>
 
-  <path d="M 610 1540 L 700 1590 L 610 1640 L 520 1590 Z" class="action"/>
-  <text x="610" y="1595" class="text-yellow">Schweregrad?</text>
+    <!-- MASS_KAT -->
+    <rect x="297" y="642" width="200" height="40" class="yellow-node" />
+    <text x="397" y="657" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-yellow" text-anchor="middle">
+      <tspan x="397" dy="0">Massnahmenkatalog für</tspan>
+      <tspan x="397" dy="11">festgestellte Mängel erstellen</tspan>
+    </text>
 
-  <rect x="820" y="1560" width="160" height="60" class="action"/>
-  <text x="900" y="1580" class="text-yellow">Konform: Keine Massnahme,</text>
-  <text x="900" y="1595" class="text-yellow">nur Dokumentation</text>
+    <!-- MASS_UMS -->
+    <rect x="297" y="700" width="200" height="40" class="yellow-node" />
+    <text x="397" y="715" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-yellow" text-anchor="middle">
+      <tspan x="397" dy="0">Massnahmen umsetzen</tspan>
+      <tspan x="397" dy="11">und Mängel beheben</tspan>
+    </text>
 
-  <!-- URGENT ACTION (RED) -->
-  <rect x="240" y="1560" width="160" height="70" class="urgent"/>
-  <text x="320" y="1580" class="text-red">Gerät sperren⁸</text>
-  <text x="320" y="1595" class="text-red">Sofortige Sperrung bei</text>
-  <text x="320" y="1610" class="text-red">sicherheitskritischen Mängeln</text>
+    <!-- DOK (parallelogram) -->
+    <polygon points="340,760 444,760 454,795 350,795" class="yellow-node" />
+    <text x="397" y="782" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-yellow" text-anchor="middle">
+      Dokumentation
+    </text>
 
-  <!-- CONTINUE YELLOW PATH -->
-  <rect x="520" y="1720" width="180" height="70" class="action"/>
-  <text x="610" y="1740" class="text-yellow">Massnahmenkatalog erstellen</text>
-  <text x="610" y="1755" class="text-yellow">Priorisierung, Zuweisung,</text>
-  <text x="610" y="1770" class="text-yellow">Terminierung</text>
+    <!-- END -->
+    <rect x="337" y="815" width="120" height="35" rx="17.5" ry="17.5" class="gray-node" />
+    <text x="397" y="830" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-gray" text-anchor="middle">
+      <tspan x="397" dy="0">Nächster Inspektionszyklus</tspan>
+      <tspan x="397" dy="11">gemäss Zeitplan⁸</tspan>
+    </text>
+  </g>
 
-  <path d="M 610 1840 L 700 1900 L 610 1960 L 520 1900 Z" class="action"/>
-  <text x="610" y="1890" class="text-yellow" style="font-size: 9px;">Entscheidung:</text>
-  <text x="610" y="1905" class="text-yellow" style="font-size: 9px;">Budget, intern vs. extern,</text>
-  <text x="610" y="1920" class="text-yellow" style="font-size: 9px;">Priorisierung</text>
+  <!-- Annotation -->
+  <g id="annotation">
+    <text x="475" y="543" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" font-style="italic" text-anchor="start">
+      <tspan x="475" dy="0">Festgestellte Mängel sind im Bericht</tspan>
+      <tspan x="475" dy="10">nach CEN/TR 17207⁷ zu klassifizieren</tspan>
+    </text>
+  </g>
 
-  <rect x="520" y="2000" width="180" height="70" class="action"/>
-  <text x="610" y="2020" class="text-yellow">Massnahmen umsetzen</text>
-  <text x="610" y="2035" class="text-yellow">Reparaturen/Korrekturen</text>
-  <text x="610" y="2050" class="text-yellow">ausführen</text>
+  <!-- Info boxes -->
+  <g id="info-boxes">
+    <!-- FOOTNOTES -->
+    <rect x="38" y="950" width="350" height="90" class="info-box" />
+    <text x="46" y="963" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="start">
+      <tspan x="46" dy="0" font-weight="bold">Fussnoten</tspan>
+      <tspan x="46" dy="11">¹ SIA 118 — Vertragliche Bauabnahme, ersetzt nicht die Sicherheitsinspektion</tspan>
+      <tspan x="46" dy="10">² SN EN 1176-7, 6.1a — Inspektion nach Installation</tspan>
+      <tspan x="46" dy="10">³ SN EN 1176-7, 6.1b — Visuelle Routineinspektion</tspan>
+      <tspan x="46" dy="10">⁴ SN EN 1176-7, 6.1c — Operative Inspektion</tspan>
+      <tspan x="46" dy="10">⁵ SN EN 1176-7, 6.1d — Jährliche Hauptinspektion</tspan>
+      <tspan x="46" dy="10">⁶ SN EN 1176-7, 8.2.2 — Dokumentationspflicht</tspan>
+      <tspan x="46" dy="10">⁷ CEN/TR 17207 — Mängelklassifizierung</tspan>
+      <tspan x="46" dy="10">⁸ SN EN 1176-7, 6.2.4 — Inspektionsplan</tspan>
+    </text>
 
-  <polygon points="520,2120 700,2120 720,2200 540,2200" class="action"/>
-  <text x="620" y="2145" class="text-yellow">Dokumentation</text>
-  <text x="620" y="2160" class="text-yellow">bestehender Mängel:</text>
-  <text x="620" y="2175" class="text-yellow">Nachverfolgung,</text>
-  <text x="620" y="2190" class="text-yellow">Wiedervorlage</text>
+    <!-- LEGEND -->
+    <rect x="410" y="930" width="340" height="100" class="info-box" />
+    <text x="418" y="943" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="start">
+      <tspan x="418" dy="0" font-weight="bold">Legende</tspan>
+      <tspan x="418" dy="11">▭ Rechteck = Prozessschritt / Aktion</tspan>
+      <tspan x="418" dy="10">◇ Raute = Entscheidungspunkt</tspan>
+      <tspan x="418" dy="10">⬭ Abgerundetes Rechteck = Start / Ende</tspan>
+      <tspan x="418" dy="10">▱ Parallelogramm = Dokument / Bericht</tspan>
+      <tspan x="418" dy="11" font-weight="bold">Farben:</tspan>
+      <tspan x="418" dy="11">(Blau) = Neuer Spielplatz</tspan>
+      <tspan x="418" dy="10">(Grün) = Inspektionen</tspan>
+      <tspan x="418" dy="10">(Gelb) = Mängel / Massnahmen</tspan>
+      <tspan x="418" dy="10">(Grau) = Start / Ende</tspan>
+    </text>
+  </g>
 
-  <path d="M 610 2240 L 700 2290 L 610 2340 L 520 2290 Z" class="action"/>
-  <text x="610" y="2295" class="text-yellow">Mängel behoben?</text>
+  <!-- Edges -->
+  <g id="edges" fill="none" stroke-width="1.5">
+    <!-- e1: START -> D01 -->
+    <path d="M 397,110 L 397,120" class="edge-gray" marker-end="url(#arrowhead)" />
 
-  <!-- END NODE -->
-  <rect x="520" y="2400" width="180" height="60" rx="30" class="start-end"/>
-  <text x="610" y="2425" class="text-dark" style="font-weight: bold;">Nächster Inspektionszyklus</text>
-  <text x="610" y="2440" class="text-dark" style="font-weight: bold;">gemäss Zeitplan⁹</text>
+    <!-- e2: D01 -> N01 (label: Neuer Spielplatz) -->
+    <path d="M 332,152.5 L 165,152.5" class="edge-blue" marker-end="url(#arrowhead)" />
+    <text x="235" y="148" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="middle">
+      Neuer Spielplatz
+    </text>
 
-  <!-- FOOTNOTES BOX -->
-  <rect x="80" y="2540" width="560" height="200" class="info-box"/>
-  <text x="90" y="2560" class="text-dark" style="text-anchor: start; font-weight: bold;">Fussnoten</text>
-  <text x="90" y="2580" class="text-small" style="text-anchor: start; fill: #616161;">¹ SIA 118 — Vertragliche Bauabnahme, ersetzt nicht die Sicherheitsinspektion</text>
-  <text x="90" y="2595" class="text-small" style="text-anchor: start; fill: #616161;">² SN EN 1176-7, 6.1a — Inspektion nach Installation</text>
-  <text x="90" y="2610" class="text-small" style="text-anchor: start; fill: #616161;">³ SN EN 1176-7, 6.1b — Visuelle Routineinspektion</text>
-  <text x="90" y="2625" class="text-small" style="text-anchor: start; fill: #616161;">⁴ SN EN 1176-7, 6.1c — Operative Inspektion</text>
-  <text x="90" y="2640" class="text-small" style="text-anchor: start; fill: #616161;">⁵ SN EN 1176-7, 6.1d — Jährliche Hauptinspektion</text>
-  <text x="90" y="2655" class="text-small" style="text-anchor: start; fill: #616161;">⁶ SN EN 1176-7, 8.2.2 — Dokumentationspflicht</text>
-  <text x="90" y="2670" class="text-small" style="text-anchor: start; fill: #616161;">⁷ CEN/TR 17207 — Mängelklassifizierung</text>
-  <text x="90" y="2685" class="text-small" style="text-anchor: start; fill: #616161;">⁸ SN EN 1176-7, 6.2.1 — Sofortmassnahmen bei Schweregrad Dringend</text>
-  <text x="90" y="2700" class="text-small" style="text-anchor: start; fill: #616161;">⁹ SN EN 1176-7, 6.2.4 — Inspektionsplan</text>
+    <!-- e3: D01 -> E00 (label: Bestehender Spielplatz) via waypoints -->
+    <path d="M 462,152.5 L 690,152.5 L 690,323 L 397,323 L 397,340" class="edge-green" marker-end="url(#arrowhead)" />
+    <text x="545" y="148" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="middle">
+      Bestehender Spielplatz
+    </text>
 
-  <!-- LEGEND BOX -->
-  <rect x="680" y="2540" width="320" height="200" class="info-box"/>
-  <text x="690" y="2560" class="text-dark" style="text-anchor: start; font-weight: bold;">Legende</text>
-  <text x="690" y="2580" class="text-small" style="text-anchor: start; fill: #616161;">▭ Rechteck = Prozessschritt / Aktion</text>
-  <text x="690" y="2595" class="text-small" style="text-anchor: start; fill: #616161;">◇ Raute = Entscheidungspunkt</text>
-  <text x="690" y="2610" class="text-small" style="text-anchor: start; fill: #616161;">⬭ Abgerundetes Rechteck = Start / Ende</text>
-  <text x="690" y="2625" class="text-small" style="text-anchor: start; fill: #616161;">▱ Parallelogramm = Dokument / Bericht</text>
-  <text x="690" y="2650" class="text-dark" style="text-anchor: start; font-weight: bold; font-size: 9px;">Farben:</text>
-  <text x="690" y="2665" class="text-small" style="text-anchor: start; fill: #616161;">(Blau) = Neuer Spielplatz</text>
-  <text x="690" y="2680" class="text-small" style="text-anchor: start; fill: #616161;">(Grün) = Inspektionen</text>
-  <text x="690" y="2695" class="text-small" style="text-anchor: start; fill: #616161;">(Gelb) = Mängel / Massnahmen</text>
-  <text x="690" y="2710" class="text-small" style="text-anchor: start; fill: #616161;">(Rot) = Kritische Sperrung</text>
-  <text x="690" y="2725" class="text-small" style="text-anchor: start; fill: #616161;">(Grau) = Start / Ende</text>
+    <!-- e4: N01 -> N02 -->
+    <path d="M 105,180 L 105,205" class="edge-blue" marker-end="url(#arrowhead)" />
 
-  <!-- EDGES (Connections) -->
-  <!-- Starting fork -->
-  <path d="M 610 100 L 610 140" class="arrow arrow-gray"/>
-  <path d="M 520 190 L 420 190 L 420 280 L 330 280" class="arrow arrow-blue"/>
-  <text x="440" y="185" class="edge-label" style="fill: #1565C0;">Neuer Spielplatz</text>
-  <path d="M 700 190 L 700 600 L 610 600 L 610 780" class="arrow arrow-green"/>
-  <text x="720" y="400" class="edge-label" style="fill: #2E7D32;">Bestehender Spielplatz</text>
+    <!-- e5: N02 -> D02 -->
+    <path d="M 165,232.5 L 195,237" class="edge-blue" marker-end="url(#arrowhead)" />
 
-  <!-- New playground path -->
-  <path d="M 330 360 L 330 400" class="arrow arrow-blue"/>
-  <path d="M 330 480 L 330 520" class="arrow arrow-blue"/>
-  <path d="M 240 570 L 200 570" class="arrow arrow-blue"/>
-  <text x="210" y="565" class="edge-label" style="fill: #1565C0;">Ja</text>
-  <path d="M 330 620 L 330 660" class="arrow arrow-blue"/>
-  <text x="345" y="645" class="edge-label" style="fill: #1565C0;">Nein</text>
-  <path d="M 200 570 L 40 570 L 40 440 L 240 440" class="arrow arrow-blue dashed"/>
-  <text x="100" y="450" class="edge-label text-small" style="fill: #1565C0;">Nachbesserung</text>
-  <path d="M 330 720 L 330 760 L 610 760 L 610 780" class="arrow arrow-blue"/>
-  <text x="470" y="750" class="edge-label" style="fill: #1565C0;">Spielplatz in Betrieb</text>
+    <!-- e6: D02 -> N03 (label: Ja) -->
+    <path d="M 245,262 L 245,300" class="edge-blue" marker-end="url(#arrowhead)" />
+    <text x="250" y="285" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="start">
+      Ja
+    </text>
 
-  <!-- Inspection branches -->
-  <path d="M 520 810 L 320 810 L 320 900" class="arrow arrow-green"/>
-  <text x="400" y="805" class="edge-label" style="fill: #2E7D32;">wöchentlich</text>
-  <path d="M 610 840 L 610 900" class="arrow arrow-green"/>
-  <text x="625" y="870" class="edge-label" style="fill: #2E7D32;">pro Quartal</text>
-  <path d="M 700 810 L 910 810 L 910 900" class="arrow arrow-green"/>
-  <text x="820" y="805" class="edge-label" style="fill: #2E7D32;">jährlich</text>
-  <path d="M 320 980 L 320 1020 L 620 1020 L 620 1040" class="arrow arrow-green"/>
-  <path d="M 610 980 L 610 1020 L 620 1020 L 620 1040" class="arrow arrow-green"/>
-  <path d="M 910 980 L 910 1020 L 620 1020 L 620 1040" class="arrow arrow-green"/>
+    <!-- e7: D02 -> N04 (label: Nein) -->
+    <path d="M 295,237 L 340,237.5" class="edge-blue" marker-end="url(#arrowhead)" />
+    <text x="310" y="233" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="middle">
+      Nein
+    </text>
 
-  <!-- Post-inspection process -->
-  <path d="M 620 1100 L 620 1160" class="arrow arrow-green"/>
-  <path d="M 610 1220 L 610 1260" class="arrow arrow-yellow"/>
-  <path d="M 700 1310 L 760 1310 L 760 2430 L 700 2430" class="arrow arrow-gray"/>
-  <text x="775" y="1800" class="edge-label">Nein</text>
-  <path d="M 610 1360 L 610 1420" class="arrow arrow-yellow"/>
-  <text x="625" y="1390" class="edge-label" style="fill: #F9A825;">Ja</text>
-  <path d="M 610 1490 L 610 1540" class="arrow arrow-yellow"/>
-  <path d="M 700 1590 L 820 1590" class="arrow arrow-yellow"/>
-  <text x="750" y="1585" class="edge-label" style="fill: #F9A825;">Konform</text>
-  <path d="M 520 1590 L 400 1590" class="arrow arrow-red"/>
-  <text x="450" y="1585" class="edge-label" style="fill: #C62828;">Dringend</text>
-  <path d="M 700 1590 L 700 1755 L 700 1755" class="arrow arrow-yellow"/>
-  <text x="715" y="1670" class="edge-label" style="fill: #F9A825;">Empfohlen</text>
-  <path d="M 610 1640 L 610 1720" class="arrow arrow-yellow"/>
-  <text x="625" y="1680" class="edge-label" style="fill: #F9A825;">Wichtig</text>
-  <path d="M 900 1620 L 900 2430 L 700 2430" class="arrow arrow-gray"/>
-  <path d="M 320 1630 L 320 1680 L 520 1680 L 520 1720" class="arrow arrow-red"/>
-  <text x="400" y="1675" class="edge-label" style="fill: #C62828;">Nach Sperrung</text>
-  <path d="M 610 1790 L 610 1840" class="arrow arrow-yellow"/>
-  <path d="M 610 1960 L 610 2000" class="arrow arrow-yellow"/>
-  <text x="625" y="1980" class="edge-label text-small" style="fill: #F9A825;">Entscheidung getroffen</text>
-  <path d="M 610 2070 L 610 2100 L 620 2100 L 620 2120" class="arrow arrow-yellow"/>
-  <path d="M 620 2200 L 620 2240" class="arrow arrow-yellow"/>
-  <path d="M 610 2340 L 610 2400" class="arrow arrow-gray"/>
-  <text x="625" y="2370" class="edge-label">Ja</text>
-  <path d="M 700 2290 L 800 2290 L 800 2160 L 720 2160" class="arrow arrow-yellow dashed"/>
-  <text x="750" y="2220" class="edge-label text-small" style="fill: #F9A825;">Nein: Wiedervorlage</text>
+    <!-- e8: N03 -> N02 (label: Nachbesserung, dashed) via waypoints -->
+    <path d="M 195,322.5 L 105,322.5 L 105,260" class="edge-blue" stroke-dasharray="5,5" marker-end="url(#arrowhead)" />
+    <text x="145" y="318" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="middle">
+      Nachbesserung
+    </text>
 
+    <!-- e9: N04 -> E00 (label: Spielplatz in Betrieb) -->
+    <path d="M 400,255 L 397,340" class="edge-blue" marker-end="url(#arrowhead)" />
+    <text x="330" y="300" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="end">
+      Spielplatz in Betrieb
+    </text>
+
+    <!-- e10: E00 -> E01 (label: wöchentlich) -->
+    <path d="M 367,375 L 140,375 L 140,419" class="edge-green" marker-end="url(#arrowhead)" />
+    <text x="220" y="390" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="middle">
+      wöchentlich
+    </text>
+
+    <!-- e11: E00 -> E02 (label: quartalsweise) -->
+    <path d="M 397,375 L 397,419" class="edge-green" marker-end="url(#arrowhead)" />
+    <text x="407" y="400" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="start">
+      quartalsweise
+    </text>
+
+    <!-- e12: E00 -> E03 (label: jährlich) -->
+    <path d="M 427,375 L 650,375 L 650,419" class="edge-green" marker-end="url(#arrowhead)" />
+    <text x="560" y="390" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="middle">
+      jährlich
+    </text>
+
+    <!-- e13: E01 -> E04 via waypoints -->
+    <path d="M 140,474 L 140,490 L 367,490 L 367,530" class="edge-green" marker-end="url(#arrowhead)" />
+
+    <!-- e14: E02 -> E04 -->
+    <path d="M 397,474 L 397,530" class="edge-green" marker-end="url(#arrowhead)" />
+
+    <!-- e15: E03 -> E04 via waypoints -->
+    <path d="M 650,474 L 650,490 L 427,490 L 427,530" class="edge-green" marker-end="url(#arrowhead)" />
+
+    <!-- e16: E04 -> P01 -->
+    <path d="M 397,570 L 397,590" class="edge-yellow" marker-end="url(#arrowhead)" />
+
+    <!-- e17: P01 -> MASS_KAT -->
+    <path d="M 397,625 L 397,642" class="edge-yellow" marker-end="url(#arrowhead)" />
+
+    <!-- e18: MASS_KAT -> MASS_UMS -->
+    <path d="M 397,682 L 397,700" class="edge-yellow" marker-end="url(#arrowhead)" />
+
+    <!-- e19: MASS_UMS -> DOK -->
+    <path d="M 397,740 L 397,760" class="edge-yellow" marker-end="url(#arrowhead)" />
+
+    <!-- e20: DOK -> END -->
+    <path d="M 397,795 L 397,815" class="edge-gray" marker-end="url(#arrowhead)" />
+
+    <!-- eNOTE: E04 -> NOTE (dashed annotation) -->
+    <path d="M 457,550 L 472,550" class="edge-annotation" stroke-width="1" stroke-dasharray="3,3" marker-end="url(#arrowhead)" />
+  </g>
 </svg>
