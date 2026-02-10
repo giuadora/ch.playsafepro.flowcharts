@@ -202,7 +202,7 @@ Die Datei `Spielplatzinspektionen.md` enthält den Quellcode des Diagramms im Me
 
 Für Fragen zur Anwendung dieses Flowcharts oder zu Spielplatz-Inspektionen:
 
-- **E-Mail:** info@psp.live
+- **E-Mail:** vertrieb@psp.live
 - **Website:** https://www.playsafepro.ch
 
 ---
