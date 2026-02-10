@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://www.playsafepro.ch">
+    <img src="https://cdn.prod.website-files.com/67f92758c1ae09d703725f00/67ff5ea44756d842fa02e3ce_playsafepro_logo-rgb_xs-3.svg" alt="PlaySafePro" width="200">
+  </a>
+</p>
+
 # Inspektion von Spielplatzgeräten und Spielplatzböden
 
 ## Über dieses Paket
@@ -6,7 +12,7 @@ Dieses Paket enthält ein vollständiges Ablaufdiagramm für die normkonforme In
 
 **Zielgruppe:** Spielplatzbetreiber, Gemeinden, Immobilienverwaltungen und Eigentümer, die ihre Sorgfaltspflicht nach Art. 58 OR (Werkeigentümerhaftung) erfüllen müssen.
 
-**Version 1.1** ist optimiert für professionellen Druck im Format DIN A4 hochkant.
+**Version 1.2** ist optimiert für professionellen Druck im Format DIN A4 hochkant.
 
 ## Enthaltene Dateien
 
@@ -202,7 +208,7 @@ Für Fragen zur Anwendung dieses Flowcharts oder zu Spielplatz-Inspektionen:
 ---
 
 **Letzte Aktualisierung:** Februar 2026
-**Version:** 1.1
+**Version:** 1.2
 **Lizenz:** CC BY-NC 4.0 (Creative Commons Attribution-NonCommercial 4.0 International)
 
 Sie dürfen das Werk vervielfältigen, verbreiten und öffentlich zugänglich machen sowie Abwandlungen und Bearbeitungen anfertigen, sofern Sie den Namen des Autors nennen und das Werk nicht für kommerzielle Zwecke verwenden.
