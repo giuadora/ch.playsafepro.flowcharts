@@ -6,16 +6,16 @@ See: .planning/PROJECT.md (updated 2026-02-10)
 
 **Core value:** Give playground owners a clear, norm-based understanding of inspection obligations per SN EN 1176-7, so they can fulfill their duty of care (Werkeigentumerhaftung, Art. 58 OR)
 
-**Current focus:** v1.1 Print-Ready A4 — Optimize flowchart for DIN A4 portrait printout with professional typography
+**Current focus:** v1.1 Print-Ready A4 -- Phase 4: A4 Layout and Typography
 
 ## Current Position
 
-Phase: Not started (defining requirements)
-Plan: —
-Status: Defining requirements
-Last activity: 2026-02-10 — Milestone v1.1 started
+Phase: 4 of 5 (A4 Layout and Typography)
+Plan: Not started
+Status: Ready to plan
+Last activity: 2026-02-10 -- Roadmap created for v1.1
 
-Progress: [░░░░░░░░░░] 0% (v1.1)
+Progress: [##########░░░░░░░░░░] 0% (v1.1: 0/2 phases)
 
 ## Performance Metrics
 
@@ -40,6 +40,8 @@ Progress: [░░░░░░░░░░] 0% (v1.1)
 
 See PROJECT.md Key Decisions table for full log.
 
+Recent: A4 portrait orientation chosen for single-page print (flowchart flows top-to-bottom naturally).
+
 ### Pending Todos
 
 None.
@@ -51,5 +53,5 @@ None.
 ## Session Continuity
 
 Last session: 2026-02-10
-Stopped at: Defining v1.1 requirements
+Stopped at: Roadmap created for v1.1, ready to plan Phase 4
 Resume file: None

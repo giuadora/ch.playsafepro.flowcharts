@@ -9,7 +9,7 @@ Requirements for print-ready A4 optimization. Each maps to roadmap phases.
 
 ### Layout
 
-- [ ] **LAYOUT-01**: draw.io page set to exact DIN A4 portrait dimensions (210 × 297 mm)
+- [ ] **LAYOUT-01**: draw.io page set to exact DIN A4 portrait dimensions (210 x 297 mm)
 - [ ] **LAYOUT-02**: All nodes reorganized and resized to fit within A4 with proper print margins
 - [ ] **LAYOUT-03**: Flowchart content fully visible without clipping on A4 printout
 
@@ -54,7 +54,7 @@ Deferred to later milestones. Tracked but not in current roadmap.
 | Feature | Reason |
 |---------|--------|
 | Color palette changes | Current color scheme works well; optimize only if print contrast is poor |
-| Content changes | Same flowchart content as v1 — only layout/typography changes |
+| Content changes | Same flowchart content as v1 -- only layout/typography changes |
 | Multi-page PDF | User explicitly chose single A4 page |
 | Landscape orientation | User explicitly chose portrait |
 | English version | German only per v1 scope |
@@ -65,19 +65,19 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| LAYOUT-01 | — | Pending |
-| LAYOUT-02 | — | Pending |
-| LAYOUT-03 | — | Pending |
-| TYPO-01 | — | Pending |
-| EXPORT-01 | — | Pending |
-| EXPORT-02 | — | Pending |
-| DOC-01 | — | Pending |
+| LAYOUT-01 | Phase 4 | Pending |
+| LAYOUT-02 | Phase 4 | Pending |
+| LAYOUT-03 | Phase 4 | Pending |
+| TYPO-01 | Phase 4 | Pending |
+| EXPORT-01 | Phase 5 | Pending |
+| EXPORT-02 | Phase 5 | Pending |
+| DOC-01 | Phase 5 | Pending |
 
 **Coverage:**
 - v1.1 requirements: 7 total
-- Mapped to phases: 0
-- Unmapped: 7 ⚠️
+- Mapped to phases: 7
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-02-10*
-*Last updated: 2026-02-10 after initial definition*
+*Last updated: 2026-02-10 after roadmap creation*
