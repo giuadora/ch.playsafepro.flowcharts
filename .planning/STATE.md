@@ -6,15 +6,16 @@ See: .planning/PROJECT.md (updated 2026-02-10)
 
 **Core value:** Give playground owners a clear, norm-based understanding of inspection obligations per SN EN 1176-7, so they can fulfill their duty of care (Werkeigentumerhaftung, Art. 58 OR)
 
-**Current focus:** Planning next milestone
+**Current focus:** v1.2 Branding
 
 ## Current Position
 
-Phase: All complete
-Status: v1.1 milestone shipped
-Last activity: 2026-02-10 — Completed v1.1 Print-Ready A4 milestone
+Phase: Not started (defining requirements)
+Plan: —
+Status: Defining requirements
+Last activity: 2026-02-10 — Milestone v1.2 started
 
-Progress: [████████████████████] 100% (v1.0 + v1.1 shipped)
+Progress: [░░░░░░░░░░░░░░░░░░░] 0%
 
 ## Performance Metrics
 
@@ -45,13 +46,13 @@ None
 
 ### Blockers/Concerns
 
-None — v1.1 shipped, ready for next milestone or GitHub publishing
+None
 
 ## Session Continuity
 
 Last session: 2026-02-10
-Stopped at: v1.1 milestone completion
+Stopped at: Defining v1.2 milestone
 Resume file: None
 
-**Git status:** Ready for milestone commit and tag
-**Next action:** `/gsd:new-milestone` for next version
+**Git status:** Clean
+**Next action:** Define requirements and roadmap for v1.2

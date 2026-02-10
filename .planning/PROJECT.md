@@ -8,6 +8,16 @@ A customer-facing flowchart (in German) that explains the inspection obligations
 
 Give playground owners a clear, norm-based understanding of what inspections are required, when, by whom, and what to do with the results — so they can fulfill their duty of care (Werkeigentumerhaftung, Art. 58 OR).
 
+## Current Milestone: v1.2 Branding
+
+**Goal:** Add PSP corporate identity — real logo and professional 3-column footer matching the Offerte template.
+
+**Target improvements:**
+- Replace logo placeholder with actual PSP logo (SVG from CDN)
+- Add 3-column corporate footer (company, contact, legal)
+- Add logo to README
+- Regenerate SVG export
+
 ## Current State
 
 **Shipped:** v1.1 Print-Ready A4 (2026-02-10)
@@ -54,7 +64,10 @@ Delivery package at `Inspektion-von-Spielplatzgeraeten-und-Spielplatzboeden/`:
 
 ### Active
 
-(None — no active milestone)
+- [ ] PSP logo replaces placeholder in draw.io diagram
+- [ ] 3-column corporate footer in draw.io matching Offerte style
+- [ ] PSP logo added to README
+- [ ] SVG export regenerated with logo and footer
 
 ### Out of Scope
 
@@ -125,4 +138,4 @@ PlaySafePro (playsafepro.ch) provides playground inspection, safety management, 
 | Footnote renumbering after P04 removal | Clean sequential numbering (8 footnotes) | ✓ Good |
 
 ---
-*Last updated: 2026-02-10 after v1.1 milestone*
+*Last updated: 2026-02-10 after v1.2 milestone start*
