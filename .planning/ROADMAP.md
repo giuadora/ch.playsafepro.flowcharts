@@ -48,10 +48,11 @@ Plans:
   1. SVG export matches the current draw.io layout exactly (same nodes, same arrangement, same fonts)
   2. Mermaid source reflects any structural changes made during layout reorganization
   3. README documents the A4 print-ready format and any new usage instructions
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 05-01: TBD
+- [ ] 05-01-PLAN.md -- Rename folder/files, rewrite Mermaid source, full README refresh
+- [ ] 05-02-PLAN.md -- Generate SVG export, verify all deliverables
 
 ## Progress
 
@@ -61,4 +62,4 @@ Plans:
 |-------|-----------|----------------|--------|-----------|
 | 1-3 | v1.0 | 4/4 | Complete | 2026-02-09 |
 | 4. A4 Layout and Typography | v1.1 | 2/2 | Complete | 2026-02-10 |
-| 5. Export and Documentation | v1.1 | 0/TBD | Not started | - |
+| 5. Export and Documentation | v1.1 | 0/2 | Not started | - |
