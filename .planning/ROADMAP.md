@@ -107,11 +107,12 @@ Plans:
   5. Both flowcharts' "Als Vorlage herunterladen" QR points to shared README
   6. Both flowcharts pass all quality checks (center alignment, connected arrows, margins, no overlaps, footer, branding)
   7. Complete delivery package exists for both flowcharts (.drawio, .svg, .pdf, .md)
-**Plans**: 2 plans
+**Plans**: 3 plans
 
 Plans:
-- [ ] 09-01: Legend subprocess symbol, QR code updates, and README updates (DOC-01, DOC-02, DOC-03, FILE-02, FILE-03)
-- [ ] 09-02: Automated quality checks and visual verification (QA-01 through QA-06)
+- [x] 09-01: Legend subprocess symbol, QR code updates, and README updates (DOC-01, DOC-02, DOC-03, FILE-02, FILE-03)
+- [x] 09-02: Automated quality checks and visual verification (QA-01 through QA-06)
+- [ ] 09-03: Generate SVG and PDF exports for both split flowcharts (gap closure)
 
 ## Progress
 
@@ -128,4 +129,4 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 →
 | 6. PSP Branding | v1.2 | 2/2 | Complete | 2026-02-10 |
 | 7. Flowchart Split & File Structure | v2.0 | 1/1 | Complete | 2026-02-12 |
 | 8. Node Modifications & Norm Compliance | v2.0 | 2/2 | Complete | 2026-02-12 |
-| 9. Documentation & Quality Verification | v2.0 | 0/TBD | Not started | - |
+| 9. Documentation & Quality Verification | v2.0 | 2/3 | Gap closure | - |
