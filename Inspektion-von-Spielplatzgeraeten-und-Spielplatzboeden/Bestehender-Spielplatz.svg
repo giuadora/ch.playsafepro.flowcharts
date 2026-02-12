@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="794" height="1123" viewBox="0 0 794 1123" version="1.1">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#3C763D" />
+    </marker>
+    <marker id="arrowhead-gray" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#6C757D" />
+    </marker>
+    <style type="text/css">
+      .gray-node { fill: #E9ECEF; stroke: #6C757D; }
+      .blue-node { fill: #D6E4F0; stroke: #2B579A; }
+      .green-node { fill: #DFF0D8; stroke: #3C763D; }
+      .yellow-node { fill: #FFF3CD; stroke: #856404; }
+      .info-box { fill: #F8F9FA; stroke: #DEE2E6; }
+      .text-gray { fill: #343A40; }
+      .text-blue { fill: #1F3864; }
+      .text-green { fill: #2D572C; }
+      .text-yellow { fill: #533F03; }
+      .text-info { fill: #495057; }
+      .edge-gray { stroke: #6C757D; }
+      .edge-blue { stroke: #2B579A; }
+      .edge-green { stroke: #3C763D; }
+      .edge-yellow { stroke: #856404; }
+      .edge-annotation { stroke: #DEE2E6; }
+    </style>
+  </defs>
+
+  <!-- White background -->
+  <rect width="794" height="1123" fill="#FFFFFF" />
+
+  <!-- Metadata section -->
+  <g id="metadata">
+    <!-- Title -->
+    <text x="397" y="55" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#333333" text-anchor="middle">
+      Inspektion von Spielplatzgeräten und Spielplatzböden nach SN EN 1176/1177
+    </text>
+
+    <!-- Subtitle -->
+    <text x="397" y="71" font-family="Helvetica, Arial, sans-serif" font-size="10" font-style="italic" fill="#3C763D" text-anchor="middle">
+      Bestehender Spielplatz
+    </text>
+
+    <!-- PSP Logo (CDN-sourced) -->
+    <image x="656" y="38" width="93" height="40"
+      href="https://cdn.prod.website-files.com/67f92758c1ae09d703725f00/67ff5ea44756d842fa02e3ce_playsafepro_logo-rgb_xs-3.svg"
+      xlink:href="https://cdn.prod.website-files.com/67f92758c1ae09d703725f00/67ff5ea44756d842fa02e3ce_playsafepro_logo-rgb_xs-3.svg" />
+  </g>
+
+  <!-- Flow nodes -->
+  <g id="flow-nodes">
+    <!-- E00 -->
+    <rect x="337" y="310" width="120" height="35" rx="17.5" ry="17.5" class="green-node" />
+    <text x="397" y="324" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-green" text-anchor="middle">
+      <tspan x="397" dy="0">Inspektionszyklus</tspan>
+      <tspan x="397" dy="11">beginnen</tspan>
+    </text>
+
+    <!-- E01 -->
+    <rect x="77" y="419" width="130" height="55" class="green-node" />
+    <text x="142" y="433" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-green" text-anchor="middle">
+      <tspan x="142" dy="0">Visuelle Routine-Inspektion³</tspan>
+      <tspan x="142" dy="11">- Sichtprüfung auf</tspan>
+      <tspan x="142" dy="11">offensichtliche Gefahren</tspan>
+    </text>
+
+    <!-- E02 -->
+    <rect x="332" y="419" width="130" height="55" class="green-node" />
+    <text x="397" y="433" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-green" text-anchor="middle">
+      <tspan x="397" dy="0">Operative Inspektion⁴</tspan>
+      <tspan x="397" dy="11">- Funktionsprüfung,</tspan>
+      <tspan x="397" dy="11">Verschleiss, Stabilität</tspan>
+    </text>
+
+    <!-- E03 -->
+    <rect x="587" y="419" width="130" height="55" class="green-node" />
+    <text x="652" y="433" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-green" text-anchor="middle">
+      <tspan x="652" dy="0">Jährliche Hauptinspektion⁵</tspan>
+      <tspan x="652" dy="11">- Umfassende Prüfung durch</tspan>
+      <tspan x="652" dy="11">zertifizierte Fachperson</tspan>
+    </text>
+
+    <!-- E04 (parallelogram) -->
+    <polygon points="337,530 447,530 457,570 347,570" class="green-node" />
+    <text x="397" y="544" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-green" text-anchor="middle">
+      <tspan x="397" dy="0">Inspektionsbericht</tspan>
+      <tspan x="397" dy="11">erstellen</tspan>
+    </text>
+
+    <!-- NOTE (annotation text) -->
+    <text x="477" y="541" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" font-style="italic" text-anchor="start">
+      <tspan x="477" dy="0">Festgestellte Mängel sind im Bericht</tspan>
+      <tspan x="477" dy="10">nach CEN/TR 17207⁷ zu klassifizieren</tspan>
+    </text>
+
+    <!-- P01 -->
+    <rect x="327" y="600" width="140" height="35" class="green-node" />
+    <text x="397" y="622" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-green" text-anchor="middle">
+      Bericht archivieren⁶
+    </text>
+
+    <!-- IHM (subprocess - double-bordered) -->
+    <rect x="317" y="665" width="160" height="35" class="green-node" />
+    <rect x="322" y="670" width="150" height="25" fill="none" stroke="#3C763D" stroke-width="1" />
+    <text x="397" y="687" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-green" text-anchor="middle">
+      Instandhaltungs-Management
+    </text>
+
+    <!-- END -->
+    <rect x="337" y="730" width="120" height="35" rx="17.5" ry="17.5" class="gray-node" />
+    <text x="397" y="744" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-gray" text-anchor="middle">
+      <tspan x="397" dy="0">Nächster Inspektionszyklus</tspan>
+      <tspan x="397" dy="11">gemäss Zeitplan⁸</tspan>
+    </text>
+  </g>
+
+  <!-- QR Codes -->
+  <g id="qr-codes">
+    <!-- QR1: Als PDF herunterladen -->
+    <image x="614" y="840" width="55" height="55"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQkAAAEJAQAAAACvE+/JAAAEIElEQVR4nO2aMa7sNhZEz209gHLEBpxMxt7ISB3Nnj7Qz9IbPeCHswUDXoUn+WJ7HQbYKxgqowC1agK9HxrfiW0GZqKkgkLh8t6qS5n4xnk7fQsBf0N+CxLNrNX5/WG92YV4fn+08HbhvpjZqS66KEpyu9/Q7EdczI0kTQnLgxQ11kT3BZZz4M5nteXxH60tGPhM+Y6nuf/Wpe4HxPLTFgsvDzczJPqHGd1fxOV3QHSGFm7YlXfAK7n5L+LyDYhXgmUSLC/BKRNKtNdLC43Kn8zl2xCZGZY/XVzMny7c+XTxMRO482Z2rY1uL6no/M7yem7S14pt0nL1kvba6N4Xs7bzU3QxP221cxPXH3hay2LW/rlcfg/Eb2Fp8o316p3A2wW8S3qeG63X2ujq/E7b8by4N3s1xccWyn1Ze7v68cG9LrooakraaeSUCZJGwEvFtFGsrql2gmXDGq2XAkM0synR5zcDPqf6arfj2evL+f2xnrz1bvYbwJDcvoyhdHXRRTO34GIGem24mUaaaRK9tlBfMVjmUXQepC/2EtYhf7L16jf0ZiNurk5dLwGD3Ow3Cl6izzeKaUpOdamLlEEx30Lp/CQ6P+IkJe3cgmqkG9zsldzsN6R8C8XyLbiosbpGdqSJYoe6Uun8FlzMTdIOobY0gWIGF7WBaQST0uEiYRDVqbt7Hcftfkpu9xsuakQ7UFvtvsBiYP/7/tf1CqwnnNYWQvszsH63V9fIxqCYCcUyR5rQ7Ce5qC2Uvi51T/SPjVbnIfkvYXtwZ4j2w/J6KSwjtXkGFPPRACi9JjnlIfFhxrZQ25h44Z8nHgaE1nheVoMfS2uEFiMsp7pq98TdTypwQ09TLH3m4aIUFaXkKstqaGc4AqWbadIxNQ4zlm/VOTK0+40CQ9L8lTgmpYKfVFvtnrjzHvzuX1ivvAc3+0mlW14vbbestta3gcxQem0oSon+cDxTcrNXqs8z7AzJSWMovTZKrynR+THQfYzjmuie+EWvl3LnRgufU3vneTkSBnxWfVktZgKdn6Soj5106SBgeUj1dQblQYr5FlzMN+jzkFzMg9xhhGuju3MLToc93w4/Sa8xFPwWavO7J0xTKjrzcFNukp3ggc5NdPExxdo2kGj/uikvpi2A30LpALcDtamLdhqVPg/S7MeA5SZpPm7eWGESnhnkdhoV/BiAQZJGClChupKkmSFJh9+9BUxKR1+rTN2PV8vOH8kB7sDhGVjGUNur5QmTxH0Z4b6sRgcP/28/CfxREXXRZbELlt8uy5VGq50bra/ntwuyF/xcF91jCLuZG24G3P4xHDhuXmVX7eXj6136x7+4/ZTuj5HSGsFr+X5rS3XqSsezBH0GxWMnPaTSUd+LO5rh4OdmPwZJH55Bu1d1jsz+/rnlD4T8H4J253tAQ48lAAAAAElFTkSuQmCC"
+      xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQkAAAEJAQAAAACvE+/JAAAEIElEQVR4nO2aMa7sNhZEz209gHLEBpxMxt7ISB3Nnj7Qz9IbPeCHswUDXoUn+WJ7HQbYKxgqowC1agK9HxrfiW0GZqKkgkLh8t6qS5n4xnk7fQsBf0N+CxLNrNX5/WG92YV4fn+08HbhvpjZqS66KEpyu9/Q7EdczI0kTQnLgxQ11kT3BZZz4M5nteXxH60tGPhM+Y6nuf/Wpe4HxPLTFgsvDzczJPqHGd1fxOV3QHSGFm7YlXfAK7n5L+LyDYhXgmUSLC/BKRNKtNdLC43Kn8zl2xCZGZY/XVzMny7c+XTxMRO482Z2rY1uL6no/M7yem7S14pt0nL1kvba6N4Xs7bzU3QxP221cxPXH3hay2LW/rlcfg/Eb2Fp8o316p3A2wW8S3qeG63X2ujq/E7b8by4N3s1xccWyn1Ze7v68cG9LrooakraaeSUCZJGwEvFtFGsrql2gmXDGq2XAkM0synR5zcDPqf6arfj2evL+f2xnrz1bvYbwJDcvoyhdHXRRTO34GIGem24mUaaaRK9tlBfMVjmUXQepC/2EtYhf7L16jf0ZiNurk5dLwGD3Ow3Cl6izzeKaUpOdamLlEEx30Lp/CQ6P+IkJe3cgmqkG9zsldzsN6R8C8XyLbiosbpGdqSJYoe6Uun8FlzMTdIOobY0gWIGF7WBaQST0uEiYRDVqbt7Hcftfkpu9xsuakQ7UFvtvsBiYP/7/tf1CqwnnNYWQvszsH63V9fIxqCYCcUyR5rQ7Ce5qC2Uvi51T/SPjVbnIfkvYXtwZ4j2w/J6KSwjtXkGFPPRACi9JjnlIfFhxrZQ25h44Z8nHgaE1nheVoMfS2uEFiMsp7pq98TdTypwQ09TLH3m4aIUFaXkKstqaGc4AqWbadIxNQ4zlm/VOTK0+40CQ9L8lTgmpYKfVFvtnrjzHvzuX1ivvAc3+0mlW14vbbestta3gcxQem0oSon+cDxTcrNXqs8z7AzJSWMovTZKrynR+THQfYzjmuie+EWvl3LnRgufU3vneTkSBnxWfVktZgKdn6Soj5106SBgeUj1dQblQYr5FlzMN+jzkFzMg9xhhGuju3MLToc93w4/Sa8xFPwWavO7J0xTKjrzcFNukp3ggc5NdPExxdo2kGj/uikvpi2A30LpALcDtamLdhqVPg/S7MeA5SZpPm7eWGESnhnkdhoV/BiAQZJGClChupKkmSFJh9+9BUxKR1+rTN2PV8vOH8kB7sDhGVjGUNur5QmTxH0Z4b6sRgcP/28/CfxREXXRZbELlt8uy5VGq50bra/ntwuyF/xcF91jCLuZG24G3P4xHDhuXmVX7eXj6136x7+4/ZTuj5HSGsFr+X5rS3XqSsezBH0GxWMnPaTSUd+LO5rh4OdmPwZJH55Bu1d1jsz+/rnlD4T8H4J253tAQ48lAAAAAElFTkSuQmCC" />
+    <text x="641.5" y="907" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#6C757D" text-anchor="middle">
+      Als PDF herunterladen
+    </text>
+
+    <!-- QR2: Als Vorlage verwenden -->
+    <image x="694" y="840" width="55" height="55"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQkAAAEJAQAAAACvE+/JAAAEH0lEQVR4nO2aMc7cOhKEvx4NQGUUsAegLmLpd/TOZED/PxqMAR9jz7HZUL4IdQMpowCNagP5bbZrJ+vH4DETUEGh0OyuLsrET8798jME/A35b5BoZrVsZLtwb5kA65t7y7Sa2aUsuihKctJDufM77ukfyUk72HKTosaS6F5gtZZom9UTsL2tW0tsvinDy+rfzOUXIbZUyWl2ck+qRD+/G91fxOUXIApXtr4Z5u2NV8vkR9zzL+Lyv84VvKhtAU3d1+Dy+g9tNVBnKjGVRfeCzAzW97Zm3VomvrQ+LkNg4m72VhrdXlJWcBGoEh1f5wxVWt+8pKM0utNqVne8+rVvXu1mzS3ZBy+ru9WK6wzogJABckeVMl4J0yPpYAj0pfXdyY9zbQsB+NK6OFufZVtf21Kl0q4aikslaRlQXG7KHZDxSi5qD9nKUhdJI+7JLbnDK2FLleggZNMjURjdK6wPbTUEvi/3f7p/hX3GxOyOdQ/5j9KK4cktcd4yBuiokp5UopdSecVwMAQdVAIITnokaRnIHUMozZGhqDHQ+YfotZNNe8hQpWx6JKey6F5Qw5y/z+/m7s031Wq+zi4uQ3Av2/r8e7n8/EiS6JchZNNOtmUI4B9yUSOl1e6FaFd0D1fo1jHwqamSi/M+5w7Cb+byS5Avbd3BXMeGuf6+MG8f3PvNTKk0z3BC8rTu0FFJrwbAP6I7uFtpjgxJO+AfSYffAYaQOwjuCcXVLnpC0PPPT6elknueV20PKq6RwUANNykuA0wMM9363mbWkdJyhgv9AhlvrfXBiY5Xy3ft8/bmR1xhtXsBP872ed5xcXm1mzWE/MmuoZZd5604dQEyVHHtTSn3us715JWySam8znD4HUyPlKFKLkrpdA8dVXF+94ItlfSynRq/s76btUyce08oVl0ld1DJHf6h3DEA50pRmLoAmdX69bP2ef0879T4ERcXcM/S1NUyQL/8GGPS6XL3QOdHXGH2/EJsviXdw37GkGa2h61vmPNEpdyVpe4F/Bhq1isZBjL+Oru4fA0+zu9WWt89LU7G7+jwjwSAi8tNLkrK5aU4q0t1R5W2t3VrpaXS9uGtXfvm1Zbmd5GkdG4O/VIl8I8zIFFcbqk0ddHhleiXSrnzY3BPL+WOW3IHUNpUQweVdPgdxYXg4kI4c7OosbgxgZ7cTivunn6EM5P2IxmgtMD0XNwVF8KPCbFwzmRF7aG8WCSaWf2pqeL2BoGJIWTZe1uzjqzF9d0o6XyrPPyOO5PeP9UtrXYv56ulzWPI0/rQZk2l7YN7j+xanMX5D+RLu32WmZPerZ5g3j6A0sbED4iaKvnnupNjQ8isI/5JFSnQ4ijRnXJ+DdjyLbqDWwIG8lQWXfQE3NNL9BqDDr//eLfqpeJ2Nfv755b/I+Tfq4S7DDkCiGsAAAAASUVORK5CYII="
+      xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQkAAAEJAQAAAACvE+/JAAAEH0lEQVR4nO2aMc7cOhKEvx4NQGUUsAegLmLpd/TOZED/PxqMAR9jz7HZUL4IdQMpowCNagP5bbZrJ+vH4DETUEGh0OyuLsrET8798jME/A35b5BoZrVsZLtwb5kA65t7y7Sa2aUsuihKctJDufM77ukfyUk72HKTosaS6F5gtZZom9UTsL2tW0tsvinDy+rfzOUXIbZUyWl2ck+qRD+/G91fxOUXIApXtr4Z5u2NV8vkR9zzL+Lyv84VvKhtAU3d1+Dy+g9tNVBnKjGVRfeCzAzW97Zm3VomvrQ+LkNg4m72VhrdXlJWcBGoEh1f5wxVWt+8pKM0utNqVne8+rVvXu1mzS3ZBy+ru9WK6wzogJABckeVMl4J0yPpYAj0pfXdyY9zbQsB+NK6OFufZVtf21Kl0q4aikslaRlQXG7KHZDxSi5qD9nKUhdJI+7JLbnDK2FLleggZNMjURjdK6wPbTUEvi/3f7p/hX3GxOyOdQ/5j9KK4cktcd4yBuiokp5UopdSecVwMAQdVAIITnokaRnIHUMozZGhqDHQ+YfotZNNe8hQpWx6JKey6F5Qw5y/z+/m7s031Wq+zi4uQ3Av2/r8e7n8/EiS6JchZNNOtmUI4B9yUSOl1e6FaFd0D1fo1jHwqamSi/M+5w7Cb+byS5Avbd3BXMeGuf6+MG8f3PvNTKk0z3BC8rTu0FFJrwbAP6I7uFtpjgxJO+AfSYffAYaQOwjuCcXVLnpC0PPPT6elknueV20PKq6RwUANNykuA0wMM9363mbWkdJyhgv9AhlvrfXBiY5Xy3ft8/bmR1xhtXsBP872ed5xcXm1mzWE/MmuoZZd5604dQEyVHHtTSn3us715JWySam8znD4HUyPlKFKLkrpdA8dVXF+94ItlfSynRq/s76btUyce08oVl0ld1DJHf6h3DEA50pRmLoAmdX69bP2ef0879T4ERcXcM/S1NUyQL/8GGPS6XL3QOdHXGH2/EJsviXdw37GkGa2h61vmPNEpdyVpe4F/Bhq1isZBjL+Oru4fA0+zu9WWt89LU7G7+jwjwSAi8tNLkrK5aU4q0t1R5W2t3VrpaXS9uGtXfvm1Zbmd5GkdG4O/VIl8I8zIFFcbqk0ddHhleiXSrnzY3BPL+WOW3IHUNpUQweVdPgdxYXg4kI4c7OosbgxgZ7cTivunn6EM5P2IxmgtMD0XNwVF8KPCbFwzmRF7aG8WCSaWf2pqeL2BoGJIWTZe1uzjqzF9d0o6XyrPPyOO5PeP9UtrXYv56ulzWPI0/rQZk2l7YN7j+xanMX5D+RLu32WmZPerZ5g3j6A0sbED4iaKvnnupNjQ8isI/5JFSnQ4ijRnXJ+DdjyLbqDWwIG8lQWXfQE3NNL9BqDDr//eLfqpeJ2Nfv755b/I+Tfq4S7DDkCiGsAAAAASUVORK5CYII=" />
+    <text x="721.5" y="907" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#6C757D" text-anchor="middle">
+      Als Vorlage verwenden
+    </text>
+  </g>
+
+  <!-- Info boxes -->
+  <g id="info-boxes">
+    <!-- FOOTNOTES -->
+    <rect x="38" y="925" width="350" height="90" class="info-box" />
+    <text x="46" y="937" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="start">
+      <tspan x="46" dy="0" font-weight="bold">Fussnoten</tspan>
+      <tspan x="46" dy="11">³ SN EN 1176-7, 6.1b — Visuelle Routineinspektion</tspan>
+      <tspan x="46" dy="10">⁴ SN EN 1176-7, 6.1c — Operative Inspektion</tspan>
+      <tspan x="46" dy="10">⁵ SN EN 1176-7, 6.1d — Jährliche Hauptinspektion</tspan>
+      <tspan x="46" dy="10">⁶ SN EN 1176-7, 8.2.2 — Dokumentationspflicht</tspan>
+      <tspan x="46" dy="10">⁷ CEN/TR 17207 — Mängelklassifizierung</tspan>
+      <tspan x="46" dy="10">⁸ SN EN 1176-7, 6.2.4 — Inspektionsplan</tspan>
+    </text>
+
+    <!-- LEGEND -->
+    <rect x="410" y="925" width="340" height="130" class="info-box" />
+    <text x="418" y="937" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="start">
+      <tspan x="418" dy="0" font-weight="bold">Legende</tspan>
+      <tspan x="418" dy="11">▭ Rechteck = Prozessschritt / Aktion</tspan>
+      <tspan x="418" dy="10">◇ Raute = Entscheidungspunkt</tspan>
+      <tspan x="418" dy="10">⬭ Abgerundetes Rechteck = Start / Ende</tspan>
+      <tspan x="418" dy="10">▱ Parallelogramm = Dokument / Bericht</tspan>
+      <tspan x="418" dy="10">⊞ Unterprozess = Vordefinierter Prozess</tspan>
+      <tspan x="418" dy="12" font-weight="bold">Farben:</tspan>
+      <tspan x="418" dy="11">(Blau) = Neuer Spielplatz</tspan>
+      <tspan x="418" dy="10">(Grün) = Inspektionen</tspan>
+      <tspan x="418" dy="10">(Gelb) = Mängel / Massnahmen</tspan>
+      <tspan x="418" dy="10">(Grau) = Start / Ende</tspan>
+    </text>
+  </g>
+
+  <!-- 3-Column Corporate Footer -->
+  <g id="footer">
+    <!-- Column 1: Company address (left-aligned) -->
+    <text x="38" y="1077" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#6C757D" text-anchor="start">
+      <tspan x="38" dy="0">giuadora AG</tspan>
+      <tspan x="38" dy="10">Sonnenstrasse 4</tspan>
+      <tspan x="38" dy="10">8280 Kreuzlingen</tspan>
+    </text>
+
+    <!-- Column 2: Contact info (centered) -->
+    <text x="393.5" y="1077" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#6C757D" text-anchor="middle">
+      <tspan x="393.5" dy="0">+41 (0) 71 508 24 75</tspan>
+      <tspan x="393.5" dy="10">www.playsafepro.ch</tspan>
+      <tspan x="393.5" dy="10">vertrieb@psp.live</tspan>
+    </text>
+
+    <!-- Column 3: Legal info (right-aligned) -->
+    <text x="749" y="1077" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#6C757D" text-anchor="end">
+      <tspan x="749" dy="0">PlaySafePro und PlaySafeGo sind</tspan>
+      <tspan x="749" dy="10">eingetragene Marken</tspan>
+      <tspan x="749" dy="10">Sitz der Gesellschaft: Kreuzlingen</tspan>
+      <tspan x="749" dy="10">UID-Nr.: CHE-222.704.530</tspan>
+    </text>
+  </g>
+
+  <!-- Edges -->
+  <g id="edges" fill="none" stroke-width="1.5">
+    <!-- e10: E00 -> E01 (wöchentlich) -->
+    <path d="M 367,345 L 367,382 L 142,382 L 142,419" class="edge-green" marker-end="url(#arrowhead)" />
+    <text x="255" y="377" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="middle">
+      wöchentlich
+    </text>
+
+    <!-- e11: E00 -> E02 (quartalsweise) -->
+    <path d="M 397,345 L 397,419" class="edge-green" marker-end="url(#arrowhead)" />
+    <text x="407" y="382" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="start">
+      quartalsweise
+    </text>
+
+    <!-- e12: E00 -> E03 (jährlich) -->
+    <path d="M 430,345 L 430,382 L 652,382 L 652,419" class="edge-green" marker-end="url(#arrowhead)" />
+    <text x="540" y="377" font-family="Helvetica, Arial, sans-serif" font-size="8" class="text-info" text-anchor="middle">
+      jährlich
+    </text>
+
+    <!-- e13: E01 -> E04 -->
+    <path d="M 142,474 L 142,500 L 369,500 L 369,530" class="edge-green" marker-end="url(#arrowhead)" />
+
+    <!-- e14: E02 -> E04 -->
+    <path d="M 397,474 L 397,530" class="edge-green" marker-end="url(#arrowhead)" />
+
+    <!-- e15: E03 -> E04 -->
+    <path d="M 652,474 L 652,500 L 429,500 L 429,530" class="edge-green" marker-end="url(#arrowhead)" />
+
+    <!-- e16: E04 -> P01 -->
+    <path d="M 397,570 L 397,600" class="edge-green" marker-end="url(#arrowhead)" />
+
+    <!-- e17: P01 -> IHM -->
+    <path d="M 397,635 L 397,665" class="edge-green" marker-end="url(#arrowhead)" />
+
+    <!-- e20: IHM -> END -->
+    <path d="M 397,700 L 397,730" class="edge-gray" marker-end="url(#arrowhead-gray)" />
+
+    <!-- eNOTE: E04 -> NOTE (dashed annotation) -->
+    <path d="M 457,550 L 477,550" class="edge-annotation" stroke-width="1" stroke-dasharray="3,3" />
+
+    <!-- eLOOP: END -> E00 (dashed feedback loop) -->
+    <path d="M 337,747 L 50,747 L 50,327 L 337,327" class="edge-gray" stroke-dasharray="5,5" marker-end="url(#arrowhead-gray)" />
+  </g>
+</svg>
