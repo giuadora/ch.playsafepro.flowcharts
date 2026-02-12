@@ -84,22 +84,16 @@ Plans:
 Plans:
 - [x] 07-01: Split flowchart into two independent draw.io files (FC1 + FC2) with human verification
 
-#### Phase 8: Node Modifications & Norm Compliance
+#### Phase 8: Node Modifications & Norm Compliance ✓
 **Goal**: Apply all node changes and ensure complete norm compliance through footnote audit
 **Depends on**: Phase 7
 **Requirements**: NODE-01, NODE-02, NODE-03, NODE-04, REF-01, REF-02, REF-03
-**Success Criteria** (what must be TRUE):
-  1. FC1 "Inspektion nach Installation" node is colored green (inspection activity)
-  2. FC1 "Inspektionsplan erstellen" displays as subprocess symbol (double-bordered rectangle)
-  3. FC2 has new green "Bericht archivieren" node between Inspektionsbericht erstellen and Instandhaltungs-Management
-  4. FC2 inspection types renamed to SN EN 1176-7 standard terminology (Visuelle Routine-Inspektion, Operative Inspektion, Jährliche Hauptinspektion)
-  5. All nodes referencing a norm clause carry a footnote superscript
-  6. Each flowchart has its own complete footnote box with only relevant footnotes
+**Completed**: 2026-02-12
 **Plans**: 2 plans
 
 Plans:
-- [ ] 08-01-PLAN.md — FC1 node modifications: green installation inspection, subprocess Inspektionsplan, footnote audit
-- [ ] 08-02-PLAN.md — FC2 node modifications: green Bericht archivieren, SN EN 1176-7 inspection terminology, footnote audit
+- [x] 08-01: FC1 node modifications: green installation inspection, subprocess Inspektionsplan, footnote audit
+- [x] 08-02: FC2 node modifications: green Bericht archivieren, SN EN 1176-7 inspection terminology, footnote audit
 
 #### Phase 9: Documentation & Quality Verification
 **Goal**: Update all documentation and verify both flowcharts pass quality gates
@@ -132,5 +126,5 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 →
 | 5. Project Structure | v1.1 | 2/2 | Complete | 2026-02-10 |
 | 6. PSP Branding | v1.2 | 2/2 | Complete | 2026-02-10 |
 | 7. Flowchart Split & File Structure | v2.0 | 1/1 | Complete | 2026-02-12 |
-| 8. Node Modifications & Norm Compliance | v2.0 | 0/2 | Not started | - |
+| 8. Node Modifications & Norm Compliance | v2.0 | 2/2 | Complete | 2026-02-12 |
 | 9. Documentation & Quality Verification | v2.0 | 0/TBD | Not started | - |
