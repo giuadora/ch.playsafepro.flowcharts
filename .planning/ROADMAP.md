@@ -74,20 +74,15 @@ Plans:
 
 **Milestone Goal:** Split the single inspection flowchart into two separate flowcharts (Neuer Spielplatz + Bestehender Spielplatz) with node corrections, renamed inspection types per SN EN 1176-7, updated footnotes, subprocess symbol, and full quality verification.
 
-#### Phase 7: Flowchart Split & File Structure
+#### Phase 7: Flowchart Split & File Structure ✓
 **Goal**: Create two independent flowcharts from current single file with correct file names and basic structure
 **Depends on**: Phase 6
 **Requirements**: SPLIT-01, SPLIT-02, SPLIT-03, SPLIT-04, FILE-01
-**Success Criteria** (what must be TRUE):
-  1. Two separate draw.io files exist (Neuer-Spielplatz.drawio and Bestehender-Spielplatz.drawio)
-  2. FC1 contains only the new playground commissioning path (Neuer Spielplatz → Inspektionszyklus beginnen)
-  3. FC2 contains only the ongoing inspection cycle (Inspektionszyklus beginnen → loop back)
-  4. Each flowchart has its own subline below the main title
-  5. Both flowcharts retain PSP logo and 3-column footer from v1.2
+**Completed**: 2026-02-12
 **Plans**: 1 plan
 
 Plans:
-- [ ] 07-01-PLAN.md — Split flowchart into two independent draw.io files (FC1 + FC2) with human verification
+- [x] 07-01: Split flowchart into two independent draw.io files (FC1 + FC2) with human verification
 
 #### Phase 8: Node Modifications & Norm Compliance
 **Goal**: Apply all node changes and ensure complete norm compliance through footnote audit
@@ -135,6 +130,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 →
 | 4. A4 Layout | v1.1 | 2/2 | Complete | 2026-02-10 |
 | 5. Project Structure | v1.1 | 2/2 | Complete | 2026-02-10 |
 | 6. PSP Branding | v1.2 | 2/2 | Complete | 2026-02-10 |
-| 7. Flowchart Split & File Structure | v2.0 | 0/TBD | Not started | - |
+| 7. Flowchart Split & File Structure | v2.0 | 1/1 | Complete | 2026-02-12 |
 | 8. Node Modifications & Norm Compliance | v2.0 | 0/TBD | Not started | - |
 | 9. Documentation & Quality Verification | v2.0 | 0/TBD | Not started | - |
