@@ -95,10 +95,11 @@ Plans:
   4. FC2 inspection types renamed to SN EN 1176-7 standard terminology (Visuelle Routine-Inspektion, Operative Inspektion, Jährliche Hauptinspektion)
   5. All nodes referencing a norm clause carry a footnote superscript
   6. Each flowchart has its own complete footnote box with only relevant footnotes
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 08-01: [TBD during phase planning]
+- [ ] 08-01-PLAN.md — FC1 node modifications: green installation inspection, subprocess Inspektionsplan, footnote audit
+- [ ] 08-02-PLAN.md — FC2 node modifications: green Bericht archivieren, SN EN 1176-7 inspection terminology, footnote audit
 
 #### Phase 9: Documentation & Quality Verification
 **Goal**: Update all documentation and verify both flowcharts pass quality gates
@@ -131,5 +132,5 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 →
 | 5. Project Structure | v1.1 | 2/2 | Complete | 2026-02-10 |
 | 6. PSP Branding | v1.2 | 2/2 | Complete | 2026-02-10 |
 | 7. Flowchart Split & File Structure | v2.0 | 1/1 | Complete | 2026-02-12 |
-| 8. Node Modifications & Norm Compliance | v2.0 | 0/TBD | Not started | - |
+| 8. Node Modifications & Norm Compliance | v2.0 | 0/2 | Not started | - |
 | 9. Documentation & Quality Verification | v2.0 | 0/TBD | Not started | - |
