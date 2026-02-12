@@ -28,7 +28,7 @@
         <mxCell id="N01" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D6E4F0;strokeColor=#2B579A;fontColor=#1F3864;fontSize=9;fontFamily=Helvetica;align=center;" value="Bauabnahme nach SIA 118¹&lt;br&gt;Vertragliche Abnahme&lt;br&gt;durch Architekt/Bauleiter" vertex="1">
           <mxGeometry height="55" width="120" x="337" y="381" as="geometry" />
         </mxCell>
-        <mxCell id="N02" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D6E4F0;strokeColor=#2B579A;fontColor=#1F3864;fontSize=9;fontFamily=Helvetica;align=center;" value="Inspektion nach Installation²&lt;br&gt;Sicherheitsprüfung durch&lt;br&gt;zertifizierte Fachperson" vertex="1">
+        <mxCell id="N02" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DFF0D8;strokeColor=#3C763D;fontColor=#2D572C;fontSize=9;fontFamily=Helvetica;align=center;" value="Inspektion nach Installation²&lt;br&gt;Sicherheitsprüfung durch&lt;br&gt;zertifizierte Fachperson" vertex="1">
           <mxGeometry height="55" width="120" x="337" y="466" as="geometry" />
         </mxCell>
         <mxCell id="D02" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#D6E4F0;strokeColor=#2B579A;fontColor=#1F3864;fontSize=9;fontFamily=Helvetica;" value="Mängel&lt;br&gt;festgestellt?" vertex="1">
@@ -40,7 +40,7 @@
         <mxCell id="N04" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D6E4F0;strokeColor=#2B579A;fontColor=#1F3864;fontSize=9;fontFamily=Helvetica;arcSize=50;" value="Spielplatz eröffnen" vertex="1">
           <mxGeometry height="35" width="120" x="337" y="556" as="geometry" />
         </mxCell>
-        <mxCell id="IPLAN" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D6E4F0;strokeColor=#2B579A;fontColor=#1F3864;fontSize=9;fontFamily=Helvetica;align=center;" value="Inspektionsplan erstellen" vertex="1">
+        <mxCell id="IPLAN" parent="1" style="shape=process;whiteSpace=wrap;html=1;fillColor=#D6E4F0;strokeColor=#2B579A;fontColor=#1F3864;fontSize=9;fontFamily=Helvetica;align=center;" value="Inspektionsplan erstellen³" vertex="1">
           <mxGeometry height="35" width="120" x="337" y="636" as="geometry" />
         </mxCell>
         <mxCell id="E00" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DFF0D8;strokeColor=#3C763D;fontColor=#2D572C;fontSize=9;fontFamily=Helvetica;arcSize=50;" value="Inspektionszyklus&lt;br&gt;beginnen" vertex="1">
@@ -58,8 +58,8 @@
         <mxCell id="QR2-label" parent="1" style="text;html=1;align=center;verticalAlign=top;whiteSpace=wrap;fontSize=7;fontFamily=Helvetica;fontColor=#6C757D;" value="Als Vorlage verwenden" vertex="1">
           <mxGeometry height="15" width="81" x="681" y="898" as="geometry" />
         </mxCell>
-        <mxCell id="FOOTNOTES" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F9FA;strokeColor=#DEE2E6;fontColor=#495057;fontSize=8;fontFamily=Helvetica;align=left;verticalAlign=top;" value="&lt;b&gt;Fussnoten&lt;/b&gt;&lt;br&gt;¹ SIA 118 — Vertragliche Bauabnahme, ersetzt nicht die Sicherheitsinspektion&lt;br&gt;² SN EN 1176-7, 6.1a — Inspektion nach Installation" vertex="1">
-          <mxGeometry height="55" width="350" x="38" y="925" as="geometry" />
+        <mxCell id="FOOTNOTES" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F9FA;strokeColor=#DEE2E6;fontColor=#495057;fontSize=8;fontFamily=Helvetica;align=left;verticalAlign=top;" value="&lt;b&gt;Fussnoten&lt;/b&gt;&lt;br&gt;¹ SIA 118 — Vertragliche Bauabnahme, ersetzt nicht die Sicherheitsinspektion&lt;br&gt;² SN EN 1176-7, 6.1a — Inspektion nach Installation&lt;br&gt;³ SN EN 1176-7, 6.2.4 — Inspektionsplan" vertex="1">
+          <mxGeometry height="65" width="350" x="38" y="925" as="geometry" />
         </mxCell>
         <mxCell id="LEGEND" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F9FA;strokeColor=#DEE2E6;fontColor=#495057;fontSize=8;fontFamily=Helvetica;align=left;verticalAlign=top;" value="&lt;b&gt;Legende&lt;/b&gt;&lt;br&gt;▭ Rechteck = Prozessschritt / Aktion&lt;br&gt;◇ Raute = Entscheidungspunkt&lt;br&gt;⬭ Abgerundetes Rechteck = Start / Ende&lt;br&gt;▱ Parallelogramm = Dokument / Bericht&lt;br&gt;&lt;br&gt;&lt;b&gt;Farben:&lt;/b&gt;&lt;br&gt;(Blau) = Neuer Spielplatz&lt;br&gt;(Grün) = Inspektionen&lt;br&gt;(Gelb) = Mängel / Massnahmen&lt;br&gt;(Grau) = Start / Ende" vertex="1">
           <mxGeometry height="115" width="340" x="410" y="925" as="geometry" />
