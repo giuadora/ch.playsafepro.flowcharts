@@ -84,10 +84,10 @@ Plans:
   3. FC2 contains only the ongoing inspection cycle (Inspektionszyklus beginnen → loop back)
   4. Each flowchart has its own subline below the main title
   5. Both flowcharts retain PSP logo and 3-column footer from v1.2
-**Plans**: TBD
+**Plans**: 1 plan
 
 Plans:
-- [ ] 07-01: [TBD during phase planning]
+- [ ] 07-01-PLAN.md — Split flowchart into two independent draw.io files (FC1 + FC2) with human verification
 
 #### Phase 8: Node Modifications & Norm Compliance
 **Goal**: Apply all node changes and ensure complete norm compliance through footnote audit
