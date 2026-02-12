@@ -112,7 +112,7 @@ Plans:
 Plans:
 - [x] 09-01: Legend subprocess symbol, QR code updates, and README updates (DOC-01, DOC-02, DOC-03, FILE-02, FILE-03)
 - [x] 09-02: Automated quality checks and visual verification (QA-01 through QA-06)
-- [ ] 09-03: Generate SVG and PDF exports for both split flowcharts (gap closure)
+- [ ] 09-03: Generate SVG, PDF, and Mermaid exports + update READMEs (gap closure)
 
 ## Progress
 
