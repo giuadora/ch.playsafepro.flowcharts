@@ -65,7 +65,17 @@ Delivery package at `Inspektion-von-Spielplatzgeraeten-und-Spielplatzboeden/`:
 
 ### Active
 
-(None — all milestones shipped)
+#### Current Milestone: v2.0 Flowchart Split
+
+**Goal:** Split the single inspection flowchart into two separate flowcharts — one for new playgrounds (Neuer Spielplatz) and one for the ongoing inspection cycle (Inspektionszyklus) — with node corrections, renamed inspection types per SN EN 1176-7, updated footnotes, subprocess symbol, and full quality verification.
+
+**Target features:**
+- Two separate flowcharts with distinct file names and QR codes
+- Node changes: green coloring for installation inspection, subprocess symbol for Inspektionsplan, new Bericht archivieren action node, standard-compliant inspection type names
+- Audited footnotes ensuring all norm-referenced nodes are covered
+- Updated legend with subprocess symbol
+- Updated README reflecting both flowcharts
+- All existing quality checks (alignment, margins, arrow connectivity, no overlaps, footer)
 
 ### Out of Scope
 
@@ -140,4 +150,4 @@ PlaySafePro (playsafepro.ch) provides playground inspection, safety management, 
 | Automated Python bounds verification | Catches layout regressions, integrated as pre-flight check | ✓ Good |
 
 ---
-*Last updated: 2026-02-10 after v1.2 milestone*
+*Last updated: 2026-02-12 after v2.0 milestone start*
