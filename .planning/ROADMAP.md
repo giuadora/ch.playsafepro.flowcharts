@@ -95,24 +95,17 @@ Plans:
 - [x] 08-01: FC1 node modifications: green installation inspection, subprocess Inspektionsplan, footnote audit
 - [x] 08-02: FC2 node modifications: green Bericht archivieren, SN EN 1176-7 inspection terminology, footnote audit
 
-#### Phase 9: Documentation & Quality Verification
+#### Phase 9: Documentation & Quality Verification ✓
 **Goal**: Update all documentation and verify both flowcharts pass quality gates
 **Depends on**: Phase 8
 **Requirements**: DOC-01, DOC-02, DOC-03, FILE-02, FILE-03, QA-01, QA-02, QA-03, QA-04, QA-05, QA-06
-**Success Criteria** (what must be TRUE):
-  1. Subprocess symbol appears in legend of both flowcharts
-  2. Package README describes both flowcharts (Neuer Spielplatz + Bestehender Spielplatz)
-  3. Root README updated with new file listing
-  4. Each flowchart's "Als PDF herunterladen" QR points to its own PDF
-  5. Both flowcharts' "Als Vorlage herunterladen" QR points to shared README
-  6. Both flowcharts pass all quality checks (center alignment, connected arrows, margins, no overlaps, footer, branding)
-  7. Complete delivery package exists for both flowcharts (.drawio, .svg, .pdf, .md)
+**Completed**: 2026-02-12
 **Plans**: 3 plans
 
 Plans:
 - [x] 09-01: Legend subprocess symbol, QR code updates, and README updates (DOC-01, DOC-02, DOC-03, FILE-02, FILE-03)
 - [x] 09-02: Automated quality checks and visual verification (QA-01 through QA-06)
-- [ ] 09-03: Generate SVG, PDF, and Mermaid exports + update READMEs (gap closure)
+- [x] 09-03: Generate SVG, PDF, and Mermaid exports + update READMEs (gap closure)
 
 ## Progress
 
@@ -129,4 +122,4 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 →
 | 6. PSP Branding | v1.2 | 2/2 | Complete | 2026-02-10 |
 | 7. Flowchart Split & File Structure | v2.0 | 1/1 | Complete | 2026-02-12 |
 | 8. Node Modifications & Norm Compliance | v2.0 | 2/2 | Complete | 2026-02-12 |
-| 9. Documentation & Quality Verification | v2.0 | 2/3 | Gap closure | - |
+| 9. Documentation & Quality Verification | v2.0 | 3/3 | Complete | 2026-02-12 |
