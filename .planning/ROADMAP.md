@@ -107,10 +107,11 @@ Plans:
   5. Both flowcharts' "Als Vorlage herunterladen" QR points to shared README
   6. Both flowcharts pass all quality checks (center alignment, connected arrows, margins, no overlaps, footer, branding)
   7. Complete delivery package exists for both flowcharts (.drawio, .svg, .pdf, .md)
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 09-01: [TBD during phase planning]
+- [ ] 09-01: Legend subprocess symbol, QR code updates, and README updates (DOC-01, DOC-02, DOC-03, FILE-02, FILE-03)
+- [ ] 09-02: Automated quality checks and visual verification (QA-01 through QA-06)
 
 ## Progress
 
