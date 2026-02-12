@@ -6,7 +6,7 @@
 
 # Spielplatzinspektionen — Flowcharts nach SN EN 1176/1177
 
-Deutschsprachige Ablaufdiagramme zur Erklärung der Inspektionspflichten von Spielplatzeigentümern und Betreibern gemäss SN EN 1176-7 für die Schweiz.
+Deutschsprachige Ablaufdiagramme zur Erklärung der Inspektionspflichten von Spielplatzeigentümern und Betreibern gemäss SN EN 1176-7 für die Schweiz. Das Paket enthält zwei separate Flowcharts: einen für neue Spielplätze (Inbetriebnahme) und einen für bestehende Spielplätze (laufende Inspektionen).
 
 ## Deliverable-Paket
 
@@ -18,11 +18,14 @@ Das vollständige Paket finden Sie im Ordner:
 
 | Datei | Format | Beschreibung |
 |-------|--------|--------------|
-| `Spielplatzinspektionen.drawio` | draw.io | Editierbares Diagramm |
-| `Spielplatzinspektionen.svg` | SVG | Vektorgrafik für Druck und Web |
-| `Spielplatzinspektionen.pdf` | PDF | Druckfertige Version (DIN A4) |
-| `Spielplatzinspektionen.md` | Mermaid | Diagramm-Quellcode für technische Nutzer |
-| `README.md` | Markdown | Ausführliche Anleitung zur Bearbeitung und Verwendung |
+| `Neuer-Spielplatz.drawio` | draw.io | Editierbares Diagramm — Neuer Spielplatz |
+| `Neuer-Spielplatz.svg` | SVG | Vektorgrafik — Neuer Spielplatz |
+| `Neuer-Spielplatz.pdf` | PDF | Druckfertige Version (DIN A4) — Neuer Spielplatz |
+| `Bestehender-Spielplatz.drawio` | draw.io | Editierbares Diagramm — Bestehender Spielplatz |
+| `Bestehender-Spielplatz.svg` | SVG | Vektorgrafik — Bestehender Spielplatz |
+| `Bestehender-Spielplatz.pdf` | PDF | Druckfertige Version (DIN A4) — Bestehender Spielplatz |
+| `Spielplatzinspektionen.md` | Mermaid | Diagramm-Quellcode |
+| `README.md` | Markdown | Anleitung zur Bearbeitung und Verwendung |
 
 ## Kontakt
 

@@ -8,20 +8,26 @@
 
 ## Über dieses Paket
 
-Dieses Paket enthält ein vollständiges Ablaufdiagramm für die normkonforme Inspektion von Spielplätzen gemäss **SN EN 1176-7:2020** (Anleitung für Installation, Inspektion, Wartung und Betrieb). Das Flowchart zeigt den gesamten Inspektionsprozess für neue und bestehende Spielplätze – von der Bauabnahme über die regelmässigen Kontrollen bis zur Mängelbehebung.
+Dieses Paket enthält zwei Ablaufdiagramme für die normkonforme Inspektion von Spielplätzen gemäss **SN EN 1176-7:2020** (Anleitung für Installation, Inspektion, Wartung und Betrieb):
+
+- **Neuer Spielplatz**: Zeigt den Inbetriebnahme-Prozess vom Bauabschluss über die Bauabnahme und Inspektion nach Installation bis zur Spielplatzeröffnung und Erstellung des Inspektionsplans.
+- **Bestehender Spielplatz**: Zeigt den laufenden Inspektionszyklus mit den drei Inspektionstypen (Visuelle Routine-Inspektion, Operative Inspektion, Jährliche Hauptinspektion) sowie Berichtswesen und Instandhaltungs-Management.
 
 **Zielgruppe:** Spielplatzbetreiber, Gemeinden, Immobilienverwaltungen und Eigentümer, die ihre Sorgfaltspflicht nach Art. 58 OR (Werkeigentümerhaftung) erfüllen müssen.
 
-**Version 1.2** ist optimiert für professionellen Druck im Format DIN A4 hochkant.
+**Version 2.0** ist optimiert für professionellen Druck im Format DIN A4 hochkant.
 
 ## Enthaltene Dateien
 
 | Datei | Format | Beschreibung |
 |-------|--------|--------------|
-| Spielplatzinspektionen.drawio | draw.io | Editierbares Diagramm — öffnen Sie es in draw.io (online oder Desktop), um Knoten zu verschieben, Farben anzupassen oder Text zu bearbeiten |
-| Spielplatzinspektionen.svg | SVG | Vektorgrafik für Druck und Web-Einbettung — skaliert verlustfrei, aber nicht direkt editierbar |
-| Spielplatzinspektionen.pdf | PDF | Druckfertige Version im Format DIN A4 hochkant |
-| Spielplatzinspektionen.md | Mermaid | Quellcode des Diagramms im Mermaid-Format — für technische Nutzer und Einbettung in Dokumentationen |
+| Neuer-Spielplatz.drawio | draw.io | Editierbares Diagramm — Neuer Spielplatz (Inbetriebnahme) |
+| Neuer-Spielplatz.svg | SVG | Vektorgrafik — Neuer Spielplatz |
+| Neuer-Spielplatz.pdf | PDF | Druckfertige Version (DIN A4) — Neuer Spielplatz |
+| Bestehender-Spielplatz.drawio | draw.io | Editierbares Diagramm — Bestehender Spielplatz (Inspektionszyklus) |
+| Bestehender-Spielplatz.svg | SVG | Vektorgrafik — Bestehender Spielplatz |
+| Bestehender-Spielplatz.pdf | PDF | Druckfertige Version (DIN A4) — Bestehender Spielplatz |
+| Spielplatzinspektionen.md | Mermaid | Diagramm-Quellcode für technische Nutzer |
 | README.md | Markdown | Diese Anleitung |
 
 ## Bearbeitung mit draw.io
@@ -32,14 +38,14 @@ Dieses Paket enthält ein vollständiges Ablaufdiagramm für die normkonforme In
 
 1. Öffnen Sie https://app.diagrams.net im Browser
 2. Klicken Sie auf „Open Existing Diagram"
-3. Wählen Sie die Datei `Spielplatzinspektionen.drawio` aus
+3. Wählen Sie die gewünschte Datei (`Neuer-Spielplatz.drawio` oder `Bestehender-Spielplatz.drawio`) aus
 4. Das Diagramm wird geladen und kann sofort bearbeitet werden
 
 **Option 2: Desktop-App (empfohlen für regelmässige Nutzung)**
 
 1. Laden Sie draw.io Desktop herunter: https://github.com/jgraph/drawio-desktop/releases
 2. Installieren Sie die App für Ihr Betriebssystem (Windows, macOS, Linux)
-3. Öffnen Sie `Spielplatzinspektionen.drawio` direkt mit der Desktop-App
+3. Öffnen Sie die gewünschte drawio-Datei direkt mit der Desktop-App
 
 ### Diagramm bearbeiten
 
@@ -65,6 +71,7 @@ Dieses Paket enthält ein vollständiges Ablaufdiagramm für die normkonforme In
    - **Raute** = Entscheidungspunkt
    - **Abgerundetes Rechteck** = Start / Ende
    - **Parallelogramm** = Dokument / Bericht
+   - **Doppelt umrandetes Rechteck** = Unterprozess (vordefinierter Prozess)
 
 **Firmenlogo einfügen:**
 1. Wählen Sie den Platzhalter-Bereich oben rechts aus (falls vorhanden)
@@ -100,7 +107,7 @@ Microsoft Visio kann draw.io-Dateien direkt öffnen:
 1. Öffnen Sie Microsoft Visio
 2. Menü: Datei → Öffnen
 3. Wählen Sie im Dateityp-Filter „Alle Dateien (*.*)"
-4. Navigieren Sie zu `Spielplatzinspektionen.drawio`
+4. Navigieren Sie zur gewünschten drawio-Datei
 5. Klicken Sie auf „Öffnen"
 
 Der Import funktioniert ab Visio 2013.
@@ -109,7 +116,7 @@ Der Import funktioniert ab Visio 2013.
 
 Falls der Direkt-Import nicht funktioniert:
 
-1. Öffnen Sie `Spielplatzinspektionen.drawio` in draw.io
+1. Öffnen Sie die gewünschte drawio-Datei in draw.io
 2. Exportieren Sie als SVG (siehe oben)
 3. Öffnen Sie die SVG-Datei in Visio: Datei → Öffnen
 4. Visio konvertiert das SVG automatisch in bearbeitbare Shapes
@@ -209,7 +216,7 @@ Für Fragen zur Anwendung dieses Flowcharts oder zu Spielplatz-Inspektionen:
 ---
 
 **Letzte Aktualisierung:** Februar 2026
-**Version:** 1.2
+**Version:** 2.0
 **Lizenz:** CC BY-NC 4.0 (Creative Commons Attribution-NonCommercial 4.0 International)
 
 Sie dürfen das Werk vervielfältigen, verbreiten und öffentlich zugänglich machen sowie Abwandlungen und Bearbeitungen anfertigen, sofern Sie den Namen des Autors nennen und das Werk nicht für kommerzielle Zwecke verwenden.
