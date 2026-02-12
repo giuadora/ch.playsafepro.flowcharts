@@ -24,10 +24,11 @@ Dieses Paket enthält zwei Ablaufdiagramme für die normkonforme Inspektion von 
 | Neuer-Spielplatz.drawio | draw.io | Editierbares Diagramm — Neuer Spielplatz (Inbetriebnahme) |
 | Neuer-Spielplatz.svg | SVG | Vektorgrafik — Neuer Spielplatz |
 | Neuer-Spielplatz.pdf | PDF | Druckfertige Version (DIN A4) — Neuer Spielplatz |
+| Neuer-Spielplatz.md | Mermaid | Diagramm-Quellcode — Neuer Spielplatz |
 | Bestehender-Spielplatz.drawio | draw.io | Editierbares Diagramm — Bestehender Spielplatz (Inspektionszyklus) |
 | Bestehender-Spielplatz.svg | SVG | Vektorgrafik — Bestehender Spielplatz |
 | Bestehender-Spielplatz.pdf | PDF | Druckfertige Version (DIN A4) — Bestehender Spielplatz |
-| Spielplatzinspektionen.md | Mermaid | Diagramm-Quellcode für technische Nutzer |
+| Bestehender-Spielplatz.md | Mermaid | Diagramm-Quellcode — Bestehender Spielplatz |
 | README.md | Markdown | Diese Anleitung |
 
 ## Bearbeitung mit draw.io
@@ -148,17 +149,19 @@ Die Datei `Spielplatzinspektionen.svg` ist eine Vektorgrafik, die in jedem moder
 
 **Einschränkung:** SVG-Dateien sind nicht direkt editierbar. Für Änderungen verwenden Sie bitte die draw.io-Datei und exportieren Sie anschliessend neu als SVG.
 
-### Mermaid-Datei (für technische Nutzer)
+### Mermaid-Dateien (für technische Nutzer)
 
-Die Datei `Spielplatzinspektionen.md` enthält den Quellcode des Diagramms im Mermaid-Format. Mermaid ist eine Markup-Sprache für Diagramme, die in vielen technischen Dokumentationen verwendet wird.
+Die Dateien `Neuer-Spielplatz.md` und `Bestehender-Spielplatz.md` enthalten den Quellcode der beiden Diagramme im Mermaid-Format. Mermaid ist eine Markup-Sprache für Diagramme, die in vielen technischen Dokumentationen verwendet wird.
 
 **Verwendungsmöglichkeiten:**
 - Einbetten in Markdown-Dokumentationen (GitHub, GitLab, Confluence, Notion)
-- Rendern mit Mermaid CLI: `mmdc -i Spielplatzinspektionen.md -o output.svg`
+- Rendern mit Mermaid CLI:
+  - `mmdc -i Neuer-Spielplatz.md -o Neuer-Spielplatz-mermaid.svg`
+  - `mmdc -i Bestehender-Spielplatz.md -o Bestehender-Spielplatz-mermaid.svg`
 - Live-Editor für Anpassungen: https://mermaid.live
 - Einbetten in Websites mit mermaid.js
 
-**Hinweis:** Die Mermaid-Datei ist vor allem für technische Nutzer gedacht, die das Diagramm in ihre Dokumentation einbetten oder programmatisch verarbeiten möchten. Für normale visuelle Bearbeitungen verwenden Sie bitte die draw.io-Datei.
+**Hinweis:** Die Mermaid-Dateien sind vor allem für technische Nutzer gedacht, die die Diagramme in ihre Dokumentation einbetten oder programmatisch verarbeiten möchten. Für normale visuelle Bearbeitungen verwenden Sie bitte die draw.io-Dateien.
 
 ## Kontakt
 

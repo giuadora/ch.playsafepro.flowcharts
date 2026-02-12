@@ -21,10 +21,11 @@ Das vollständige Paket finden Sie im Ordner:
 | `Neuer-Spielplatz.drawio` | draw.io | Editierbares Diagramm — Neuer Spielplatz |
 | `Neuer-Spielplatz.svg` | SVG | Vektorgrafik — Neuer Spielplatz |
 | `Neuer-Spielplatz.pdf` | PDF | Druckfertige Version (DIN A4) — Neuer Spielplatz |
+| `Neuer-Spielplatz.md` | Mermaid | Diagramm-Quellcode — Neuer Spielplatz |
 | `Bestehender-Spielplatz.drawio` | draw.io | Editierbares Diagramm — Bestehender Spielplatz |
 | `Bestehender-Spielplatz.svg` | SVG | Vektorgrafik — Bestehender Spielplatz |
 | `Bestehender-Spielplatz.pdf` | PDF | Druckfertige Version (DIN A4) — Bestehender Spielplatz |
-| `Spielplatzinspektionen.md` | Mermaid | Diagramm-Quellcode |
+| `Bestehender-Spielplatz.md` | Mermaid | Diagramm-Quellcode — Bestehender Spielplatz |
 | `README.md` | Markdown | Anleitung zur Bearbeitung und Verwendung |
 
 ## Kontakt
