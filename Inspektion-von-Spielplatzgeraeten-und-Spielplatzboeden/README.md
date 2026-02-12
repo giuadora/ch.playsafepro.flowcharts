@@ -136,50 +136,6 @@ Das Diagramm verwendet ein print-optimiertes Farbschema mit klarem Schwarzweiss-
 
 Diese Farben gewährleisten gute Lesbarkeit sowohl auf dem Bildschirm als auch im Schwarz-Weiss-Ausdruck.
 
-## Normgrundlage
-
-Das Ablaufdiagramm basiert auf folgenden Normen und Rechtsgrundlagen:
-
-### Normen
-
-**SN EN 1176-7:2020** — Spielplatzgeräte und Spielplatzböden, Teil 7: Anleitung für Installation, Inspektion, Wartung und Betrieb
-
-**SIA 118** — Allgemeine Bedingungen für Bauarbeiten (Bauabnahme)
-
-**CEN/TR 17207** — Technischer Report zur Klassifizierung von Mängeln
-
-### Rechtliche Grundlage
-
-**Art. 58 OR** — Werkeigentümerhaftung (Schweizer Obligationenrecht)
-
-Spielplatzeigentümer haften für Schäden aus mangelhafter Erstellung oder Wartung. Die SN EN 1176 wird von Schweizer Gerichten als „Stand der Technik" angewendet. Regelmässige normkonforme Inspektionen sind Teil der erforderlichen Sorgfaltspflicht.
-
-### Inspektionsfrequenzen
-
-Gemäss SN EN 1176-7, Abschnitt 6.1:
-
-| Inspektionstyp | Frequenz | Norm-Referenz |
-|----------------|----------|---------------|
-| **Sichtkontrolle** (Visuelle Routineinspektion) | Wöchentlich | SN EN 1176-7, 6.1b |
-| **Funktionskontrolle** (Operative Inspektion) | Quartalsweise (alle 3 Monate) | SN EN 1176-7, 6.1c |
-| **Jahreshauptinspektion** | Jährlich | SN EN 1176-7, 6.1d |
-| **Inspektion nach Installation** | Bei neuen Spielplätzen, vor Eröffnung | SN EN 1176-7, 6.1a |
-
-**Wichtig:** Die Jahreshauptinspektion und die Inspektion nach Installation müssen durch eine **zertifizierte Fachperson** durchgeführt werden (SN EN 1176-7, 6.2.2). Sichtkontrolle und Funktionskontrolle können durch geschultes Personal des Betreibers erfolgen.
-
-### Schweregrade für Mängel
-
-Gemäss CEN/TR 17207:
-
-| Schweregrad | Bedeutung | Massnahmen |
-|-------------|-----------|------------|
-| **Konform** | Keine Mängel festgestellt | Dokumentation, keine weiteren Massnahmen |
-| **Empfohlen** | Kleinere Mängel, keine unmittelbare Gefahr | Reparatur empfohlen, in Planung aufnehmen |
-| **Wichtig** | Mängel mit Gefährdungspotenzial | Reparatur innerhalb angemessener Frist erforderlich |
-| **Dringend** | Unmittelbare Gefahr für Benutzer | Sofortige Sperrung des Geräts, unverzügliche Behebung |
-
-Diese Klassifizierung muss im Inspektionsbericht dokumentiert werden.
-
 ## Technische Hinweise
 
 ### SVG-Datei

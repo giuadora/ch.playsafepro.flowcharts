@@ -14,39 +14,39 @@
           <mxGeometry height="40" width="93" x="656" y="38" as="geometry" />
         </mxCell>
         <mxCell id="footer-col1" parent="1" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=7;fontFamily=Helvetica;fontColor=#6C757D;" value="giuadora AG&lt;br&gt;Sonnenstrasse 4&lt;br&gt;8280 Kreuzlingen" vertex="1">
-          <mxGeometry height="35" width="237" x="38" y="1045" as="geometry" />
+          <mxGeometry height="35" width="237" x="38" y="1065" as="geometry" />
         </mxCell>
         <mxCell id="footer-col2" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=7;fontFamily=Helvetica;fontColor=#6C757D;labelPosition=center;verticalLabelPosition=middle;" value="+41 (0) 71 508 24 75&lt;br&gt;www.playsafepro.ch&lt;br&gt;vertrieb@psp.live" vertex="1">
-          <mxGeometry height="35" width="237" x="275" y="1045" as="geometry" />
+          <mxGeometry height="35" width="237" x="275" y="1065" as="geometry" />
         </mxCell>
         <mxCell id="footer-col3" parent="1" style="text;html=1;align=right;verticalAlign=top;whiteSpace=wrap;fontSize=7;fontFamily=Helvetica;fontColor=#6C757D;" value="PlaySafePro und PlaySafeGo sind&lt;br&gt;eingetragene Marken&lt;br&gt;Sitz der Gesellschaft: Kreuzlingen&lt;br&gt;UID-Nr.: CHE-222.704.530" vertex="1">
-          <mxGeometry height="35" width="237" x="512" y="1045" as="geometry" />
+          <mxGeometry height="35" width="237" x="512" y="1065" as="geometry" />
         </mxCell>
-        <mxCell id="START" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E9ECEF;strokeColor=#6C757D;fontColor=#343A40;fontSize=9;fontFamily=Helvetica;arcSize=50;" value="Spielplatz-Inspektionen" vertex="1">
-          <mxGeometry height="35" width="120" x="337" y="320" as="geometry" />
+        <mxCell id="START" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E9ECEF;strokeColor=#6C757D;fontColor=#343A40;fontSize=10;fontFamily=Helvetica;arcSize=50;" value="Spielplatz-Inspektionen" vertex="1">
+          <mxGeometry height="45" width="200" x="297" y="110" as="geometry" />
         </mxCell>
-        <mxCell id="N01" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D6E4F0;strokeColor=#2B579A;fontColor=#1F3864;fontSize=9;fontFamily=Helvetica;align=center;" value="Bauabnahme nach SIA 118¹&lt;br&gt;Vertragliche Abnahme&lt;br&gt;durch Architekt/Bauleiter" vertex="1">
-          <mxGeometry height="55" width="120" x="337" y="381" as="geometry" />
+        <mxCell id="N01" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D6E4F0;strokeColor=#2B579A;fontColor=#1F3864;fontSize=10;fontFamily=Helvetica;align=center;" value="Bauabnahme nach SIA 118¹&lt;br&gt;Vertragliche Abnahme&lt;br&gt;durch Architekt/Bauleiter" vertex="1">
+          <mxGeometry height="80" width="200" x="297" y="210" as="geometry" />
         </mxCell>
-        <mxCell id="N02" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DFF0D8;strokeColor=#3C763D;fontColor=#2D572C;fontSize=9;fontFamily=Helvetica;align=center;" value="Inspektion nach Installation²&lt;br&gt;Sicherheitsprüfung durch&lt;br&gt;zertifizierte Fachperson" vertex="1">
-          <mxGeometry height="55" width="120" x="337" y="466" as="geometry" />
+        <mxCell id="N02" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DFF0D8;strokeColor=#3C763D;fontColor=#2D572C;fontSize=10;fontFamily=Helvetica;align=center;" value="Inspektion nach Installation²&lt;br&gt;Sicherheitsprüfung durch&lt;br&gt;zertifizierte Fachperson" vertex="1">
+          <mxGeometry height="80" width="200" x="297" y="350" as="geometry" />
         </mxCell>
-        <mxCell id="D02" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#D6E4F0;strokeColor=#2B579A;fontColor=#1F3864;fontSize=9;fontFamily=Helvetica;" value="Mängel&lt;br&gt;festgestellt?" vertex="1">
-          <mxGeometry height="50" width="100" x="200" y="468.5" as="geometry" />
+        <mxCell id="D02" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#D6E4F0;strokeColor=#2B579A;fontColor=#1F3864;fontSize=10;fontFamily=Helvetica;" value="Mängel&lt;br&gt;festgestellt?" vertex="1">
+          <mxGeometry height="90" width="150" x="70" y="415" as="geometry" />
         </mxCell>
-        <mxCell id="N03" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D6E4F0;strokeColor=#2B579A;fontColor=#1F3864;fontSize=9;fontFamily=Helvetica;align=center;" value="Mängel an Ersteller/&lt;br&gt;Hersteller zurück&lt;br&gt;zur Behebung" vertex="1">
-          <mxGeometry height="45" width="100" x="200" y="551" as="geometry" />
+        <mxCell id="N03" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D6E4F0;strokeColor=#2B579A;fontColor=#1F3864;fontSize=10;fontFamily=Helvetica;align=center;" value="Mängel an Ersteller/&lt;br&gt;Hersteller zurück&lt;br&gt;zur Behebung" vertex="1">
+          <mxGeometry height="70" width="160" x="65" y="540" as="geometry" />
         </mxCell>
-        <mxCell id="N04" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D6E4F0;strokeColor=#2B579A;fontColor=#1F3864;fontSize=9;fontFamily=Helvetica;arcSize=50;" value="Spielplatz eröffnen" vertex="1">
-          <mxGeometry height="35" width="120" x="337" y="556" as="geometry" />
+        <mxCell id="N04" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D6E4F0;strokeColor=#2B579A;fontColor=#1F3864;fontSize=10;fontFamily=Helvetica;arcSize=50;" value="Spielplatz eröffnen" vertex="1">
+          <mxGeometry height="50" width="200" x="297" y="520" as="geometry" />
         </mxCell>
-        <mxCell id="IPLAN" parent="1" style="shape=process;whiteSpace=wrap;html=1;fillColor=#D6E4F0;strokeColor=#2B579A;fontColor=#1F3864;fontSize=9;fontFamily=Helvetica;align=center;" value="Inspektionsplan erstellen³" vertex="1">
-          <mxGeometry height="35" width="120" x="337" y="636" as="geometry" />
+        <mxCell id="IPLAN" parent="1" style="shape=process;whiteSpace=wrap;html=1;fillColor=#D6E4F0;strokeColor=#2B579A;fontColor=#1F3864;fontSize=10;fontFamily=Helvetica;align=center;" value="Inspektionsplan erstellen³" vertex="1">
+          <mxGeometry height="50" width="200" x="297" y="640" as="geometry" />
         </mxCell>
-        <mxCell id="E00" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DFF0D8;strokeColor=#3C763D;fontColor=#2D572C;fontSize=9;fontFamily=Helvetica;arcSize=50;" value="Inspektionszyklus&lt;br&gt;beginnen" vertex="1">
-          <mxGeometry height="35" width="120" x="337" y="725" as="geometry" />
+        <mxCell id="E00" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DFF0D8;strokeColor=#3C763D;fontColor=#2D572C;fontSize=10;fontFamily=Helvetica;arcSize=50;" value="Inspektionszyklus&lt;br&gt;beginnen" vertex="1">
+          <mxGeometry height="50" width="200" x="297" y="760" as="geometry" />
         </mxCell>
-        <mxCell id="QR1" parent="1" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQkAAAEJAQAAAACvE+/JAAAEKUlEQVR4nO2asY7suBVED6UGKEcUsMlm1I+MNC9y6J9x8gD1kwY9wPyEAf+HkxV7vsMAO3NiLJWxAbVqA82sndgv8prBMiAE4QaFQqFu3SsZ8Z3zUn2vAn4v+U8lwRjTyJxNA68YY86dqVZjuK7GmKo0uEYS7zqRQwt2cZeonRHzzCQtZcE9wdp61P7zr8b83P5lbTCAS5f7H3gY+7ey4H6WrJfAk59xi5sBXgz9/wvLfzsKCW93t2EXpwjUkUGKUhqxQXNJcCtwipjbycN6wiqNPl/Xc9dArfwbY/l+iYwxXBnBpK8DVx6dW8Bz5cWY59LgDpIyvMWstg70vILaOmacpL00uFegkZ9vDOnR3U07hfuUHqZ5MvPNPJcGt+elW7+tG83VncgAhPYt3iteutK0ixamaKXNKyRQSKPPJo3e7u4SMWU5w2Fk2qkjvZuRtIGRlI02nwuDW6EWGnh0uiTgyqu3y3rumqeWm11KE4PS+EHxwkdmoHeKeUh1zENZ7KLFKdoFPD0jdqGWlqO1lSeGE+Z2+ntG3H5seIs//lEPQ+/+7JGZglvKEkOF/OZNtZ58g7t3hBYPPAzvOkFfFtxftTtF7YdsN+ziNnLPiFSWGCquzkZzbvH3LwmAOuaeWnZxl9hcy2K3Qu2HKRDakcxqhua6nm7359UU2NVCAhs0w6AZTJqiVcJnmFRaV6sA/Ho2s89q8Xr4E6jl1sArtrBEhpQ4OAV3iXyGcm8XoDTfRUGb10KtbBLHNKGgizDaKK2rVTyZEw1uvh0R7Ii/7Vdjl3X2pWWGiisjGR7d8aLnLdyfgYybb81vi+X7R7vbwCQ88HHlfz0Vpt2KK/jcM97AbTCkKdidKWC03VxxzrCDt7ubvUKqo4KkPGjzuWcsjl20U8ds0qSMk+gZAaeYe+poi8sM7zp3bgeaIT26bNIrCull4D1BLi4zsCquFQ/DlTo2HNcUwZ2H0gJkxVP76NxH632YjJt97nnpeGrHAo0spFra3ea1g88m4e0O2MXNlKfdp5abeQbuX7Td7E/+EnlP+PuXm+JalcauUh21gGdIo2dIdbTLkR0VSzOyiqvbMF90CVydDcDXDpMehp7XAjOD2levfT2GM0/wNt6/ORvzdd0KHC33Y88wRUmbB7f53AN2B0qbJtBOrYy7HLNkNtqQUi0GXYrramhhkl0OzLMHJkmaP1anxbErSQppivmgM+GPzGC0+dL2DByLPKVaCmn0NqQpKmj2CscYVBjcIMnuThHc5q0S2MXpY1YrTAwVrKbDpJchQx3vpp10/8ZLZ38yJ1/aSu/fPgPmQRcdptAD9O4SSxPD6fPhLcJ672L4073LDfh/hPWHscnFsSvJKuGtEl5Bip9zxVQcu59fLZ1iDu0Uzbd1xi7rubMXma60vGt+/7nlf1jyC+CxsS672cxBAAAAAElFTkSuQmCC;" value="" vertex="1">
+        <mxCell id="QR1" parent="1" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQkAAAEJAQAAAACvE+/JAAAEKUlEQVR4nO2asY7suBVED6UGKEcUsMlm1I+MNC9y6J9x8gD1kwY9wPyEAf+HkxV7vsMAO3NiLJWxAbVqA82sndgv8prBMiAE4QaFQqFu3SsZ8Z3zUn2vAn4v+U8lwRjTyJxNA68YY86dqVZjuK7GmKo0uEYS7zqRQwt2cZeonRHzzCQtZcE9wdp61P7zr8b83P5lbTCAS5f7H3gY+7ey4H6WrJfAk59hi5sBXgz9/wvLfzsKCW93t2EXpwjUkUGKUhqxQXNJcCtwipjbycN6wiqNPl/Xc9dArfwbY/l+iYwxXBnBpK8DVx6dW8Bz5cWY59LgDpIyvMWstg70vILaOmacpL00uFegkZ9vDOnR3U07hfuUHqZ5MvPNPJcGt+elW7+tG83VncgAhPYt3iteutK0ixamaKXNKyRQSKPPJo3e7u4SMWU5w2Fk2qkjvZuRtIGRlI02nwuDW6EWGnh0uiTgyqu3y3rumqeWm11KE4PS+EHxwkdmoHeKeUh1zENZ7KLFKdoFPD0jdqGWlqO1lSeGE+Z2+ntG3H5seIs//lEPQ+/+7JGZglvKEkOF/OZNtZ58g7t3hBYPPAzvOkFfFtxftTtF7YdsN+ziNnLPiFSWGCquzkZzbvH3LwmAOuaeWnZxl9hcy2K3Qu2HKRDakcxqhua6nm7359UU2NVCAhs0w6AZTJqiVcJnmFRaV6sA/Ho2s89q8Xr4E6jl1sArtrBEhpQ4OAV3iXyGcm8XoDTfRUGb10KtbBLHNKGgizDaKK2rVTyZEw1uvh0R7Ii/7Vdjl3X2pWWGiisjGR7d8aLnLdyfgYybb81vi+X7R7vbwCQ88HHlfz0Vpt2KK/jcM97AbTCkKdidKWC03VxxzrCDt7ubvUKqo4KkPGjzuWcsjl20U8ds0qSMk+gZAaeYe+poi8sM7zp3bgeaIT26bNIrCull4D1BLi4zsCquFQ/DlTo2HNcUwZ2H0gJkxVP76NxH632YjJt97nnpeGrHAo0spFra3ea1g88m4e0O2MXNlKfdp5abeQbuX7Td7E/+EnlP+PuXm+JalcauUh21gGdIo2dIdbTLkR0VSzOyiqvbMF90CVydDcDXDpMehp7XAjOD2levfT2GM0/wNt6/ORvzdd0KHC33Y88wRUmbB7f53AN2B0qbJtBOrYy7HLNkNtqQUi0GXYrramhhkl0OzLMHJkmaP1anxbErSQppivmgM+GPzGC0+dL2DByLPKVaCmn0NqQpKmj2CscYVBjcIMnuThHc5q0S2MXpY1YrTAwVrKbDpJchQx3vpp10/8ZLZ38yJ1/aSu/fPgPmQRcdptAD9O4SSxPD6fPhLcJ672L4073LDfh/hPWHscnFsSvJKuGtEl5Bip9zxVQcu59fLZ1iDu0Uzbd1xi7rubMXma60vGt+/7nlf1jyC+CxsS672cxBAAAAAElFTkSuQmCC;" value="" vertex="1">
           <mxGeometry height="55" width="55" x="614" y="840" as="geometry" />
         </mxCell>
         <mxCell id="QR1-label" parent="1" style="text;html=1;align=center;verticalAlign=top;whiteSpace=wrap;fontSize=7;fontFamily=Helvetica;fontColor=#6C757D;" value="Als PDF herunterladen" vertex="1">
@@ -73,30 +73,31 @@
         <mxCell id="e5" edge="1" parent="1" source="N02" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2B579A;strokeWidth=1.5;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="D02">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="250" y="493" />
+              <mxPoint x="145" y="390" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e6" edge="1" parent="1" source="D02" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2B579A;strokeWidth=1.5;fontSize=8;fontFamily=Helvetica;fontColor=#495057;" target="N03" value="Ja">
+        <mxCell id="e6" edge="1" parent="1" source="D02" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2B579A;strokeWidth=1.5;fontSize=9;fontFamily=Helvetica;fontColor=#495057;" target="N03" value="Ja">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e7" edge="1" parent="1" source="D02" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2B579A;strokeWidth=1.5;fontSize=8;fontFamily=Helvetica;fontColor=#495057;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="N04" value="Nein">
+        <mxCell id="e7" edge="1" parent="1" source="D02" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2B579A;strokeWidth=1.5;fontSize=9;fontFamily=Helvetica;fontColor=#495057;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="N04" value="Nein">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="317" y="493" />
-              <mxPoint x="317" y="573" />
+              <mxPoint x="260" y="460" />
+              <mxPoint x="260" y="545" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e8" edge="1" parent="1" source="N03" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2B579A;strokeWidth=1.5;fontSize=8;fontFamily=Helvetica;fontColor=#495057;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="N02" value="Nachbesserung">
+        <mxCell id="e8" edge="1" parent="1" source="N03" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2B579A;strokeWidth=1.5;fontSize=9;fontFamily=Helvetica;fontColor=#495057;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.2;entryY=0;entryDx=0;entryDy=0;" target="N02" value="Nachbesserung">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="180" y="573" />
-              <mxPoint x="180" y="493" />
+              <mxPoint x="38" y="575" />
+              <mxPoint x="38" y="335" />
+              <mxPoint x="337" y="335" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e9" edge="1" parent="1" source="N04" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2B579A;strokeWidth=1.5;fontSize=8;fontFamily=Helvetica;fontColor=#495057;" target="IPLAN" value="Spielplatz in Betrieb">
+        <mxCell id="e9" edge="1" parent="1" source="N04" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2B579A;strokeWidth=1.5;fontSize=9;fontFamily=Helvetica;fontColor=#495057;" target="IPLAN" value="Spielplatz in Betrieb">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e9b" edge="1" parent="1" source="IPLAN" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2B579A;strokeWidth=1.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="E00">
