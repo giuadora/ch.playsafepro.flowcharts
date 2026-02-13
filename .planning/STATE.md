@@ -11,17 +11,17 @@ See: .planning/PROJECT.md (updated 2026-02-12)
 
 Phase: 9 of 9 (Documentation & Quality Verification)
 Milestone: v2.0 Flowchart Split
-Plan: 3 of 3 complete
-Status: Phase 9 COMPLETE — v2.0 Flowchart Split Ready for Release
-Last activity: 2026-02-12 — Completed 09-03 Gap Closure for Mermaid Exports and README Updates plan
+Plan: 4 of 4 complete
+Status: Phase 9 COMPLETE — v2.0 Flowchart Split Fully Validated
+Last activity: 2026-02-13 — Completed 09-04 UAT Gap Closure for Subprocess Rendering and Mermaid Syntax plan
 
 Progress: [██████████] 100% (9 of 9 phases complete)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 14
-- Average duration: ~194 seconds (for recent plans)
+- Total plans completed: 15
+- Average duration: ~175 seconds (for recent plans)
 - Total execution time: 8 days across 4 milestones
 
 **By Phase:**
@@ -36,7 +36,7 @@ Progress: [██████████] 100% (9 of 9 phases complete)
 | 6 | v1.2 | 2 | Complete |
 | 7 | v2.0 | 1 | Complete |
 | 8 | v2.0 | 2 | Complete |
-| 9 | v2.0 | 3 | Complete |
+| 9 | v2.0 | 4 | Complete |
 
 **Recent Trend:**
 - v1.0 shipped in 1 day (4 plans)
@@ -55,6 +55,7 @@ Progress: [██████████] 100% (9 of 9 phases complete)
 | Phase 09 | P01 | 252 sec | 2 tasks | 4 files |
 | Phase 09 | P02 | 108 sec | 2 tasks | 4 files |
 | Phase 09 | P03 | 606 sec | 4 tasks | 8 files |
+| Phase 09 | P04 | 113 sec | 2 tasks | 6 files |
 
 ## Accumulated Context
 
@@ -87,6 +88,9 @@ Recent decisions from PROJECT.md affecting v2.0:
 - [Phase 09-03]: Generated missing SVG, PDF, and Mermaid exports for both split flowcharts to complete v2.0 delivery package
 - [Phase 09-03]: Used existing Spielplatzinspektionen.svg as structural reference for SVG generation conventions
 - [Phase 09-03]: Transcribed draw.io node/edge structure directly into Mermaid syntax instead of automated conversion
+- [Phase 09-04]: Fixed subprocess double-border rendering to use two vertical lines (10px inset from left/right edges) instead of inner rectangle
+- [Phase 09-04]: Corrected Mermaid subprocess nodes to use [[text]] syntax matching draw.io shape=process attribute
+- [Phase 09-04]: All 7 UAT tests now pass with corrected subprocess rendering and Mermaid syntax
 
 ### Pending Todos
 
@@ -94,11 +98,11 @@ None yet.
 
 ### Blockers/Concerns
 
-None. Phase 9 complete. v2.0 Flowchart Split milestone ready for release.
+None. Phase 9 complete. v2.0 Flowchart Split milestone fully validated and ready for release.
 
 ## Session Continuity
 
-Last session: 2026-02-12
-Stopped at: Completed 09-03-PLAN.md - Gap Closure for Mermaid Exports and README Updates (PHASE 9 COMPLETE)
+Last session: 2026-02-13
+Stopped at: Completed 09-04-PLAN.md - UAT Gap Closure for Subprocess Rendering and Mermaid Syntax (PHASE 9 COMPLETE)
 Resume file: None
-Next action: v2.0 Flowchart Split milestone complete — ready for release. All 9 phases executed across 14 plans with complete delivery package (draw.io, SVG, PDF, Mermaid for both flowcharts).
+Next action: v2.0 Flowchart Split milestone fully validated — ready for release. All 9 phases executed across 15 plans with complete delivery package (draw.io, SVG, PDF, Mermaid for both flowcharts). All 7 UAT tests pass.
