@@ -70,24 +70,21 @@ Plans:
 
 </details>
 
-### v2.0 Flowchart Split (In Progress)
+<details>
+<summary>✅ v2.0 Flowchart Split (Phases 7-9) - SHIPPED 2026-02-13</summary>
 
-**Milestone Goal:** Split the single inspection flowchart into two separate flowcharts (Neuer Spielplatz + Bestehender Spielplatz) with node corrections, renamed inspection types per SN EN 1176-7, updated footnotes, subprocess symbol, and full quality verification.
-
-#### Phase 7: Flowchart Split & File Structure ✓
+### Phase 7: Flowchart Split & File Structure
 **Goal**: Create two independent flowcharts from current single file with correct file names and basic structure
 **Depends on**: Phase 6
-**Requirements**: SPLIT-01, SPLIT-02, SPLIT-03, SPLIT-04, FILE-01
 **Completed**: 2026-02-12
 **Plans**: 1 plan
 
 Plans:
 - [x] 07-01: Split flowchart into two independent draw.io files (FC1 + FC2) with human verification
 
-#### Phase 8: Node Modifications & Norm Compliance ✓
+### Phase 8: Node Modifications & Norm Compliance
 **Goal**: Apply all node changes and ensure complete norm compliance through footnote audit
 **Depends on**: Phase 7
-**Requirements**: NODE-01, NODE-02, NODE-03, NODE-04, REF-01, REF-02, REF-03
 **Completed**: 2026-02-12
 **Plans**: 2 plans
 
@@ -95,18 +92,19 @@ Plans:
 - [x] 08-01: FC1 node modifications: green installation inspection, subprocess Inspektionsplan, footnote audit
 - [x] 08-02: FC2 node modifications: green Bericht archivieren, SN EN 1176-7 inspection terminology, footnote audit
 
-#### Phase 9: Documentation & Quality Verification ✓
+### Phase 9: Documentation & Quality Verification
 **Goal**: Update all documentation and verify both flowcharts pass quality gates
 **Depends on**: Phase 8
-**Requirements**: DOC-01, DOC-02, DOC-03, FILE-02, FILE-03, QA-01, QA-02, QA-03, QA-04, QA-05, QA-06
 **Completed**: 2026-02-13
 **Plans**: 4 plans
 
 Plans:
-- [x] 09-01: Legend subprocess symbol, QR code updates, and README updates (DOC-01, DOC-02, DOC-03, FILE-02, FILE-03)
-- [x] 09-02: Automated quality checks and visual verification (QA-01 through QA-06)
-- [x] 09-03: Generate SVG, PDF, and Mermaid exports + update READMEs (gap closure)
-- [x] 09-04: Fix SVG subprocess rendering and Mermaid subprocess syntax (UAT gap closure)
+- [x] 09-01: Legend subprocess symbol, QR code updates, and README updates
+- [x] 09-02: Automated quality checks and visual verification
+- [x] 09-03: Generate SVG, PDF, and Mermaid exports + update READMEs
+- [x] 09-04: Fix SVG subprocess rendering and Mermaid subprocess syntax
+
+</details>
 
 ## Progress
 

@@ -82,3 +82,31 @@
 
 ---
 
+
+## v2.0 Flowchart Split (Shipped: 2026-02-13)
+
+**Delivered:** Split single inspection flowchart into two focused flowcharts — FC1 (Neuer Spielplatz) for new playground commissioning and FC2 (Bestehender Spielplatz) for ongoing inspection cycle — with SN EN 1176-7 standard terminology, subprocess symbols, complete footnote audit, automated QA verification, and full export package.
+
+**Phases completed:** 7-9 (3 phases, 7 plans)
+
+**Key accomplishments:**
+
+- Split single flowchart into two focused draw.io files (FC1 + FC2) with path-specific content, subtitles, and filtered footnotes
+- Applied green inspection coloring, subprocess symbol (shape=process), and added Inspektionsplan footnote referencing SN EN 1176-7 6.2.4 to FC1
+- Renamed FC2 inspection types to SN EN 1176-7 standard terminology (Visuelle Routine-Inspektion, Operative Inspektion, Jaehrliche Hauptinspektion)
+- Created automated QA verification script validating 6 dimensions (center alignment, arrow connectivity, margins, overlaps, footer, logo)
+- Generated complete export package (SVG, PDF, Mermaid) for both flowcharts with correct subprocess double-border rendering
+- Completed multi-round visual verification with layout improvements (larger FC1 nodes, sequential FC2 P01 routing, footer repositioning)
+
+**Stats:**
+
+- 30 files changed (4,551 insertions, 116 deletions)
+- 3 phases, 7 plans
+- 2 days from start to ship
+
+**Git range:** `0e7fab2` -> `3c76c3a`
+
+**What's next:** Future milestones could add Wartung flowchart, Fallschutzpruefung flowchart, or interactive web version.
+
+---
+

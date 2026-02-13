@@ -2,7 +2,7 @@
 
 ## What This Is
 
-A customer-facing flowchart (in German) that explains the inspection obligations for playground owners/operators according to SN EN 1176/1177. Covers both new and existing playgrounds, focusing on inspections. Delivered as a print-ready DIN A4 draw.io diagram, SVG vector export, and Mermaid source with German documentation — ready for visual designer handover and customer distribution.
+Two customer-facing flowcharts (in German) explaining playground inspection obligations per SN EN 1176/1177: one for new playground commissioning (Neuer Spielplatz) and one for the ongoing inspection cycle (Bestehender Spielplatz). Delivered as print-ready DIN A4 draw.io diagrams, SVG vector exports, PDFs, and Mermaid source with German documentation — ready for visual designer handover and customer distribution.
 
 ## Core Value
 
@@ -10,24 +10,29 @@ Give playground owners a clear, norm-based understanding of what inspections are
 
 ## Current State
 
-**Shipped:** v1.2 Branding (2026-02-10)
+**Shipped:** v2.0 Flowchart Split (2026-02-13)
 
 Delivery package at `Inspektion-von-Spielplatzgeraeten-und-Spielplatzboeden/`:
-- Spielplatzinspektionen.drawio — A4 portrait editable diagram with PSP branding
-- Spielplatzinspektionen.svg — A4 vector export with logo and footer
-- Spielplatzinspektionen.pdf (134 KB) — Print-ready A4 PDF
-- Spielplatzinspektionen.md (5.5 KB) — Mermaid source (16 nodes, 20 edges, 8 footnotes)
+- Neuer-Spielplatz.drawio — FC1: new playground commissioning flowchart
+- Neuer-Spielplatz.svg — FC1: A4 vector export with PSP branding
+- Neuer-Spielplatz.pdf — FC1: print-ready A4 PDF
+- Neuer-Spielplatz.md — FC1: Mermaid source
+- Bestehender-Spielplatz.drawio — FC2: ongoing inspection cycle flowchart
+- Bestehender-Spielplatz.svg — FC2: A4 vector export with PSP branding
+- Bestehender-Spielplatz.pdf — FC2: print-ready A4 PDF
+- Bestehender-Spielplatz.md — FC2: Mermaid source
 - README.md — German instructions with PSP logo, CC BY-NC 4.0 license
 
 **Key facts:**
-- 16 flow nodes, simplified post-inspection path (3 steps)
-- DIN A4 portrait (794x1123px), Helvetica typography
+- 2 flowcharts: FC1 (8 nodes, new playground path) + FC2 (8 nodes, inspection cycle)
+- DIN A4 portrait (794x1123px), Helvetica typography, 200px nodes
 - 5 color sections (gray/blue/green/yellow + info)
+- SN EN 1176-7 standard inspection terminology
+- Subprocess symbol (double-bordered rectangle) for Inspektionsplan and Hauptinspektion
 - CEN/TR 17207 severity classification as annotation
-- 8 norm footnotes (SN EN 1176-7, SIA 118, CEN/TR 17207, Art. 58 OR)
-- PSP logo (CDN-sourced SVG) in diagram and READMEs
-- 3-column corporate footer matching Offerte template
-- Automated tooling: generate-pdf.sh, verify-a4.py
+- Footnotes: 3 for FC1, 6 for FC2 (norm references)
+- PSP logo (CDN-sourced SVG), 3-column corporate footer
+- Automated tooling: generate-pdf.sh, verify-a4.py, qa_checks.py
 
 ## Requirements
 
@@ -62,20 +67,25 @@ Delivery package at `Inspektion-von-Spielplatzgeraeten-und-Spielplatzboeden/`:
 - ✓ PDF export of flowchart included in delivery package — v1.2
 - ✓ Root README created as GitHub landing page — v1.2
 - ✓ Automated A4 bounds verification tooling — v1.2
+- ✓ Single flowchart split into two separate draw.io files with matching SVG, PDF, and Mermaid exports — v2.0
+- ✓ FC1 starts at "Neuer Spielplatz" and ends at "Inspektionszyklus beginnen" — v2.0
+- ✓ FC2 starts at "Inspektionszyklus beginnen" and loops back via "Naechster Inspektionszyklus" — v2.0
+- ✓ Both flowcharts have distinct subtitles (Neuer Spielplatz / Bestehender Spielplatz) — v2.0
+- ✓ FC1 "Inspektion nach Installation" colored green (inspection activity) — v2.0
+- ✓ Subprocess symbol (double-bordered rectangle) for Inspektionsplan and Hauptinspektion — v2.0
+- ✓ FC2 "Bericht archivieren" as green rectangle between report and maintenance — v2.0
+- ✓ FC2 inspection types renamed to SN EN 1176-7 terminology — v2.0
+- ✓ All norm-referenced nodes carry footnote superscripts — v2.0
+- ✓ Each flowchart has its own complete footnote box — v2.0
+- ✓ Subprocess symbol added to legend in both flowcharts — v2.0
+- ✓ README and root README updated for two-flowchart structure — v2.0
+- ✓ Files renamed to distinguish flows (Neuer-Spielplatz.* / Bestehender-Spielplatz.*) — v2.0
+- ✓ Per-flowchart QR codes for PDF download, shared README QR — v2.0
+- ✓ Both flowcharts pass all 6 automated QA checks — v2.0
 
 ### Active
 
-#### Current Milestone: v2.0 Flowchart Split
-
-**Goal:** Split the single inspection flowchart into two separate flowcharts — one for new playgrounds (Neuer Spielplatz) and one for the ongoing inspection cycle (Inspektionszyklus) — with node corrections, renamed inspection types per SN EN 1176-7, updated footnotes, subprocess symbol, and full quality verification.
-
-**Target features:**
-- Two separate flowcharts with distinct file names and QR codes
-- Node changes: green coloring for installation inspection, subprocess symbol for Inspektionsplan, new Bericht archivieren action node, standard-compliant inspection type names
-- Audited footnotes ensuring all norm-referenced nodes are covered
-- Updated legend with subprocess symbol
-- Updated README reflecting both flowcharts
-- All existing quality checks (alignment, margins, arrow connectivity, no overlaps, footer)
+(No active requirements — planning next milestone)
 
 ### Out of Scope
 
@@ -116,6 +126,12 @@ Decision-makers: municipal leaders, property managers, facility owners who appro
 
 PlaySafePro (playsafepro.ch) provides playground inspection, safety management, and consulting services in Switzerland. This flowchart supports their sales process by educating customers on their obligations, naturally surfacing gaps that PSP can fill.
 
+### Codebase
+
+Shipped v2.0 with two A4 flowcharts across 4 formats each (drawio, SVG, PDF, Mermaid).
+Automated tooling: qa_checks.py (6 QA dimensions), generate-pdf.sh (Chrome headless), verify-a4.py (bounds check).
+Total: 9 phases, 17 plans across 4 milestones (v1.0, v1.1, v1.2, v2.0).
+
 ## Constraints
 
 - **Format**: Mermaid flowchart + draw.io editable + SVG export — A4 portrait print-ready
@@ -128,7 +144,7 @@ PlaySafePro (playsafepro.ch) provides playground inspection, safety management, 
 
 | Decision | Rationale | Outcome |
 |----------|-----------|---------|
-| One flowchart with two entry paths (new + existing) | Customer may have both situations | ✓ Good |
+| One flowchart with two entry paths (new + existing) | Customer may have both situations | ✓ Good — later split into two for clarity in v2.0 |
 | 3 inspection types as parallel branches | They run independently at different frequencies | ✓ Good |
 | Simple split for defect handling (critical vs. non-critical) | Detailed repair decisions belong on separate flowchart | ✓ Good |
 | Norm references as footnotes, not inline | Keeps flowchart clean for decision-makers | ✓ Good |
@@ -148,6 +164,12 @@ PlaySafePro (playsafepro.ch) provides playground inspection, safety management, 
 | 3 separate footer cells with alignment styles | Independently editable, proper alignment, matches Offerte | ✓ Good |
 | Chrome headless for PDF generation | No extra dependencies, precise A4 control via HTML wrapper | ✓ Good |
 | Automated Python bounds verification | Catches layout regressions, integrated as pre-flight check | ✓ Good |
+| Split into two separate flowcharts (FC1 + FC2) | Better clarity — each flowchart focused on one scenario | ✓ Good |
+| SN EN 1176-7 standard terminology for inspection types | Professional compliance with Swiss norm language | ✓ Good |
+| Vertical lines for subprocess double-border rendering | Matches standard flowchart subprocess symbol conventions | ✓ Good |
+| Multi-stage QA (automated + human visual) | Automated catches technical issues, human catches usability | ✓ Good |
+| Sequential P01 routing in FC2 (E04 → P01 → IHM) | Better represents actual process flow semantics | ✓ Good |
+| Larger FC1 nodes (200px, fontSize=10) | Significant readability improvement over 180px/9pt | ✓ Good |
 
 ---
-*Last updated: 2026-02-12 after v2.0 milestone start*
+*Last updated: 2026-02-13 after v2.0 milestone*
