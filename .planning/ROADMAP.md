@@ -70,7 +70,7 @@ Plans:
 
 </details>
 
-### 🚧 v2.0 Flowchart Split (In Progress)
+### v2.0 Flowchart Split (In Progress)
 
 **Milestone Goal:** Split the single inspection flowchart into two separate flowcharts (Neuer Spielplatz + Bestehender Spielplatz) with node corrections, renamed inspection types per SN EN 1176-7, updated footnotes, subprocess symbol, and full quality verification.
 
@@ -95,17 +95,17 @@ Plans:
 - [x] 08-01: FC1 node modifications: green installation inspection, subprocess Inspektionsplan, footnote audit
 - [x] 08-02: FC2 node modifications: green Bericht archivieren, SN EN 1176-7 inspection terminology, footnote audit
 
-#### Phase 9: Documentation & Quality Verification ✓
+#### Phase 9: Documentation & Quality Verification
 **Goal**: Update all documentation and verify both flowcharts pass quality gates
 **Depends on**: Phase 8
 **Requirements**: DOC-01, DOC-02, DOC-03, FILE-02, FILE-03, QA-01, QA-02, QA-03, QA-04, QA-05, QA-06
-**Completed**: 2026-02-12
-**Plans**: 3 plans
+**Plans**: 4 plans
 
 Plans:
 - [x] 09-01: Legend subprocess symbol, QR code updates, and README updates (DOC-01, DOC-02, DOC-03, FILE-02, FILE-03)
 - [x] 09-02: Automated quality checks and visual verification (QA-01 through QA-06)
 - [x] 09-03: Generate SVG, PDF, and Mermaid exports + update READMEs (gap closure)
+- [ ] 09-04: Fix SVG subprocess rendering and Mermaid subprocess syntax (UAT gap closure)
 
 ## Progress
 
@@ -122,4 +122,4 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 →
 | 6. PSP Branding | v1.2 | 2/2 | Complete | 2026-02-10 |
 | 7. Flowchart Split & File Structure | v2.0 | 1/1 | Complete | 2026-02-12 |
 | 8. Node Modifications & Norm Compliance | v2.0 | 2/2 | Complete | 2026-02-12 |
-| 9. Documentation & Quality Verification | v2.0 | 3/3 | Complete | 2026-02-12 |
+| 9. Documentation & Quality Verification | v2.0 | 3/4 | In Progress | |
