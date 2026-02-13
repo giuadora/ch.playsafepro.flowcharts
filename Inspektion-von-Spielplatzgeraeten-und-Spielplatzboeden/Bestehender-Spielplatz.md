@@ -28,7 +28,7 @@ flowchart TD
 
     %% === POST-INSPECTION PROCESS ===
     P01["Bericht archivieren⁶"]
-    IHM["Instandhaltungs-Management"]
+    IHM[["Instandhaltungs-Management"]]
 
     E04 --> P01
     P01 --> IHM

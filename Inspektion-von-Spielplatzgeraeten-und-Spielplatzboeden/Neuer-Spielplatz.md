@@ -15,7 +15,7 @@ flowchart TD
     D02{"Mängel<br/>festgestellt?"}
     N03["Mängel an Ersteller/<br/>Hersteller zurück<br/>zur Behebung"]
     N04(["Spielplatz eröffnen"])
-    IPLAN["Inspektionsplan erstellen³"]
+    IPLAN[["Inspektionsplan erstellen³"]]
 
     START --> N01
     N01 --> N02
