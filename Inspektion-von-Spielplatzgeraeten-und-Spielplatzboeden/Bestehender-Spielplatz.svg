@@ -101,7 +101,8 @@
 
     <!-- IHM (subprocess - double-bordered) -->
     <rect x="317" y="665" width="160" height="35" class="green-node" />
-    <rect x="322" y="670" width="150" height="25" fill="none" stroke="#3C763D" stroke-width="1" />
+    <line x1="327" y1="665" x2="327" y2="700" stroke="#3C763D" stroke-width="1" />
+    <line x1="467" y1="665" x2="467" y2="700" stroke="#3C763D" stroke-width="1" />
     <text x="397" y="687" font-family="Helvetica, Arial, sans-serif" font-size="9" class="text-green" text-anchor="middle">
       Instandhaltungs-Management
     </text>

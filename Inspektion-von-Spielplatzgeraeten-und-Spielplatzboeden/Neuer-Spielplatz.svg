@@ -90,7 +90,8 @@
 
     <!-- IPLAN (subprocess - double-bordered) -->
     <rect x="297" y="640" width="200" height="50" class="blue-node" />
-    <rect x="302" y="645" width="190" height="40" fill="none" stroke="#2B579A" stroke-width="1" />
+    <line x1="307" y1="640" x2="307" y2="690" stroke="#2B579A" stroke-width="1" />
+    <line x1="487" y1="640" x2="487" y2="690" stroke="#2B579A" stroke-width="1" />
     <text x="397" y="674" font-family="Helvetica, Arial, sans-serif" font-size="10" class="text-blue" text-anchor="middle">
       Inspektionsplan erstellen³
     </text>
